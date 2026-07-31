@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 14
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_scgraves"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

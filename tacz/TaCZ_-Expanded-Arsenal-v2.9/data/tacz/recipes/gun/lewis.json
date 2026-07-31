@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 65
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:lewis"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

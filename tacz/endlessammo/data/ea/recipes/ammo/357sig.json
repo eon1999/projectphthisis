@@ -1,0 +1,35 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/bronze"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/lead"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "ea:large_ammo",
+    "id": "ea:357sig",
+    "count": 16
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

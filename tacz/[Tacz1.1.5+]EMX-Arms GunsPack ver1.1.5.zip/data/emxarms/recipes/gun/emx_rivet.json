@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 120
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 60
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_rivet"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

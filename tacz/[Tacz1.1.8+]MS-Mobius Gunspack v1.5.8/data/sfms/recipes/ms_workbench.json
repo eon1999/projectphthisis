@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DGD",
+    "DMD",
+    "UDU"
+  ],
+  "key": {
+    "D": { "item": "ad_astra:desh_ingot" },
+    "G": { "item": "immersiveengineering:graphite_electrode" },
+    "M": { "item": "mekanism:digital_miner" },
+    "U": { "item": "mekanism:ultimate_control_circuit" }
+  },
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "sfms:ms_workbench"
+    }
+  }
+}

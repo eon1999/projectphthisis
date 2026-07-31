@@ -1,0 +1,57 @@
+#Turn off all structures?
+DisableStructures = false
+#Uses custom Structure type. (custom structure type has more spawn checks and allows bigger cities (size and maxDistance), but may have some generation issues when using /locate or /place)
+UseCustomStructureType = true
+#Include undefined structures. (structures that originally had only a template or the author did not add their appearance)
+EnableTemplateStructures = true
+#Whether the structure will appear.
+RedHouseSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+RedHouseSpacing = 150
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+RedHouseSeparation = 50
+#Defines the list of biomes where this structure can spawn.
+RedHouseBiomes = ["plains", "sunflower_plains", "snowy_plains", "meadow"]
+#Whether the structure will appear.
+BrickBuildingSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+BrickBuildingSpacing = 200
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+BrickBuildingSeparation = 100
+#Defines the list of biomes where this structure can spawn.
+BrickBuildingBiomes = ["plains", "sunflower_plains", "snowy_plains", "meadow"]
+#Whether the structure will appear.
+AbandonedBrickHouseSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+AbandonedBrickHouseSpacing = 60
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+AbandonedBrickHouseSeparation = 15
+#Defines the list of biomes where this structure can spawn.
+AbandonedBrickHouseBiomes = ["plains", "sunflower_plains", "snowy_plains", "meadow"]
+#Whether the structure will appear.
+RedMansionSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+RedMansionSpacing = 140
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+RedMansionSeparation = 70
+#Defines the list of biomes where this structure can spawn.
+RedMansionBiomes = ["plains", "sunflower_plains", "snowy_plains", "meadow"]
+#Whether the structure will appear.
+YellowHouseSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+YellowHouseSpacing = 131
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+YellowHouseSeparation = 60
+#Defines the list of biomes where this structure can spawn.
+YellowHouseBiomes = ["plains", "sunflower_plains", "snowy_plains", "meadow"]
+

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GOG",
+    "OAO",
+    "UOU"
+  ],
+  "key": {
+    "O": { "item": "ad_astra:ostrum_ingot" },
+    "G": { "item": "immersiveengineering:component_electronic_adv" },
+    "A": { "item": "mekanism:pellet_antimatter" },
+    "U": { "item": "mekanism:ultimate_control_circuit" }
+  },
+  "result": {
+    "item": "tacz:workbench_a",
+    "nbt": {
+      "BlockId": "emxarms:sky_workbench"
+    }
+  }
+}

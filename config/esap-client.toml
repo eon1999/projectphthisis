@@ -1,0 +1,5 @@
+
+["Client Properties"]
+	#Allow ESAP to reduce the size of the player headwear model. Disabling this may cause some clipping between curios items and armour. Default = True
+	modifiedSkinModels = true
+

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "tacz:modern_kinetic_gun",
+      "nbt": {
+        "GunId": "sfms:tcg5ich"
+      }
+    }
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": {
+      "GunId": "sfms:tcg5",
+	  "GunFireMode": "SEMI"
+    }
+  }
+}

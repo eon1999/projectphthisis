@@ -1,0 +1,13 @@
+
+["Common Properties"]
+	#The cooldown time on grenades after throwing them, in ticks (20/sec). This must be a non-negative integer. Default = 100
+	#Range: 0 ~ 72000
+	grenadeCooldown = 100
+	#How much batteries should charge items, in seconds. Default = VALUE
+	#Range: 0 ~ 72000
+	batteryChargeAmount = 600
+	#Multiplier that knives should do when used at close range (< 2.5 blocks). 1 disables processing. Default = 
+	#Range: 1.0 ~ 10.0
+	knifeBuffMultiplier = 1.5
+	"Barrel Random Refill" = true
+

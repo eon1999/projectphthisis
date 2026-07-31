@@ -1,0 +1,53 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 108
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    // 自定义输出的类型
+    "type": "custom",
+    // 把物品放到哪个tab里，可选值：ammo、scope、muzzle、stock、
+    // grip、extended_mag、pistol、sniper、rifle、shotgun、smg、rpg、mg
+    "group": "misc",
+    // 定义输出物品
+    "item": {
+      // 输出物品的 id，比如这里是个雪球
+      "item": "minecraft:snowball",
+      // 附加的 NBT 数据
+      "nbt": {
+        "rua": "rua!!"
+      },
+      // 输出的产物数量
+      "count": 10
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

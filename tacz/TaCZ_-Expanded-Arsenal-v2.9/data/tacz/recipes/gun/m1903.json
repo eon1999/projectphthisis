@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 9
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 35
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m1903"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

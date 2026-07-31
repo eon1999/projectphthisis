@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 80
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:sword_life",
+    "ammo_count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "msapl:ms_bottle",
+    "count": 64
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

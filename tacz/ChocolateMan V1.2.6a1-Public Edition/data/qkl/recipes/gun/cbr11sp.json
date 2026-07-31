@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "qkl:cbr11"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "qkl:cbr11sp",
+    "attachments": {
+      "stock": "qkl:scope_sigk2"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

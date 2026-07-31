@@ -1,0 +1,67 @@
+{
+  "config_version": "2.0.29",
+  "config_datetime": "2026-07-30_12-08-29",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:ancient_city",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:bastion_remnant",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:end_city",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:fortress",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:nether_fossil",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:stronghold",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

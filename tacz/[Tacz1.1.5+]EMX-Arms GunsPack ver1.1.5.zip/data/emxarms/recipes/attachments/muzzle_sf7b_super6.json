@@ -1,0 +1,53 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "emxarms:emx_rem"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:bayonet_emx_lightupgrade"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 40
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:muzzle_sf7b_super6"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

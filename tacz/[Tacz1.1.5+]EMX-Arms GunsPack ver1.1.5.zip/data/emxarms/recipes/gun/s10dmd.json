@@ -1,0 +1,73 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "trisdyna:emx_b6"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "emxarms:emx_rem"
+        }
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "trisdyna:tris_sf7e"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "emxarms:emx_pmg90"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone_block"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 240
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 180
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 120
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trisdyna:s10dmd"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

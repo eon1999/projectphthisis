@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:ammo_l2"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "tacz:light_extended_mag_3"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:ammo_l3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

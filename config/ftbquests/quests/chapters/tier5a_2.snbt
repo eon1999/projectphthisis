@@ -1,0 +1,56 @@
+{
+	id: "a963f670418e339"
+	group: "c7bd0b906583ae5"
+	order_index: 6
+	filename: "tier5a_2"
+	title: "Tier 5-A - Skyline Terminal"
+	icon: "tacz:workbench_a{BlockId:\"emxarms:sky_workbench_data\"}"
+	quest_links: []
+	quests: [
+		{
+			id: "e528e66ab290d66"
+			x: 0.0d
+			y: 0.0d
+			title: "Build the Skyline Terminal"
+			icon: "tacz:workbench_b{BlockId:\"emxarms:sky_workbench\"}"
+			dependencies: ["e8c11fab59eb041"]
+			description: [
+				"&eSkyline Terminal&r - from EMX Arms (kinetic)."
+				"Same tech gate as the EMX-Arms Workstation, mirrored recipe weighted more toward electronics."
+				""
+				"&6Recipe:&r"
+				"- 4x Ad Astra Ostrum Ingot"
+				"- 2x IE Advanced Electronic Component"
+				"- 1x Mekanism Antimatter Pellet"
+				"- 2x Mekanism Ultimate Control Circuit"
+			]
+			tasks: [
+				{
+					id: "b9bb954bc8eda40"
+					type: "checkmark"
+				}
+			]
+			size: 1.5d
+		}
+		{
+			id: "a61d528228b5d29"
+			x: 2.5d
+			y: 0.0d
+			title: "Weapons Available At This Tier"
+			icon: "minecraft:book"
+			dependencies: ["e528e66ab290d66"]
+			description: [
+				"&7Example guns rebalanced to this tier's damage band:&r"
+				""
+				"- Same catalog as the EMX-Arms Workstation - this is an alternate crafting station, not a separate gun pool."
+			]
+			tasks: [
+				{
+					id: "bf20bd751a2bfd3"
+					type: "checkmark"
+				}
+			]
+			shape: "diamond"
+		}
+	]
+}

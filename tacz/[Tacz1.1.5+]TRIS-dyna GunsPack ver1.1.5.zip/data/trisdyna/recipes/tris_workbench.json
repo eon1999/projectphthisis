@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "CAC",
+    "UCU"
+  ],
+  "key": {
+    "C": { "item": "ad_astra:calorite_ingot" },
+    "G": { "item": "immersiveengineering:component_electronic_adv" },
+    "A": { "item": "mekanism:pellet_antimatter" },
+    "U": { "item": "mekanism:ultimate_control_circuit" }
+  },
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "trisdyna:tris_workbench"
+    }
+  }
+}

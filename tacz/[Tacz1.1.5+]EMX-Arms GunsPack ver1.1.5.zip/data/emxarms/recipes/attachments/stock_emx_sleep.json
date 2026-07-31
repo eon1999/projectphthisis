@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:coal"
+      },
+      "count": 18
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:stock_emx_sleep"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

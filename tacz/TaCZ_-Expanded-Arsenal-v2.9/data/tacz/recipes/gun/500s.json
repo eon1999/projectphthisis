@@ -1,0 +1,32 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 70
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:500s"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

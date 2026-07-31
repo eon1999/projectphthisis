@@ -1,0 +1,35 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/lead"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "ea:rifle_ammo",
+    "id": "ea:338arc",
+    "count": 16
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

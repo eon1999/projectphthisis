@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:shorty"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

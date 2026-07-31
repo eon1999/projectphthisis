@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 80
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 40
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:m7"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

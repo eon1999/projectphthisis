@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/titanium"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/tungsten_carbide"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "ea:extras",
+    "id": "ea:20x102",
+    "count": 8
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:bayonet_emx_skyhunter"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_tknife",
+    "attachments": {
+      "muzzle": "emxarms:bayonet_emx_skyhunter"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

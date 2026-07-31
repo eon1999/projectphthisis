@@ -1,0 +1,14 @@
+# Trim tacz/ down to just design files: recipes, lang overrides, and the CSVs.
+# (Excludes textures, sounds, models, loot tables, etc. from each gunpack.)
+
+tacz/*/*
+!tacz/*/data/
+!tacz/*/assets/
+
+tacz/*/data/*/*
+!tacz/*/data/*/recipes/
+!tacz/*/data/*/recipes/**
+
+tacz/*/assets/*/*
+!tacz/*/assets/*/lang/
+!tacz/*/assets/*/lang/**

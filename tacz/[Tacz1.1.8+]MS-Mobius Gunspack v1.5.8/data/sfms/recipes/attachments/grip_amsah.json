@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 18
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "sfms:grip_amsah"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

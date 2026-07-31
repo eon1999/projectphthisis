@@ -1,0 +1,2617 @@
+{
+  "enabled": true,
+  "monsters": {
+    "dyairdrop:medicalairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:giant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:mogler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "dyairdrop:transportplane": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:archerpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campamazonchief": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:theskeeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:farseer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:smoke": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:lechery": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:warden": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:warped_mosco": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thepregnant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "immersiveengineering:commando": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "hordes:zombie_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:weakspot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:corrupted_lunarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:amazonchief": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:husk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:axestrom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:cave_spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "mca:female_zombie_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:enderman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:pirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:dropbear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:shieldmaiden": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:vindicator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:ghast": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:murmur_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:slaveman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:tar_splash": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:piglin_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "starter_bunker:no_waterlogging": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:creeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:archerbarbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:invisiclogger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:invisiimmortal": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:camppharao": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "simpleenemymod:ruunit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:illusioner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:drownedchiefpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "radiotowers:planeentity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:barbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thebeartamer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:stray": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "simpleenemymod:pmcunit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:drowned": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:drownedpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:neocrorines": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:martian_raptor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:mimicube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:chiefpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:sucker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:void_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:volcano": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thedungeon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:crawler_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:zombified_pygro": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:vile_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:wither": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thespectre": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:centipede_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:wither_skeleton": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:camparcherbarbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:brute_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "yungscavebiomes:sand_snapper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:camppirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:leaper_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:propball_1": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "bloomingnature:termite": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:elder_guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:void_worm_part": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:therod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campbarbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "hordes:drowned_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:sulfur_creeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:theordure": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:theheavy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:shrieker_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:vindicator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campmummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "dyairdrop:plane": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:chiefbarbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:guster": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:evoker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:slime": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thelurker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campdrownedpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:bow_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "immersiveengineering:bulwark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:clogger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:silverfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:endermite": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campshieldmaiden": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:zombie": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campamazon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "immersiveengineering:fusilier": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "superbwarfare:senpai": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:coppertar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thespitter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:hoglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "radiotowers:airdropentity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:invisilehcery": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "hordes:husk_player": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thesomnolence": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:drownedarcherpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campamazonspearman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:phantom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:zombified_piglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "mca:grim_reaper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:witch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:ender_dragon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "mca:male_zombie_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:vex": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:pygro": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:skeleton": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 40.0,
+      "threshold": -15.0
+    },
+    "undead_revamp2:theswarmer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:norsemenarcher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:bone_serpent_part": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:theimmortal": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:ravager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:bone_serpent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:evoker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:human_zombie_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "superbwarfare:steel_coil": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:amazon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:rocky_roller": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campnorsemenarcher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "dyairdrop:weaponairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:archermummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:soul_vulture": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campnorsemenchief": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:straddler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "dyairdrop:airdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:crossbow_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:bomber": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "yungscavebiomes:ice_cube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:smokesmitter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:shulker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campdrownedchiefpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thewolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:cave_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:molotov_tar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:pygro_brute": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:axe_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:runner_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:wisp": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:theposessive": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:camparchermummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thebidyupside": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:crimson_mosquito": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:pillager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "starter_bunker:light_entity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:star_crawler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:murmur": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:amazonspearman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thebidy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:zoglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:invisiblebidy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:the_moonflower": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thehorrorsdecoys": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "butchery:turtleshellboat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "tacz_bandits:bandit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:mummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:piglin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "tacz_sewv:us_engineer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:skelewag": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thesmoker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:pillager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:blaze": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "ad_astra:zombified_mogler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thehorrors": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:flame": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "starter_bunker:spawnpoint_entity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thegliter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campdrownedarcherpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:magma_cube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:bigsucker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:weak_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:camparcherpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:sword_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "tacz_sewv:ru_engineer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campchiefpirate": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:geyser": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:pharao": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "zombies_plus:slow_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:crackleball": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:norsemenchief": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecolonies:campchiefbarbarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:thehunter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:zombie_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:deadclogger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    }
+  },
+  "animals": {
+    "spore:protector": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:froststalker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:snow_leopard": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "burnt:soul_spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:hevoker": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:seagull": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:moose": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:seal": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:glow_squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:shoebill": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:roadrunner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:laviathan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:trader_llama": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:reconstructor": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:endergrade": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "meadow:wooly_cow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "meadow:wooly_sheep": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:hevoker_arm": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_husk": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:stalker": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:llama": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:maned_wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:gorgon": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:skreecher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:firefly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:tadpole": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:dolphin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:hivetumor": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:gelada_monkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:griefer": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:hindenburg": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:knight": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:komodo_dragon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecolonies:mercenary": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:hammerhead_shark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:donkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:tiger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:grizzly_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:vulture": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:scamper": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:zebra": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "superbwarfare:target": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:bee": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:scavenger": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:giraffe": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:crocodile": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "burnt:falling_slab": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:wendigo": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:rhinoceros": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:slasher": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:mooshroom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:frilled_shark": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:bison": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:verva": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:bald_eagle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:acid": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:axolotl": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "burnt:fire_devil": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:deer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:mephitic": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_human": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:gorilla": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:moose": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:tusklin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:strider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:thorn": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:parrot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "dyairdrop:smallairdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:corpse_piece": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_vindicator": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:female_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:cosmic_cod": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:elephant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:jagd": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:busser": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:underminer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:wandering_trader": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "vinery:mule": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "ad_astra:lunarian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:cardinal": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:frog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:vigil": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:illusion": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:kangaroo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:sieger_tail": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:delusioner": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_villager": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:banana_slug": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inf_pillager": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:sieger": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:mimic_octopus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:alligator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:hummingbird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:bunfungus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:mule": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "vinery:wandering_winemaker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:braurei": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:boar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:crow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:ogre": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:bloater": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_witch": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "aquaculture:starshell_turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:tarantula_hawk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:braiomil": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:inf_player": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:fox": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:stinger": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:spit": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:cachalot_whale": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:allay": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "bloomingnature:wandering_gardener": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:warped_toad": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:reaper": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:chicken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:giant_squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inf_diseased_villager": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:brot": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:arena_tendril": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "burnt:tomb_spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:usurper": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:leaper": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:emu": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:cockroach": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "ad_astra:glacian_ram": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:flutter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "burnt:burnt_forest_spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inf_drowned": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:rhino": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "canned_goods:canned_golem": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:capuchin_monkey": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "burnt:grave_spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:anaconda": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:polar_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "slimpatch:human_trader": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:bile": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:pig": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 15.0,
+      "threshold": -18.0
+    },
+    "minecraft:turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:thrown_tool": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:alligator_snapping_turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:rattlesnake": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:sheep": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inquisitor": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "minecraft:goat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:thrown_tumor": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:rattlesnake": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:brute": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:spitter": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:vanguard": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:bairn": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:nuclea": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:robin": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "meadow:water_buffalo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:mantis_shrimp": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:tortoise": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecolonies:visitor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:raccoon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecolonies:citizen": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:platypus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:squid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:skeleton_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:howit_arm": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:potoo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:cow": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 25.0,
+      "threshold": -18.0
+    },
+    "naturalist:duck": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:fly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:blue_jay": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:mound": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:hvindicator": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:scent": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:toucan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:bluejay": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "bakery:wandering_baker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:sea_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "apocalypse_food:apocalypsefoodratsentity": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:howitzer": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:proto": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:anteater": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:mudskipper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "undead_revamp2:therabidus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:rain_frog": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:flesh_bomb": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:sugar_glider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:rabbit": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:howler": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:grober": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "aquaculture:box_turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:acid_ball": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:butterfly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:orca": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:hollen": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:leafcutter_ant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:biobloob": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:dragonfly": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:mungus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:jerboa": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:bat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:caiman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:sparrow": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:spectre": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:cosmaw": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inf_evoker": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "slimpatch:male_villager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecolonies:cavalry_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:hippo": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:snake": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:inf_wanderer": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "railways:conductor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:lion": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "aquaculture:arrau_turtle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:naiad": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:lizard_tail": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:elephant": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:canary": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:gazelle": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:caterpillar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:sniffer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:skunk": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:enderiophage": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:zombie_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:volatile": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:sunbird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:camel": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:thrown_block": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexsmobs:tasmanian_devil": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "superbwarfare:dps_generator": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:cat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "slimpatch:wandering_trader": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:lizard": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "spore:tendril": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:stahl": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "spore:gargoyle": {
+      "enabled": true,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "naturalist:coral_snake": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:snail": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "ad_astra:lunarian_wandering_trader": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "naturalist:finch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:ocelot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "minecraft:panda": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    }
+  }
+}

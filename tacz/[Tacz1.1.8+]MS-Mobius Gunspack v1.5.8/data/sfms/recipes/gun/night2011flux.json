@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:night2011"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:night2011flux",
+    "attachments": {
+      "scope": "sfms:scope_rmrhdar",
+	  "laser": "sfms:laser_ammohud",
+	  "grip": "sfms:grip_x1"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

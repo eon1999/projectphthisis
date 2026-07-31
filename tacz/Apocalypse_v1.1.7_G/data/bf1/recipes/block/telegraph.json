@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "LRL",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "L": { "tag": "minecraft:logs" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "item": "tacz:workbench_a",
+    "nbt": {
+      "BlockId": "bf1:telegraph"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:avs36"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

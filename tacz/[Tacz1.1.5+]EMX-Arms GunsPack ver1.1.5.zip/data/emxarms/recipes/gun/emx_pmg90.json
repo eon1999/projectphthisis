@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 200
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 320
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_pmg90",
+    "attachments": {
+      "scope": "emxarms:sight_emx_array",
+      "extended_mag": "emxarms:emx_lightweight_mag_2"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

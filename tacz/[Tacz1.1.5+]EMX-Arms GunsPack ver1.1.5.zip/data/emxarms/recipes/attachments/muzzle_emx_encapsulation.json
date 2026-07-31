@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:muzzle_emx_encapsulationse"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:muzzle_emx_encapsulation"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

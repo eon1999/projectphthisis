@@ -1,0 +1,31 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:honey",
+    "attachments": {
+      "scope": "tacz:scope_acog_ta31",
+      "laser": "tacz:laser_lopro"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

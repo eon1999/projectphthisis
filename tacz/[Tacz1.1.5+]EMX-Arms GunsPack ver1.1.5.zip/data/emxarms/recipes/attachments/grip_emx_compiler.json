@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 24
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_compiler"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

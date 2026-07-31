@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:coal"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:bayonet_emx_skyhunter"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

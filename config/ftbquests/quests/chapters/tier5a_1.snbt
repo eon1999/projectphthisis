@@ -1,0 +1,61 @@
+{
+	id: "cf510beef0d1b77"
+	group: "c7bd0b906583ae5"
+	order_index: 5
+	filename: "tier5a_1"
+	title: "Tier 5-A - EMX-Arms Workstation"
+	icon: "tacz:workbench_b{BlockId:\"emxarms:emx_workbench_data\"}"
+	quest_links: []
+	quests: [
+		{
+			id: "fcf4724fba62141"
+			x: 0.0d
+			y: -1.5d
+			title: "Build the EMX-Arms Workstation"
+			icon: "tacz:workbench_b{BlockId:\"emxarms:emx_workbench\"}"
+			dependencies: ["e8c11fab59eb041"]
+			description: [
+				"&eEMX-Arms Workstation&r - from EMX Arms (kinetic)."
+				"Gate: Ad Astra Ostrum from Mars. Kinetic weapon branch - paired with the Skyline Terminal below."
+				""
+				"&6Recipe:&r"
+				"- 5x Ad Astra Ostrum Ingot"
+				"- 1x IE Advanced Electronic Component"
+				"- 1x Mekanism Antimatter Pellet"
+				"- 2x Mekanism Ultimate Control Circuit"
+			]
+			tasks: [
+				{
+					id: "bb376454722236f"
+					type: "checkmark"
+				}
+			]
+			size: 1.5d
+		}
+		{
+			id: "c47529fce4aa2af"
+			x: 2.5d
+			y: 0.0d
+			title: "Weapons Available At This Tier"
+			icon: "minecraft:book"
+			dependencies: ["fcf4724fba62141"]
+			description: [
+				"&7Example guns rebalanced to this tier's damage band:&r"
+				""
+				"- emxarms:emx_rivet (rifle)"
+				"- emxarms:emx_expel32se (smg)"
+				"- emxarms:emx_mac50 (pistol)"
+				"- emxarms:emx_enforcer (shotgun)"
+				"- emxarms:emx_mg57 (mg)"
+				"- emxarms:emx_mk88 (sniper)"
+			]
+			tasks: [
+				{
+					id: "c95c82b49973cb9"
+					type: "checkmark"
+				}
+			]
+			shape: "diamond"
+		}
+	]
+}

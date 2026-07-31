@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "emxarms:emx_rem"
+        }
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:bayonet_emx_glowsword"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

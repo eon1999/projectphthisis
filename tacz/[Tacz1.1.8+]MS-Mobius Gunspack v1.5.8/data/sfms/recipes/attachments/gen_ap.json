@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "sfms:gen_ap"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

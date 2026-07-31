@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 125
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 80
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mk951r"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

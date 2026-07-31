@@ -1,0 +1,207 @@
+[
+ 
+  {
+    "mod": "spore",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(40)",
+    "result": "deny"
+  },
+  {
+    "mod": "undead_revamp2",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(7)",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:theheavy",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(17)",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thepregnant",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(20)",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(23)",
+    "result": "deny"
+  },
+
+  {
+    "mob": "undead_revamp2:slaveman",
+    "when": "POSITION",
+    "spawntype": ["natural"],
+    "daycount": "lt(30)",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "random": 0.85,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "mincount": {
+      "amount": 2,
+      "mob": "minecraft:enderman",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:bomber", "undead_revamp2:therod", "undead_revamp2:thespitter", "undead_revamp2:thesmoker", "undead_revamp2:therabidus"],
+    "random": 0.8,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:clogger", "undead_revamp2:invisiclogger", 
+            "undead_revamp2:thepregnant", "undead_revamp2:thewolf", "undead_revamp2:thebeartamer",
+            "undead_revamp2:slaveman", "undead_revamp2:thehorrors", "undead_revamp2:thehorrorsdecoys", 
+            "undead_revamp2:thebidy", "undead_revamp2:invisiblebidy", "undead_revamp2:thebidyupside"],
+    "random": 0.90,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:thebidy", "undead_revamp2:invisiblebidy", "undead_revamp2:thebidyupside"],
+    "mincount": {
+      "amount": 5,
+      "mob": ["undead_revamp2:thebidy", "undead_revamp2:invisiblebidy", "undead_revamp2:thebidyupside"],
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:bomber",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:therod",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:therod",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thespitter",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thesmoker",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thesmoker",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:therabidus",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:therabidus",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:clogger",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:clogger",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:clogger", "undead_revamp2:invisiclogger"],
+    "mincount": {
+      "amount": 2,
+      "mob": ["undead_revamp2:clogger", "undead_revamp2:invisiclogger"],
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thepregnant",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thepregnant",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thewolf",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thewolf",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thebeartamer",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thebeartamer",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:slaveman",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:slaveman",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thehorrors",
+    "mincount": {
+      "amount": 2,
+      "mob": "undead_revamp2:thehorrors",
+      "perplayer": true
+    },
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

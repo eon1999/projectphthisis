@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 145
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 70
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_draftsman"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

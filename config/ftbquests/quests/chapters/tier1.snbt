@@ -1,0 +1,61 @@
+{
+	id: "beeadd7904ff7fa"
+	group: "c7bd0b906583ae5"
+	order_index: 1
+	filename: "tier1"
+	title: "Tier 1 - First Power"
+	icon: "tacz:workbench_b{BlockId:\"qkl:cr_workbench\"}"
+	quest_links: []
+	quests: [
+		{
+			id: "ad04dc09aeadb99"
+			x: 0.0d
+			y: 0.0d
+			title: "Build the Weapon Cases Workbench"
+			icon: "tacz:workbench_b{BlockId:\"qkl:cr_workbench\"}"
+			dependencies: ["be44009be73ddea"]
+			description: [
+				"&eWeapon Cases Workbench&r - from ChocolateMan Retro (qkl)."
+				"Gate: first working power. Immersive Engineering's Electron Tube plus Mekanism's Basic Control Circuit."
+				""
+				"&6Recipe:&r"
+				"- 3x IE Steel Ingot"
+				"- 4x Planks (any)"
+				"- 1x IE Electron Tube"
+				"- 1x Mekanism Basic Control Circuit"
+			]
+			tasks: [
+				{
+					id: "ba5424b98b5978d"
+					type: "checkmark"
+				}
+			]
+			size: 1.5d
+		}
+		{
+			id: "adb87fbc672d4a0"
+			x: 2.5d
+			y: 0.0d
+			title: "Weapons Available At This Tier"
+			icon: "minecraft:book"
+			dependencies: ["ad04dc09aeadb99"]
+			description: [
+				"&7Example guns rebalanced to this tier's damage band:&r"
+				""
+				"- tacz:avt40 (rifle)"
+				"- tacz:pps (smg)"
+				"- tacz:p08 (pistol)"
+				"- tacz:m1897 (shotgun)"
+				"- tacz:lewis (mg)"
+				"- tacz:gew96 (sniper)"
+			]
+			tasks: [
+				{
+					id: "fc74e702565cfe1"
+					type: "checkmark"
+				}
+			]
+			shape: "diamond"
+		}
+	]
+}

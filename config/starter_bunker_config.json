@@ -1,0 +1,9 @@
+{
+  "multiplayer_join_time": 600,
+  "player_join_range": 256,
+  "override_spawnpoint_global": "true",
+  "override_spawnpoint": "true",
+  "regular_bunker_command": "place structure starter_bunker:starterbunker ~ ~ ~",
+  "cold_bunker_command": "place structure starter_bunker:starterbunkersnow ~ ~ ~",
+  "desert_bunker_command": "place structure starter_bunker:starterbunkerdesert ~ ~ ~"
+}

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:coal"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "trisdyna:emx_s10",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

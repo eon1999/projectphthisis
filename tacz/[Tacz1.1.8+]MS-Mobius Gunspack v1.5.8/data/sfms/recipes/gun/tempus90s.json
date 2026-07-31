@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 85
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:tempus90s"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

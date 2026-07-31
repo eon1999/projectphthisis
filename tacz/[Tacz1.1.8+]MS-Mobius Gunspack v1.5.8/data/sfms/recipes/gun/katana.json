@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:katana",
+    "ammo_count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

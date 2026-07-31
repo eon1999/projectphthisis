@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "PEP",
+    "PCP"
+  ],
+  "key": {
+    "S": { "item": "immersiveengineering:ingot_steel" },
+    "P": { "tag": "minecraft:planks" },
+    "E": { "item": "immersiveengineering:electron_tube" },
+    "C": { "item": "mekanism:basic_control_circuit" }
+  },
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "qkl:cr_workbench"
+    }
+  }
+}

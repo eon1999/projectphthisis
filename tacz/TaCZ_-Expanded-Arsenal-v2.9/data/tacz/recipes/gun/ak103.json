@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:ak103"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

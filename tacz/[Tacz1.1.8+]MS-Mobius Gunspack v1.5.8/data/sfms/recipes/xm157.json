@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "tacz:attachment",
+      "nbt": {
+        "AttachmentId": "sfms:scope_xm157ex"
+      }
+    }
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": {
+      "AttachmentId": "sfms:scope_xm157",
+	  "ZoomNumber": "20"
+    }
+  }
+}

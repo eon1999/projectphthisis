@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:sight_emx_integer"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 50
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_expel32se"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

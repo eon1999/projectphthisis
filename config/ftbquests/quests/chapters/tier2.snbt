@@ -1,0 +1,61 @@
+{
+	id: "f8a361f1c9c2262"
+	group: "c7bd0b906583ae5"
+	order_index: 2
+	filename: "tier2"
+	title: "Tier 2 - Real Ore Processing"
+	icon: "tacz:workbench_b{BlockId:\"suffuse:workbench_data\"}"
+	quest_links: []
+	quests: [
+		{
+			id: "b03e97116e7e980"
+			x: 0.0d
+			y: 0.0d
+			title: "Build the Suffuse Smithing Table"
+			icon: "tacz:workbench_b{BlockId:\"suffuse:workbench\"}"
+			dependencies: ["ad04dc09aeadb99"]
+			description: [
+				"&eSuffuse Smithing Table&r - from Suffuse."
+				"Gate: a real ore processing chain. Mekanism Osmium and an Advanced Control Circuit, plus IE Constantan alloy."
+				""
+				"&6Recipe:&r"
+				"- 2x Mekanism Osmium Ingot"
+				"- 1x IE Constantan Ingot"
+				"- 5x IE Steel Ingot"
+				"- 1x Mekanism Advanced Control Circuit"
+			]
+			tasks: [
+				{
+					id: "ebbdb141d4c6519"
+					type: "checkmark"
+				}
+			]
+			size: 1.5d
+		}
+		{
+			id: "c4bd3d4eba59021"
+			x: 2.5d
+			y: 0.0d
+			title: "Weapons Available At This Tier"
+			icon: "minecraft:book"
+			dependencies: ["b03e97116e7e980"]
+			description: [
+				"&7Example guns rebalanced to this tier's damage band:&r"
+				""
+				"- daffas_arsenal:g36c_commando (rifle)"
+				"- suffuse:pp19 (smg)"
+				"- tacz:m9 (pistol)"
+				"- tacz:m1014 (shotgun)"
+				"- tacz:rpk (mg)"
+				"- tacz:m40a1 (sniper)"
+			]
+			tasks: [
+				{
+					id: "efb9be5e302c903"
+					type: "checkmark"
+				}
+			]
+			shape: "diamond"
+		}
+	]
+}

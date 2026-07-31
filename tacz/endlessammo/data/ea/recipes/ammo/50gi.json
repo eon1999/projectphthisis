@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/chromium"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/molybdenum"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/lead"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/silver"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "ea:large_ammo",
+    "id": "ea:50gi",
+    "count": 16
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

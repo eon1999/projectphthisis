@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "msapl:ms_gunpowder"
+        }
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "sfms:12ap",
+    "count": 25
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,77 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "emxarms:emx_rem"
+        }
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "emxarms:emx_pmg90"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "emxarms:emx_mg90"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:emx_lightweight_mag_2"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:grip_emx_extends"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone_block"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:end_crystal"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "count": 60
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_sf7b"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

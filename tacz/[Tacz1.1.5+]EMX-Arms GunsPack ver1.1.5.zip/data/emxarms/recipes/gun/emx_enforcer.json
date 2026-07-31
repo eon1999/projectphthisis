@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 75
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 50
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_enforcer",
+    "attachments": {
+      "scope": "emxarms:sight_emx_laterano"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

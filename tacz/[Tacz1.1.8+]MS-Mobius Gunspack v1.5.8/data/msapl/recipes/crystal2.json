@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "tacz:ammo",
+      "nbt": {
+        "AmmoId": "msapl:ms_bottle"
+      }
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "tacz:ammo",
+	"count": 3,
+    "nbt": {
+      "AmmoId": "msapl:ms_crystal"
+    }
+  }
+}

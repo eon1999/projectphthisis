@@ -1,0 +1,32 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/emerald"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m79"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

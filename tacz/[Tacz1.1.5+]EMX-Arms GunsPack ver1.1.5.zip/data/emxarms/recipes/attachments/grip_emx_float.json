@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_float"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 110
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m1919"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

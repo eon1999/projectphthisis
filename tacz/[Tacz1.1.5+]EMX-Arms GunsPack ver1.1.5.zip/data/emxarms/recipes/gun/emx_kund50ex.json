@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "emxarms:emx_rem"
+        }
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "emxarms:emx_kund50"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 100
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 80
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_kund50ex",
+    "attachments": {
+      "scope": "emxarms:sight_emx_demo2",
+      "muzzle": "emxarms:bayonet_emx_skyhunter"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

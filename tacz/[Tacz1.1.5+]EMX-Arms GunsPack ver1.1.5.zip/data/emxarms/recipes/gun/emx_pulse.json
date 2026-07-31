@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 30
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_pulse"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

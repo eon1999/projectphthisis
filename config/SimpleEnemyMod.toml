@@ -1,0 +1,7 @@
+#ru units loadouts, structure: ["loadout_name, gunID, ammoCount, fireMode, scopeID (optional), muzzleID (optional), gripID (optional)", "next_example"]
+ru_loadouts = []
+#us units loadouts, structure: ["loadout_name, gunID, ammoCount, fireMode, scopeID (optional), muzzleID (optional), gripID (optional)", "next_example"]
+us_loadouts = []
+#pmc units loadouts, structure: ["loadout_name, gunID, ammoCount, fireMode, scopeID (optional), muzzleID (optional), gripID (optional)", "next_example"]
+pmc_loadouts = []
+

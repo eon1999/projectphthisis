@@ -1,0 +1,15 @@
+#Turn off all structures?
+DisableStructures = false
+#Disables the spawn of the spawners.
+DisableSpawners = true
+#Whether the structure will appear.
+BunkersSpawning = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+BunkersSpacing = 25
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+BunkersSeparation = 20
+#Defines the list of biomes where this structure can spawn.
+BunkersBiomes = ["minecraft:dark_forest", "minecraft:sunflower_plains", "minecraft:desert", "minecraft:plains", "minecraft:snowy_plains", "minecraft:meadow"]
+

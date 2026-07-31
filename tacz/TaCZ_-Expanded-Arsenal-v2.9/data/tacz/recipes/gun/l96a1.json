@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 55
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 180
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:l96a1",
+    "attachments": {
+      "scope": "tacz:scope_contender"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

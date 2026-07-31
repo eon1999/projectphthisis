@@ -1,0 +1,675 @@
+
+[event_vehicles]
+	#Allow RU/US tanks to (by default very rarely) spawn in combat events.
+	tanksInEvents = true
+	#Chance (0.0-1.0) for an RU tank to spawn when a combat event occurs.
+	#This is CONDITIONAL: it is rolled only once SimpleEnemyMod's far_combat event has
+	#already fired, so the rate you actually see is this number TIMES that event's own
+	#chance. It therefore needs to look far too high to come out about right — the old
+	#0.02 default worked out to a tank every several hours of play.
+	#Range: 0.0 ~ 1.0
+	tankSpawnChanceRu = 0.12
+	#Chance (0.0-1.0) for a US tank to spawn when a combat event occurs.
+	#Conditional on far_combat having fired, exactly like tankSpawnChanceRu.
+	#Range: 0.0 ~ 1.0
+	tankSpawnChanceUs = 0.12
+	#Enable the standalone convoy event. Each convoy is RU or US only, never PMC.
+	convoyEventsEnabled = true
+	#Initial chance (0.0-1.0) for the convoy event on each event cycle.
+	#SimpleEnemyMod rolls every registered event once per 1200 ticks (60 SECONDS), so this is
+	#a per-minute chance, and its chance grows by convoyFailureMultiplier after each miss
+	#until it fires. For scale, SEM's own far_combat runs 0.06 base / 0.12 escalation.
+	#Range: 0.0 ~ 1.0
+	convoyBaseChance = 0.06
+	#Amount added to the convoy event's chance after a missed event roll.
+	#Higher = the wait between convoys is more consistent; lower = streakier.
+	#Range: 0.0 ~ 1.0
+	convoyFailureMultiplier = 0.06
+	#Enable the large_combat event: far_combat at three times the scale, with armour.
+	#Two platoons of infantry (9-15 a side) with vehicles behind them, and rarely a mortar
+	#or TOW on a flank. Independent of far_combat's own rate and toggle.
+	largeCombatEventsEnabled = true
+	#Initial chance (0.0-1.0) for the large_combat event on each event cycle.
+	#SimpleEnemyMod rolls every registered event once per 1200 ticks (60 SECONDS). Kept well
+	#below the convoy default because this one spawns upward of thirty entities at a time.
+	#Range: 0.0 ~ 1.0
+	largeCombatBaseChance = 0.02
+	#Amount added to the large_combat event's chance after a missed event roll.
+	#Range: 0.0 ~ 1.0
+	largeCombatFailureMultiplier = 0.02
+	#Vehicles each side deploys behind its infantry in a large_combat battle.
+	#Range: 0 ~ 8
+	largeCombatVehicles = 2
+	#Chance (0.0-1.0) PER SIDE that a large_combat battle also has a mortar or a TOW dug in
+	#on a flank. Deliberately tiny: a crew-served weapon is something to remember, not a
+	#fixture of every battle.
+	#Range: 0.0 ~ 1.0
+	largeCombatEmplacementChance = 0.04
+	#Enable the naval_battle event: two flotillas from the faction SHIP pools fighting
+	#offshore. Only fires in ocean biomes that are not frozen over, and only where the water
+	#is actually navigable — so it cannot happen in a swamp or on a lake.
+	navalEventsEnabled = true
+	#Initial chance (0.0-1.0) for the naval_battle event on each event cycle.
+	#Most players are nowhere near an ocean most of the time, and a roll that lands inland
+	#simply fails without resetting the accumulated chance, so this can afford to be higher
+	#than its share of the world would suggest.
+	#Range: 0.0 ~ 1.0
+	navalBaseChance = 0.05
+	#Amount added to the naval_battle event's chance after a missed event roll.
+	#Range: 0.0 ~ 1.0
+	navalFailureMultiplier = 0.05
+	#Ships each faction brings to a naval_battle. Higher than a ground event's vehicle count
+	#on purpose: boats are lightly armoured and trade fire in the open, so they deplete fast.
+	#Range: 1 ~ 12
+	navalShipsPerSide = 4
+	#Enable the asymmetric_invasion event: two or three vehicles of one faction attacking a
+	#dug-in position of the other — infantry, TOWs and mortars, with no vehicles of its own.
+	invasionEventsEnabled = true
+	#Initial chance (0.0-1.0) for the asymmetric_invasion event on each event cycle.
+	#Range: 0.0 ~ 1.0
+	invasionBaseChance = 0.03
+	#Amount added to the asymmetric_invasion event's chance after a missed event roll.
+	#Range: 0.0 ~ 1.0
+	invasionFailureMultiplier = 0.03
+	#Riflemen holding the position in an asymmetric_invasion.
+	#Range: 0 ~ 32
+	invasionDefenderInfantry = 6
+	#TOW launchers sited around the defended position. These are what actually threaten the
+	#attacking armour — at zero the defence has almost nothing that can hurt a tank.
+	#Range: 0 ~ 8
+	invasionDefenderTows = 2
+	#Mortars sited around the defended position.
+	#Range: 0 ~ 8
+	invasionDefenderMortars = 2
+	#Enable the mortar_shelling event: an RU or US mortar battery sets up out of sight and
+	#shells your base. It only fires while you are actually at a base — see shellingBaseRadius —
+	#so it threatens something you built rather than open ground you happen to be crossing.
+	#The crew cannot see that far (96 blocks), so it works a fire mission on the position
+	#instead, for shellingDurationMin/MaxTicks, and then leaves its tubes for good. The crews
+	#stay put afterwards as ordinary infantry — the barrage ends, the battery doesn't.
+	shellingEventsEnabled = true
+	#Starting chance for the mortar_shelling event on each of SEM's event rolls (one per
+	#60 seconds). Kept below the convoy's because this one is further gated on you being
+	#at your base, so a large share of its rolls are discarded before they can fire.
+	#Range: 0.0 ~ 1.0
+	shellingBaseChance = 0.05
+	#Amount added to the shelling event's chance after a missed event roll.
+	#Range: 0.0 ~ 1.0
+	shellingFailureMultiplier = 0.04
+	#How close (in blocks) you must be to your respawn point for the shelling event to fire.
+	#Your bed/anchor is the stand-in for 'your base' — it is the one spot the game already
+	#knows you chose to call home. Never having slept means the event can never fire.
+	#Range: 8 ~ 256
+	shellingBaseRadius = 48
+	#How many mortars a shelling battery sets up (each gets its own crew).
+	#Range: 1 ~ 6
+	shellingMortars = 2
+	#Infantry guarding a shelling battery. Killing the crews is the only way to stop the
+	#barrage, so the guards are what make that a fight rather than an execution — a mortar
+	#crew cannot depress its tube inside about 27 blocks and falls back on its rifle once you
+	#are close. 0 leaves the crews on their own.
+	#Range: 0 ~ 12
+	shellingGuards = 4
+	#Shortest a shelling battery works its fire mission before standing down (20 ticks = 1
+	#second). One duration is rolled for the whole battery, so its tubes stop together.
+	#Range: 20 ~ 24000
+	shellingDurationMinTicks = 600
+	#Longest a shelling battery works its fire mission before standing down. When the mission
+	#expires the crews leave their tubes for good and revert to ordinary infantry — they do not
+	#despawn, so the battery is still there to be cleared out afterwards.
+	#Set at or below the minimum for a fixed duration.
+	#Range: 20 ~ 24000
+	shellingDurationMaxTicks = 1200
+	#Item id of the shell a spawned mortar crew usually gets (75% of crews).
+	#Rolled once per crew, so a battery can mix but a given tube shoots one thing throughout.
+	#Must be a mortar shell the tube will actually accept; anything else falls back to
+	#superbwarfare:mortar_shell rather than leaving the crew unable to fire.
+	highChanceMortarShell = "superbwarfare:mortar_shell"
+	#Item id of the shell a spawned mortar crew occasionally gets (25% of crews).
+	#Same rules as highChanceMortarShell. Default is white phosphorus.
+	lowChanceMortarShell = "superbwarfare:mortar_shell_wp"
+	#Enable the derelict_vehicle event: a knocked-out RU or US hull with its surviving crew
+	#camped around it on foot. The hull has no energy, almost no ammunition and is nearly
+	#destroyed, so it is salvage rather than a threat — the fight is with the survivors, and
+	#the prize is a vehicle you can recover if you can repair and refuel it.
+	#This is the counterpart to the convoy event: something between 'a crewed tank attacks
+	#you' and 'no vehicle at all'.
+	derelictEventsEnabled = true
+	#Starting chance for the derelict_vehicle event on each of SEM's event rolls (one per
+	#60 seconds), growing by derelictFailureMultiplier after each miss.
+	#Range: 0.0 ~ 1.0
+	derelictBaseChance = 0.05
+	#Amount added to the derelict event's chance after a missed event roll.
+	#Range: 0.0 ~ 1.0
+	derelictFailureMultiplier = 0.05
+	#Health a derelict hull spawns with, as a fraction of its maximum.
+	#KEEP THIS BELOW autoBoardMinHealthFraction (default 0.25). That is not a style rule --
+	#it is the only thing stopping the survivors from simply climbing back in: scavenging
+	#AI refuses any hull below that threshold, and a crewed hull also gets infinite energy
+	#from the faction-energy rule, so raising this past it quietly turns this event into
+	#'a working tank spawns and attacks you', which the convoy event already is.
+	#Range: 0.01 ~ 1.0
+	derelictHealthFraction = 0.15
+	#Maximum survivors camped around a derelict hull (at least one always spawns).
+	#They are ordinary infantry on foot, NOT a crew -- nobody is in the vehicle.
+	#Range: 1 ~ 12
+	derelictGuards = 4
+	#Rounds left in a derelict hull's container. Enough to be worth looting and to make the
+	#vehicle briefly useful if you recover it, not enough to fight with.
+	#Range: 0 ~ 64
+	derelictAmmoCount = 2
+	#Give a share of SimpleEnemyMod's village garrisons a single crewed tank of the
+	#garrison's own faction. Only ONE per village, and it is fully crewed -- deliberately
+	#never a parked empty hull, because idle RU/US infantry scavenge empty vehicles on
+	#sight (that is why an earlier bare-hull version of this was removed). A crewed hull
+	#is occupied, so nothing scavenges it, and stays fuelled on its own.
+	garrisonVehiclesEnabled = true
+	#Chance (0.0-1.0) that a garrisoned village gets its one tank. Rolled once per village
+	#(deterministically, so every guard of the same garrison agrees), NOT per guard.
+	#Range: 0.0 ~ 1.0
+	garrisonVehicleChance = 0.5
+
+[vehicle_pools]
+	#Vehicle entity ids RU crews can spawn with (e.g. "superbwarfare:t_90a").
+	#List several to have one picked at random per spawn. Ground vehicles and helicopters are supported.
+	#Addon ids work too (e.g. "dragonrise_reforge:t90mh", "mcsp:t90a_green", "superbwarfare:mi_28").
+	ruVehiclePool = ["superbwarfare:t_90a", "superbwarfare:bmp_2", "superbwarfare:mi_28"]
+	#Vehicle entity ids US crews can spawn with (e.g. "superbwarfare:m_1a_2").
+	#List several to have one picked at random per spawn. Ground vehicles and helicopters are supported.
+	#Addon ids work too (e.g. "dragonrise_reforge:m1a2sepv2", "fcp:humvee", "superbwarfare:ah_6").
+	usVehiclePool = ["superbwarfare:m_1a_2", "superbwarfare:bradley", "superbwarfare:ah_6"]
+	#Vehicle entity ids for debug PMC units spawning
+	#List several to have one picked at random per spawn. Ground vehicles and helicopters are supported.
+	#Addon ids work too (e.g. "fcp:littlebird", "mcsp:m1a2", "superbwarfare:ah_6").
+	pmcVehiclePool = ["superbwarfare:t_90a", "superbwarfare:ah_6"]
+	#Ship entity ids RU crews can spawn with (e.g. "superbwarfare:speedboat").
+	#List several to have one picked at random per spawn. Spawned on water, not ground —
+	#see /sewv spawn ruship.
+	ruShipPool = ["superbwarfare:speedboat"]
+	#Ship entity ids US crews can spawn with. Same rules as ruShipPool.
+	usShipPool = ["superbwarfare:speedboat"]
+	#Ship entity ids for debug PMC units spawning. Same rules as ruShipPool.
+	pmcShipPool = ["superbwarfare:speedboat"]
+	#A spawned vehicle is stocked with the real, finite, lootable ammunition its guns use.
+	#This only decides the fallback when that ammo can't be determined (an energy- or
+	#infinite-ammo hull, or unreadable modded gun data): ON gives it a bottomless creative
+	#ammo box so it can still fire; turn OFF for a strict survival world (empty container).
+	creativeAmmoFallback = true
+
+[npc_armor]
+	#Issue armor to SimpleEnemyMod units when they spawn. Applies to EVERY unit, crewing a
+	#vehicle or on foot, however it was spawned (events, structures, /sewv, a spawn egg).
+	#Armor is issued once per unit and only into slots that are still empty, so a unit you
+	#have re-equipped by hand keeps what you gave it.
+	#Turn off to leave units bare — the armor grants SuperbWarfare bullet resistance, so this
+	#is the toggle to reach for if infantry feel too tough.
+	npcArmorEnabled = true
+	#Armor item ids every RU unit spawns wearing.
+	ruArmor = ["superbwarfare:ru_helmet_6b47", "superbwarfare:ru_chest_6b43"]
+	#Armor item ids every US unit spawns wearing.
+	usArmor = ["superbwarfare:us_helmet_pasgt", "superbwarfare:us_chest_iotv"]
+	#Armor item ids every PMC unit spawns wearing. US kit by default — a PMC unit is the
+	#player's own, and its armor sits in slots 2-5 of the inventory you can open, so this is
+	#a starting loadout you can swap rather than a fixed uniform.
+	pmcArmor = ["superbwarfare:us_helmet_pasgt", "superbwarfare:us_chest_iotv"]
+
+[structure_vehicles]
+	#Spawn vehicles from the faction pools when a compatible berezka_api structure generates.
+	#Soft compat: does nothing unless berezka_api and a matching structure mod are installed.
+	#RU/US structures get a fully crewed, armed, fuelled vehicle; PMC structures get a BARE hull
+	#(no crew, no ammo, no energy) for the player to capture and use.
+	structureVehiclesEnabled = true
+	#Hard ceiling on how many vehicles one structure can field. The actual count ramps from 1
+	#toward this cap as the world ages (see structureVehicleRampDays), with per-vehicle randomness.
+	#Range: 1 ~ 16
+	structureVehicleMaxCount = 5
+	#Elapsed in-game days over which the per-structure vehicle count ramps from 1 to the cap.
+	#Early on a structure fields a lone vehicle; by this many days it can field the full cap.
+	#Measured from total world play time, so it survives sleeping and /time set. 0 = no ramp
+	#(always rolls against the full cap).
+	#Range: 0 ~ 1000
+	structureVehicleRampDays = 24
+	#Structure ids (the namespace:path of the structure's start pool) that field a crewed RU
+	#vehicle. Add any berezka_api structure id here to have RU armor spawn at it.
+	ruVehicleStructures = ["russian_army_structures:tank"]
+	#Structure ids that field a crewed US vehicle.
+	usVehicleStructures = ["us_army_structures:convoy"]
+	#Structure ids that field a BARE PMC vehicle (no crew, ammo or energy) for the player to take.
+	pmcVehicleStructures = ["pmc_structures:buggy"]
+
+[crew_ai]
+	#Minimum ticks between shots for an AI-crewed vehicle weapon (20 ticks = 1 second).
+	#Range: 1 ~ 200
+	aiFireCooldownTicks = 5
+	#Minimum ticks between AI weapon switches, prevents rapid cannon/MG spam.
+	#Range: 1 ~ 200
+	weaponSwitchCooldownTicks = 5
+	#Defines the radius of accuracy a helicopter should prefer. Lower numbers makes the helicopter's movement less chaotic and unpredictable but also less likely to fire with Helicopter weapons
+	#Range: 4.0 ~ 30.0
+	aiFireAssistConeDeg = 12.0
+	#How close (in blocks) a smoke decoy must be to an AI crew's line of fire to block the shot.
+	#Larger = smoke screens are wider and more protective.
+	#Range: 1.0 ~ 16.0
+	smokeBlockRadius = 6.0
+	#How accurately an AI vehicle crew lays its guns. SuperbWarfare's auto-aim solves a
+	#perfect ballistic firing solution with perfect target lead, so an untreated AI crew
+	#never misses at any range.
+	#  realistic - every crew disperses by aiAimSpreadDegrees, however many of them there are.
+	#  scaled    - dispersion is divided by the number of occupied seats, so a full crew
+	#              shoots better than a lone survivor (spotter + loader + gunner).
+	#  accurate  - no dispersion at all; the pre-1.x behaviour.
+	#Only affects units crewing a vehicle. Mortar crews stand beside their tube rather than
+	#riding it and are unaffected, as are players.
+	aiAimAccuracy = "realistic"
+	#Dispersion cone, in degrees, added to an AI crew's shots (see aiAimAccuracy).
+	#This is ANGULAR, so the miss distance grows with range on its own: 1 degree is roughly
+	#0.35 blocks at 20 blocks and 1.75 blocks at 100. Values are a triangular distribution
+	#about the true line, so most shots land far nearer than the full cone.
+	#For scale, SuperbWarfare's own built-in spreads are 0.02 for a tank cannon, 0.5 for a
+	#coaxial MG and 5.0 for grapeshot. Ignored when aiAimAccuracy is 'accurate'.
+	#Range: 0.0 ~ 30.0
+	aiAimSpreadDegrees = 1.0
+	#Let infantry fighting vehicles fight like IFVs instead of like small tanks: when the
+	#hull comes up against an ARMOURED target it drops its squad, who fight on foot from
+	#there while the vehicle keeps working its gun. Against infantry the squad stays aboard,
+	#since the hull's own cannon and MGs already cover that.
+	#The squad is NOT recalled afterwards -- once out they are ordinary infantry, and picking
+	#them back up is whatever you'd normally do to put a unit in a seat. No smoke is fired
+	#either: an IFV drops its squad on every contact, so screening each one would leave the
+	#whole map permanently fogged.
+	#Which hulls count is decided by ifvNameClues. Turn this off to have every hull keep its
+	#full crew buttoned up, which is the pre-1.x behaviour.
+	ifvDismountsEnabled = true
+	#Substrings that mark a vehicle id as an IFV. Matched case-insensitively against the
+	#whole registry id, so "bmp" catches superbwarfare:bmp_2, fcp:bmp1u and mcsp:bmp2_camo
+	#alike, and an addon's hull is picked up without naming it explicitly.
+	#Keep them SPECIFIC: a clue that also matches a tank id turns that tank into an IFV and
+	#its crew will climb out mid-battle. "m1" would catch m1a2 for exactly that reason.
+	#
+	#Who stays aboard is not configurable, because it cannot be read off the seat data
+	#reliably: the DRIVER (seat 0) and the TURRET (the seat carrying the most weapons) hold
+	#their positions and everyone else dismounts. Seats are not consistent enough for a
+	#finer rule -- superbwarfare:bmp_2 gives its six rear seats firing-port MGs, so an
+	#"only weaponless seats dismount" rule would empty nothing at all, while fcp's BMPs put
+	#a WEAPONLESS driver in seat 0 and the turret in seat 1.
+	ifvNameClues = ["bradley", "bmp", "bmd", "cv90", "puma", "marder"]
+	#Let a tank-rider seat (SuperbWarfare's Pose=="Climb" — an exposed handhold, not a real
+	#crew station) empty out once the driver holds ANY target, and refill once a nearby idle
+	#RU/US unit walks past a hull with a free one. Purely a utilization fix, not an anti-armor
+	#tactic like ifvDismountsEnabled: a Climb seat has no weapon and nothing to do mounted, so
+	#there is no reason to fight with an idle NPC riding along instead of on foot.
+	#No AT launcher is issued (these are spare hitchhikers, not a designated element) and there
+	#is no recall — SeekAbandonedVehicleGoal is what lets ANY idle unit reclaim the seat later,
+	#not necessarily the one who got off. Identified by pose, not by seat index or "no weapon"
+	#(which would also empty a weaponless commander seat) — so this works unmodified on any
+	#hull using SuperbWarfare's seat schema, addons included.
+	tankRiderDismountEnabled = true
+	#SuperbWarfare launcher handed to an RU dismount squad's anti-tank gunners.
+	#A dismount squad only ever leaves the hull because it met ARMOUR, and a TACZ rifle cannot
+	#hurt armour — without this the squad is put on the ground with nothing useful to do.
+	#The weapon REPLACES the unit's rifle (there is only one main hand), and it comes with its
+	#own ammunition supply (atBackupAmmo) rather than drawing from an inventory, because RU/US
+	#units have none. Set blank to leave RU dismounts with their rifles.
+	atWeaponRu = "superbwarfare:rpg"
+	#The same, for a US dismount squad. The Javelin is guided and fire-and-forget, so it works
+	#at any range the unit can acquire a target at; the RPG is an unguided rocket and wants to
+	#be much closer (see atEngageRange). Set blank to leave US dismounts with their rifles.
+	atWeaponUs = "superbwarfare:javelin"
+	#Chance that a dismount squad gets a SECOND anti-tank gunner. The first dismount always
+	#gets one; nobody past the second ever does, whatever this is set to.
+	#0.0 = always exactly one AT gunner per squad, 1.0 = always two.
+	#Range: 0.0 ~ 1.0
+	atSecondGunnerChance = 0.5
+	#Rockets/missiles issued with the launcher. RU/US units have no inventory, so this is an
+	#ISSUED supply (SuperbWarfare's own item-free ammo channel) rather than carried items —
+	#the same way mortar shells and TOW missiles reach these crews. When it runs out the
+	#gunner is left with an empty tube; it is not resupplied.
+	#Range: 1 ~ 64
+	atBackupAmmo = 8
+	#Maximum range (in blocks) at which an AT gunner will fire.
+	#This is a FIRE gate, not an approach order: SimpleEnemyMod walks a unit to within 90
+	#blocks of its target and then stops, so a gunner further out than this simply holds fire
+	#rather than wasting its small supply of rockets on shots that fall short.
+	#Raise it well past 90 for the Javelin, which is guided and does not care about the drop.
+	#Range: 8.0 ~ 200.0
+	atEngageRange = 48.0
+	#How long an AT gunner tracks its target before the first shot, in goal ticks.
+	#Note goals tick every OTHER game tick, so this is roughly 2x its value in game ticks.
+	#Purely a feel knob — it stops a launcher going off the instant the unit hits the ground.
+	#Range: 0 ~ 200
+	atAimTicks = 15
+	#Let PMC units treat themselves and each other with superbwarfare:medical_kit while OUT
+	#of contact (neither the medic nor the patient holding a target).
+	#Kits are NOT issued automatically — put them in a unit's inventory yourself, and they are
+	#consumed one per treatment. A unit with no kit simply never does this.
+	medicEnabled = true
+	#How far (in blocks) a medic will look for a wounded same-faction unit to treat.
+	#It treats ITSELF first when hurt; only then does it walk to someone else.
+	#A dedicated medic roams, so this wants to be generous — too small and it never
+	#happens to be near anyone hurt.
+	#Range: 2.0 ~ 48.0
+	medicSearchRadius = 24.0
+	#Health a dedicated medic restores per treatment pulse, repeated every couple of seconds
+	#while it stands over a patient. Deliberately modest: the medic works from an unlimited
+	#supply, so it tops someone up gradually rather than in one tick.
+	#This does NOT apply to a PMC spending a real medical kit from its inventory — that
+	#consumes the kit and applies SuperbWarfare's own full heal instead.
+	#Range: 0.5 ~ 20.0
+	medicHealPerTreat = 2.0
+	#Slow an AI-crewed vehicle's drive speed and turret slew as it loses health.
+	#SuperbWarfare already degrades mobility when a specific COMPONENT is knocked out (a dead
+	#track/engine/turret), but not gradually with overall damage — this adds that, and only to
+	#vehicles a unit is crewing (player-driven hulls are untouched).
+	healthMobilityEnabled = true
+	#Slowest an AI vehicle gets from damage, as a fraction of its full speed/slew, reached at
+	#0 health. Mobility scales linearly from 1.0 at full health down to this. Keep it above 0
+	#so a near-dead tank still limps and turns rather than freezing in place.
+	#Range: 0.05 ~ 1.0
+	healthMobilityFloor = 0.4
+	#Chance (0.0-1.0) that a freshly-spawned RU/US unit brings a same-faction squad medic with
+	#it. Rolled once per unit on first spawn, then suppressed if a friendly medic is already
+	#within supportDedupeRadius, so a cluster of units gets about one medic rather than a swarm.
+	#Medics are neutral (no faction targets them), carry no weapon, and heal their own side.
+	#Range: 0.0 ~ 1.0
+	medicSpawnChance = 0.06
+	#Chance (0.0-1.0) that a freshly-spawned RU/US unit brings a same-faction mechanical
+	#engineer. Same first-spawn roll and dedupe as medics. Engineers carry a repair tool and
+	#patch up friendly or empty hulls on foot; they can be targeted like any other unit.
+	#Range: 0.0 ~ 1.0
+	engineerSpawnChance = 0.05
+	#Radius (in blocks) used to avoid stacking support units: a medic/engineer companion is not
+	#spawned if one of the same role and faction is already within this distance.
+	#Range: 4.0 ~ 128.0
+	supportDedupeRadius = 32.0
+	#How far (in blocks) a mechanical engineer looks for a damaged friendly/empty vehicle to fix.
+	#Range: 4.0 ~ 96.0
+	engineerSearchRadius = 24.0
+	#Vehicle health an engineer restores per repair pulse (SBW vehicle health units; a BMP has
+	#300 max). Applied every engineerRepairCooldown goal ticks while it stands by the hull.
+	#Range: 0.5 ~ 100.0
+	engineerRepairPerTreat = 4.0
+	#Goal ticks between an engineer's repair pulses (goals tick every OTHER game tick, so this
+	#is roughly 2x its value in game ticks).
+	#Range: 1 ~ 200
+	engineerRepairCooldown = 10
+	#Sidearms an engineer may carry, one rolled per unit. It rides in the OFF hand while the
+	#engineer works and is drawn into the main hand only once it has a target — SimpleEnemyMod's
+	#rifle goal fires whatever TACZ gun is in the MAIN hand, so the swap is what makes a
+	#holstered weapon behave like a holstered weapon.
+	#
+	#These are TACZ GUN IDs — NOT item ids, and NOT item tags. Every TACZ gun is the same
+	#item (tacz:modern_kinetic_gun) carrying its gun id in NBT, so "tacz:m1911" only means
+	#anything through TACZ's own gun registry; an id TACZ does not know simply leaves that
+	#engineer without a sidearm rather than erroring.
+	#
+	#Ammunition is TACZ's DUMMY-ammo channel (an effectively unlimited magazine written onto
+	#the gun itself), which is exactly how SimpleEnemyMod supplies its own units: RU/US units
+	#have no inventory, so a real ammo item would have nowhere to live and the gun would
+	#never fire. There is no ammo item to configure.
+	engineerSidearmPool = ["tacz:m9a1", "tacz:m1911", "tacz:glock_17"]
+	#Max recon drones a single engineer may have deployed at once. Ownership is tagged on the
+	#drone itself and re-counted from the world rather than remembered by the engineer, so this
+	#cap survives a chunk reload rather than resetting it.
+	#Range: 0 ~ 8
+	droneMaxPerEngineer = 2
+	#Game ticks between an engineer's deploy rolls. Skipped entirely once at droneMaxPerEngineer
+	#— an engineer with a full flight never even runs this check.
+	#Range: 20 ~ 12000
+	droneDeployCheckIntervalTicks = 200
+	#Chance (0.0-1.0) that a deploy roll actually launches a drone, rolled once per
+	#droneDeployCheckIntervalTicks while under the cap.
+	#Range: 0.0 ~ 1.0
+	droneDeployChance = 0.2
+	#Height (in blocks) a drone holds above the engineer it escorts while on station.
+	#Range: 5.0 ~ 60.0
+	droneScanAltitude = 20.0
+	#Radius (in blocks) a drone scans around itself for enemies.
+	#Range: 8.0 ~ 128.0
+	droneDetectionRadius = 48.0
+	#Radius (in blocks) around a drone that a spotted enemy is relayed to — every same-faction
+	#unit or vehicle crew in range with no target of its own is handed the sighting directly
+	#(RU/US have no order queue to route it through, unlike the PMC radio relay).
+	#Range: 16.0 ~ 384.0
+	droneBroadcastRadius = 160.0
+	#Game ticks between a drone's enemy scans (an area query, the expensive part), throttled
+	#independent of flight ticking. Proximity/faction only — no line-of-sight check: a spotted
+	#target only makes a receiving unit/vehicle AWARE of it, and firing still gates on that
+	#unit's own LOS check at the moment it shoots, so this never causes a tank to shoot
+	#through a wall it can't see over.
+	#Range: 5 ~ 200
+	droneScanIntervalTicks = 20
+	#Let RU/US infantry climb into an abandoned vehicle they walk past, so a hull whose crew
+	#bailed out (or one you parked and left) gets crewed again instead of sitting there.
+	#A unit only does this while it has NO target — it will not break off a firefight to go
+	#looking for a ride. PMC units are unaffected: they board on your order instead.
+	#Note this deliberately cannot recall an IFV's dismount squad — the hull they left still
+	#holds its driver and gunner, and only a COMPLETELY empty vehicle is scavenged.
+	autoBoardEnabled = true
+	#Radius (in blocks) an idle RU/US unit searches for an abandoned vehicle.
+	#This scan is the whole cost of the feature, so keep it modest — it runs on every idle
+	#unit on the map. Lower it if you spawn very large numbers of infantry.
+	#Range: 4.0 ~ 128.0
+	autoBoardScanRadius = 32.0
+	#Minimum health (as a fraction of maximum) an abandoned vehicle must still have before a
+	#crew will take it. Below this the hull is a burning wreck in waiting and a crew that
+	#boarded it would only bail straight back out.
+	#Range: 0.0 ~ 1.0
+	autoBoardMinHealthFraction = 0.25
+	#Whether enemies may take a vehicle a PLAYER last drove.
+	#SuperbWarfare has no concept of vehicle ownership at all — the last driver is the only
+	#signal there is — so turning this on means any hull you step out of is fair game, and
+	#leaving it off means a vehicle you have driven even once is permanently off limits.
+	autoBoardStealsPlayerVehicles = false
+	#Distance (in blocks) between successive slots in a vehicle wedge or column.
+	#This is the step directly astern; a wedge also fans out sideways 1.25x as fast, which is
+	#SimpleEnemyMod's own wedge proportion kept at vehicle scale.
+	#MUST stay comfortably above your widest hull's width — a T-90A is 4.62 blocks across, and
+	#the terrain sensor treats an allied hull as a no-go box reaching a full hull width out from
+	#its centre. Set this too low and a column puts each hull's slot inside its leader's no-go
+	#box: the follower can never settle there and turns in place beside the formation forever.
+	#Larger = a looser, safer formation that covers more ground.
+	#Range: 5.0 ~ 32.0
+	vehicleFormationSpacing = 12.0
+	#How close (in blocks, measured horizontally) a hull must get to its formation slot to park.
+	#Formations need their own arrival distance because the ordinary one is a hull width plus 8
+	#blocks — 11.62 for a T-90A, wider than the whole formation, so every hull would count as
+	#'arrived' from anywhere in it and the wedge would collapse onto the point man.
+	#KEEP THIS BELOW HALF vehicleFormationSpacing, or neighbouring slots' arrival circles overlap
+	#and a hull can 'arrive' while sitting in its neighbour's slot.
+	#Range: 1.0 ~ 8.0
+	vehicleFormationArriveRadius = 3.0
+	#Let an AI crew reposition on its own initiative when it is holding a target it cannot
+	#actually shoot — a turret that can't depress far enough, terrain in the way, or any other
+	#reason. Without this two tanks can sit staring at each other forever, since holding still
+	#is exactly what the standoff doctrine asks for and nothing notices no shots are coming out.
+	#Disable to restore the old behavior of holding the standoff ring unconditionally.
+	stalemateBreakerEnabled = true
+	#How long an AI crew may hold a live target without landing a shot before it assumes it is
+	#stuck and repositions (20 ticks = 1 second).
+	#MUST stay above the slowest legitimate reload on your hulls, or crews will wander off mid-duel
+	#between normal shots: SBW cannon reloads run 6-13 seconds, so the default sits clear of them.
+	#Raise it if you run slow-firing modded vehicles. Targets outside the turret's elevation range
+	#are detected immediately and don't wait for this timer.
+	#Range: 40 ~ 2400
+	stalemateSilenceTicks = 300
+	#Horizontal radius (in blocks) of the cylindrical target scan used by mounted AI crews.
+	#Replaces the vanilla follow-range scan, which is far too short for vehicle engagement ranges.
+	#Larger = crews spot enemies farther out, but each scan touches more of the world (Lower this for performance).
+	#Range: 8.0 ~ 128.0
+	vehicleTargetScanRadius = 96.0
+	#Total height (in blocks) of the target-scan cylinder, centered on the vehicle.
+	#Raise it if enemies on tall cliffs should be engaged.
+	#Range: 4.0 ~ 128.0
+	vehicleTargetScanHeight = 128.0
+	#Ticks between target scans per crew member (20 = 1 second).
+	#Higher number = cheaper, but crews react slower to threats.
+	#Range: 1 ~ 200
+	vehicleTargetScanIntervalTicks = 20
+	#If vehicles should use LineOfSight. Disable to squeeze much more performance, keep enabled for realism.
+	vehicleTargetRequireLineOfSight = true
+	#Range a vehicle uses to scan for allies in combat
+	#Range: 0.0 ~ 256.0
+	vehicleAllyAssistRange = 128.0
+	#Look ahead while driving and steer AI vehicles around water and lava instead of
+	#ploughing straight into them. Drops are deliberately NOT avoided — SBW's fall damage
+	#on vehicles is forgiving, so refusing them cost far more mobility than it saved.
+	#Disabling restores legacy behavior of driving in a straight line at the destination.
+	vehicleTerrainAvoidance = true
+	#How far ahead (in blocks) the terrain sensor probes for hazards.
+	#Higher numbers = scans ahead for obstacles at the cost of performance.
+	#Range: 1.0 ~ 16.0
+	vehicleLookaheadDistance = 5.0
+	#How long a patrolling ground vehicle holds a spot before moving to a new random point
+	#inside its patrol area (20 ticks = 1 second; default 3600 = 3 minutes).
+	#Range: 200 ~ 24000
+	patrolRotateIntervalTicks = 3600
+	#Let a crewed ground/ship hull with no target and no standing order potter about near
+	#where it went idle -- short drives to nearby drivable ground, with pauses where it sits
+	#completely still, and a slow turret sweep. Turn off to have idle hulls park like statues.
+	#The turret sweep and idle radio chatter are NOT disabled by this; only the driving is.
+	idleWanderEnabled = true
+	#How far (in blocks) an idle hull may drift from the spot it went idle at.
+	#Kept small on purpose: this is a crew stretching its legs, not a patrol -- use the
+	#Tactical Data Terminal's Patrol order for a real one.
+	#Range: 4 ~ 64
+	idleWanderRadius = 16
+
+[flight_ai]
+	#Horizontal standoff (in blocks) a NPC helicopter holds from a combat target while
+	#aiming: beyond it the aircraft closes in, inside it the aircraft holds and pitches
+	#its nose down onto the target so its weapons bear.
+	#Range: 12.0 ~ 64.0
+	heliEngageRadius = 32.0
+	#Altitude-hold tolerance (in blocks). The NPC helicopter only applies climb/descend
+	#collective when it is more than this far off its target height, so it settles into
+	#a stable hover instead of hunting up and down. Smaller = tighter but twitchier.
+	#Range: 0.5 ~ 8.0
+	heliAltDeadband = 2.5
+	#Target horizontal cruise speed (blocks/tick) an helicopter flies a leg at.
+	#The pilot brakes toward this as a ceiling and eases below it on approach so it
+	#decelerates onto the destination instead of overshooting. Lower = gentler, safer.
+	#Range: 0.1 ~ 2.0
+	heliCruiseSpeed = 0.6
+	#Ticks between weapon switches for an helicopter crew in combat (20 = 1 second).
+	#Range: 1 ~ 1200
+	heliWeaponSwitchIntervalTicks = 60
+	#Height (in blocks) above the TARGET an AI helicopter holds while aiming in combat.
+	#Lower = shallower dive needed to bring fixed weapons to bear (fires much more
+	#reliably) but a more exposed, terrain-hugging attack profile. Outside the engage
+	#ring the aircraft still transits at its normal cruise flight level.
+	#Range: 8.0 ~ 40.0
+	heliAttackHeight = 15.0
+	#If enabled, helicopters will keep flying even if chunks are unloaded. Can cause performance issues if many helicopters are flying at once.
+	heliChunkLoading = false
+
+[mortar_ai]
+	#How close (in blocks) a unit must get to a mortar before it can work it. A mortar has
+	#no seats, so the crew stands beside it rather than riding it. Raise this if crews take
+	#splash damage from their own launches; lower it for a tighter, more natural crew stance.
+	#Range: 1.0 ~ 6.0
+	mortarUseDistance = 2.0
+	#How long a unit keeps trying to walk to its assigned mortar before giving up and
+	#releasing it for someone else (20 ticks = 1 second). The clock only runs while the
+	#crew is walking, so a unit already in position never times out.
+	#Range: 20 ~ 1200
+	mortarApproachTimeoutTicks = 300
+	#Minimum delay between shots from one mortar crew (20 ticks = 1 second). This is on top
+	#of the mortar's own ~1.25 s load cycle, so it sets the sustained rate of fire.
+	#Lower = faster barrages and heavier ammo drain.
+	#Range: 1 ~ 1200
+	mortarFireCooldownTicks = 60
+	#Scatter radius (in blocks) an AI crew aims within, around its target. Each shot is
+	#re-rolled inside this circle, so a mortar walks its rounds over an area instead of
+	#hammering one point. 0 aims dead-on every shot.
+	#Range: 0 ~ 16
+	mortarDispersionRadius = 3
+	#Require a crew to carry mortar shells in its inventory (sneak+right-click a unit to open
+	#it) and consume one per shot. Disable for unlimited shells — useful for testing.
+	mortarRequiresAmmo = true
+	#Keep a crewed mortar and its crew loaded and ticking when no player is nearby.
+	#This is what lets a radio fire mission be worked from far outside your render distance —
+	#without it a mortar simply stops existing once you walk away, and the barrage stops with it.
+	#Only chunks with a crewed mortar in them are held, and only until the crew stands down,
+	#so the cost scales with how many mortars you have manned, not with the map.
+	#Disable if you are manning many mortars at once and the server is struggling.
+	mortarChunkLoading = true
+	#Range (in blocks) of the handheld radio: how far it looks for the mob you are pointing at,
+	#and how far its fire mission reaches out to your manned mortars and TOW launchers.
+	#A mortar itself can shoot roughly 27-770 blocks, so the default covers most of that.
+	#Range: 16.0 ~ 1024.0
+	mortarRadioRange = 400.0
+	#Log why a mortar crew is holding fire (to the server log, once per change of reason).
+	#Turn this on if a crew reaches its mortar but won't shoot — it names the exact gate,
+	#e.g. no target, out of range, no shells.
+	mortarDebugLogging = false
+
+[voicelines]
+	#Master switch for ALL crew radio voicelines. With this on, a hull speaks with ONE voice
+	#(the driver) that calls out contact, taking fire (under 60% health), popping smoke,
+	#dropping its squad from an IFV, bailing out, and acknowledging player orders -- muffled
+	#radio traffic rather than SimpleEnemyMod's shouted infantry lines, which are also muted
+	#inside a hull so a loaded carrier doesn't fire one death shout per rider at once.
+	#Lines play on the vanilla Voice/Speech volume slider; units on foot are unaffected.
+	#Turn off to silence every vehicle voiceline and restore SimpleEnemyMod's own behaviour.
+	vehicleVoicelinesEnabled = true
+	#Base emission volume for crew voicelines, so they carry over gunfire.
+	#Above 1.0 does NOT raise peak loudness (Minecraft clamps gain to 1.0) but widens the
+	#sound's falloff radius, so it attenuates more gently and stays audible further out.
+	#The in-game Voice/Speech slider scales this per-player on top.
+	#Range: 0.5 ~ 4.0
+	vehicleVoicelineVolume = 1.8
+	#How long a crew must go without a target before it starts idle radio chatter
+	#(20 ticks = 1 second). Set high to keep hulls quiet between fights.
+	#Range: 20 ~ 12000
+	idleVoicelineDelayTicks = 200
+	#A hull below this fraction of its max health does not chatter -- a shot-up crew has
+	#nothing idle to say. Its damaged/bail lines still play.
+	#Range: 0.0 ~ 1.0
+	idleVoicelineHealthFraction = 0.3
+
+[interaction]
+	#Radius (in blocks) around the player searched for owned units for any Tactical Data Terminal ground order (Board, Dismount, Patrol, Search, Dismiss, Formation) and Escort's fallback search.
+	#Range: 8.0 ~ 128.0
+	boardScanRadius = 64.0
+	#Show an action-bar confirmation when a board/dismount/mortar order is issued.
+	showOrderFeedback = true
+
+[overlay]
+	#Colour the name and health bar of SuperbWarfare's hover overlay by who is CREWING the
+	#vehicle, so you can tell an enemy tank from your own at a glance.
+	#SuperbWarfare colours that overlay from the driver's scoreboard team, and an NPC unit is
+	#not on a team, so without this every AI-crewed hull renders the same plain white.
+	#Only a hull crewed ENTIRELY by one faction is coloured; an empty, mixed, or
+	#player-occupied one keeps SuperbWarfare's own colour.
+	#This is a client-side preference — on a server each player sees their own setting.
+	factionColorsEnabled = true
+	#Colour for a hull crewed entirely by RU units, as RRGGBB hex. Default is red.
+	colorRu = "FF5555"
+	#Colour for a hull crewed entirely by US units, as RRGGBB hex. Default is blue.
+	colorUs = "5555FF"
+	#Colour for a hull crewed entirely by PMC units, as RRGGBB hex. Default is green.
+	colorPmc = "55FF55"
+
+[map]
+	#Show your own PMC-crewed vehicles as markers on Xaero's World Map, and let you select
+	#them there and right-click the map to order them somewhere.
+	#Does nothing without Xaero's World Map installed. The server sends each player only
+	#their OWN units' positions, so this cannot be used to scout with.
+	mapMarkersEnabled = true
+	#How often (in game ticks) the server sends each player the positions of their PMC
+	#vehicles. Lower is smoother marker movement and more traffic; 20 is once a second.
+	#Range: 5 ~ 200
+	mapSyncIntervalTicks = 20
+	#How far (in blocks) your side can see an OTHER faction's vehicle for it to appear
+	#on your map. Measured from you and from each of your own crewed vehicles, so a
+	#tank you send forward scouts for you.
+	#Set to 0 to show only your own vehicles and never anyone else's.
+	#Range: 0.0 ~ 512.0
+	mapSpotRadius = 128.0
+	#Fill colour for a vehicle crewed by a faction that is friendly to you (SimpleEnemyMod's
+	#ruUnitsFriendly / usUnitsFriendly), as RRGGBB hex. Default is NATO friendly blue.
+	mapColorFriendly = "80D0FF"
+	#Fill colour for a vehicle crewed by a faction hostile to you, as RRGGBB hex.
+	#Default is NATO hostile red.
+	mapColorHostile = "FF8080"
+

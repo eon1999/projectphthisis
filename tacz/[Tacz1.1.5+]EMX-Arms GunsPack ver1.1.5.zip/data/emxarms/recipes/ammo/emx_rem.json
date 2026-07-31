@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:nether_star"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "emxarms:emx_rem",
+    "count": 10
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

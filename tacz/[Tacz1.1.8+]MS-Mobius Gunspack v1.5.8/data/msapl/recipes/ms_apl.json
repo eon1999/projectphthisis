@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_a",
+    "nbt": {
+      "BlockId": "msapl:ms_apl"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "121",
+    "AAA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_block"
+    }
+  }
+}

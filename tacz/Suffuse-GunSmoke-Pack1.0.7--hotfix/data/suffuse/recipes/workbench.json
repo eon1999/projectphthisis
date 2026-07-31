@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OCO",
+    "STS",
+    "SSS"
+  ],
+  "key": {
+    "O": { "item": "mekanism:ingot_osmium" },
+    "C": { "item": "immersiveengineering:ingot_constantan" },
+    "S": { "item": "immersiveengineering:ingot_steel" },
+    "T": { "item": "mekanism:advanced_control_circuit" }
+  },
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "suffuse:workbench"
+    }
+  }
+}

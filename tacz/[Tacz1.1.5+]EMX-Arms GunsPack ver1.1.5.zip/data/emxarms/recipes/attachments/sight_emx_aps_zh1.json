@@ -1,0 +1,47 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:sight_emx_aps"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "trisdyna:sight_neutron"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trisdyna:sight_emx_aps_zh1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

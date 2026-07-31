@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "sfms:50ich",
+    "count": 2
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

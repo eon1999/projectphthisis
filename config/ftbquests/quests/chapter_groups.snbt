@@ -1,0 +1,11 @@
+{
+	default_quest_shape: ""
+	groups: [
+		{
+			id: "c7bd0b906583ae5"
+			order_index: 0
+			title: "Gun Progression"
+			icon: "tacz:gun_smith_table"
+		}
+	]
+}
