@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "2579273681C1836F"
+	id: "3A9B1013F032766E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Refined Storage"
+}

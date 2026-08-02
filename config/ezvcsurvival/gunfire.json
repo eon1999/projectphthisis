@@ -2425,6 +2425,606 @@
       "enabled": false,
       "speed": 1.0,
       "range": 40.0
+    },
+    "dayzombierebooted:spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "infectious:lootdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:angry_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:infectious_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:fat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:old_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_girl": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:screamer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:chained_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:balloon_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:sleepy_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_spiter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:tower_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_on_stelts": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:big_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:giant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:brain_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:blind_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:crawling_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:armless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:bodyless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:headless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:maggot_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:claw_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:bucket_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:pylon_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:pumpkin_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:beehive_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:barrel_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:door_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:iron_door_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:football_player_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:bouncer_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_climber": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_runner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_boxer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:muscular_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:pool_tube_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_diver": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "infectious:deep_sea_diver_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "infectious:zombie_farmer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_fisherman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:beekeeper_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_lumberjack": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_miner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:construction_worker_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_painter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_clown": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:disco_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_dancer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:mc_donalds_worker_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_cook": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_doctor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_astronaut": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:robotic_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:mecha_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_scientist": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:fire_fighter_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_agent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:security_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_police": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:swat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_soldier": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_batman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_prisoner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:psycho_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_bomber": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:doom_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:franklin_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:hazmat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:acid_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:baseball_bat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_archer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:firework_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_warrior": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_hitler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_horseman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_chicken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_bird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_boar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_rex": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:burning_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:burned_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:withered_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:frozen_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:muddy_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:fungal_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:golden_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:mummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:enchanted_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:glitched_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:spore_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:radioactive_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:mutant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_breeder": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:ancient_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_bait": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:balloon_zombie_no_balloon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_horseman_no_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_miner_spawn": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:atomic_mushroom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_screamer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:bike": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:turret": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombified_bird_flying": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:tower_zombie_1": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:tower_zombie_2": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:tower_zombie_3": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:tower_zombie_4": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:bees": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:ancient_zombie_boss": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:zombie_horde": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:nuke": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:nuke_explosion": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "infectious:mutation_trigger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
     }
   }
 }

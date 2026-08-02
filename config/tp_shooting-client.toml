@@ -2,7 +2,7 @@
 constant_aiming_zoom_scale = true
 #FOV scale for constant_aiming_fov_scale
 #Range: 0.0 ~ 1.7976931348623157E308
-constant_aiming_zoom_scale_value = 2.5
+constant_aiming_zoom_scale_value = 2.0
 #(Locked) ads speed for constant_aiming_fov_scale
 #Range: 0.0 ~ 1.7976931348623157E308
 constant_aiming_ads_speed = 1.0

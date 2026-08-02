@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/firefighter.txt!
+Decked out in firefighter armor and swinging a fire axe. Built to walk through flames the rest of the class can't.

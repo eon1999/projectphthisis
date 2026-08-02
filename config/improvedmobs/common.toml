@@ -5,7 +5,7 @@
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
 	#Range: > 0
-	"Difficulty Delay" = 0
+	"Difficulty Delay" = 96000
 	#If true ignores mobs from spawners
 	"Ignore Spawner" = false
 	#Handles increase in difficulty regarding current difficulty.
@@ -14,7 +14,7 @@
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
 	#If you want to use negative values use | instead of - as the delimiter.
-	"Difficulty Increase" = ["0.0-0.1", "250.0-0.0"]
+	"Difficulty Increase" = ["0.0-0.0893", "25.0-0.0885", "110.0-0.0297", "250.0-0.0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
@@ -56,7 +56,7 @@
 	#<#minecraft:raiders|ATTRIBUTES> will add all entities in the raiders tag to everything except attributes
 	#<minecraft:sheep|ATTRIBUTES> will add sheep to everything except attributes
 	#<minecraft> disables everything for all minecraft mobs
-	"Entity Configs" = ["dyairdrop:medicalairdrop", "starter_bunker:light_entity", "dyairdrop:transportplane", "mca:female_villager", "minecraft:glow_squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:parrot", "dyairdrop:smallairdrop", "butchery:turtleshellboat", "minecraft:horse", "minecraft:polar_bear", "minecraft:bat", "minecraft:wandering_trader", "spore:hevoker_arm", "mca:grim_reaper", "minecraft:llama", "minecraft:pig", "minecraft:frog", "minecraft:iron_golem", "minecraft:turtle", "minecraft:sheep", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "spore:wave", "mca:male_villager", "minecraft:cod", "starter_bunker:spawnpoint_entity", "minecraft:donkey", "minecraft:squid", "minecraft:mule", "minecraft:skeleton_horse", "minecraft:sniffer", "minecraft:cow", "minecraft:zombie_horse", "superbwarfare:steel_coil", "minecraft:camel", "starter_bunker:no_waterlogging", "dyairdrop:plane", "dyairdrop:weaponairdrop", "minecraft:bee", "minecraft:cat", "minecraft:pufferfish", "spore:tendril", "spore:scent", "minecraft:salmon", "minecraft:fox", "minecraft:allay", "dyairdrop:airdrop", "minecraft:tropical_fish", "minecraft:snow_golem", "minecraft:mooshroom", "minecraft:villager", "mekanism:robit", "minecraft:ocelot", "minecraft:chicken", "spore:tentacle", "minecraft:wolf", "spore:arena_tendril", "minecraft:panda", "minecraft:rabbit", "spore:tumoroid_nuke", "minecraft:axolotl"]
+	"Entity Configs" = ["dyairdrop:medicalairdrop", "starter_bunker:light_entity", "dyairdrop:transportplane", "mca:female_villager", "minecraft:glow_squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:parrot", "dyairdrop:smallairdrop", "butchery:turtleshellboat", "minecraft:horse", "minecraft:polar_bear", "minecraft:bat", "minecraft:wandering_trader", "spore:hevoker_arm", "mca:grim_reaper", "minecraft:llama", "minecraft:pig", "minecraft:frog", "minecraft:iron_golem", "minecraft:turtle", "minecraft:sheep", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "spore:wave", "mca:male_villager", "minecraft:cod", "starter_bunker:spawnpoint_entity", "minecraft:donkey", "minecraft:squid", "minecraft:mule", "minecraft:skeleton_horse", "minecraft:sniffer", "minecraft:cow", "minecraft:zombie_horse", "superbwarfare:steel_coil", "minecraft:camel", "starter_bunker:no_waterlogging", "dyairdrop:plane", "dyairdrop:weaponairdrop", "minecraft:bee", "minecraft:cat", "minecraft:pufferfish", "spore:tendril", "spore:scent", "minecraft:salmon", "minecraft:fox", "minecraft:allay", "dyairdrop:airdrop", "minecraft:tropical_fish", "minecraft:snow_golem", "minecraft:mooshroom", "minecraft:villager", "mekanism:robit", "minecraft:ocelot", "minecraft:chicken", "spore:tentacle", "minecraft:wolf", "spore:arena_tendril", "minecraft:panda", "minecraft:rabbit", "spore:tumoroid_nuke", "minecraft:axolotl", "minecolonies:citizen", "minecolonies:visitor"]
 	#Any of the following 
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO, PEHKUI]
 	#added here will disable that feature completely.
@@ -199,7 +199,7 @@
 #Configs regarding mobs spawning with equipment
 [equipment]
 	#Blacklist items from whole mods. Add modid to prevent items from that mod being equipped. (For individual items use the equipment.json)
-	"Item Blacklist" = ["minecraft:tnt", "minecraft:ender_pearl", "minecraft:lava_bucket"]
+	"Item Blacklist" = ["minecraft:tnt", "minecraft:ender_pearl", "minecraft:lava_bucket", "mekanism", "spore", "immersiveengineering", "ad_astra"]
 	#Use blacklist as whitelist
 	"Item Whitelist" = false
 	#Blacklist for items mobs should never be able to use.
@@ -217,7 +217,7 @@
 	"Equipment Chance" = 0.10000000149011612
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.30000001192092896
+	"Additional Equipment Chance" = 0.20000000298023224
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Equipment Addition" = 0.30000001192092896
@@ -226,7 +226,7 @@
 	"Armor Trim Chance" = 0.05000000074505806
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
-	"Weapon Chance" = 0.5
+	"Weapon Chance" = 0.30000001192092896
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Weapon Chance Add" = 0.30000001192092896
@@ -258,7 +258,7 @@
 	"Health Increase Multiplier" = 1.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 2.0
 	#Round health to the nearest x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Round HP" = 0.5

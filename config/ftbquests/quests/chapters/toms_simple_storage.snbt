@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "2579273681C1836F"
+	id: "1E9C620D56C73D72"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tom's Simple Storage"
+}

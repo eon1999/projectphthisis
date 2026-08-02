@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whats_up"
+	group: "3144CC9EC5DDBA97"
+	id: "4AB6DBB084C93A79"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Project Phthisis is a zombie apocalypse + tech themed modpack. I hope you enjoy!"]
+		id: "189A53430F44ABC0"
+		size: 2.0d
+		tasks: [{
+			icon: "minecraft:zombie_head"
+			id: "4E4B40B612DA127F"
+			optional_task: true
+			title: "Project Phthisis"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "What's up!"
+}

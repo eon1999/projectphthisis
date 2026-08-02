@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kill_more_spore"
+	group: "715B30E1CBDD9028"
+	id: "5FFB045C4E13BA29"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Kill More Spore"
+}

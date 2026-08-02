@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/hunter.txt!
+Equipped with a powerful rifle built for taking down prey from range. Track your targets and drop them before they close in.

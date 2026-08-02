@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez"
+	group: "7FEB3727ECDE4482"
+	icon: "pipez:universal_pipe"
+	id: "73B6CAF7C10A7199"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Pipez is a logistics mod - one pipe type per transport category (Item, Fluid, Gas, Energy), each configurable per-side with filters and upgrades."
+				"It works with basically everything: IE machines, Mekanism machines, and MineColonies storage alike."
+			]
+			icon: "pipez:universal_pipe"
+			id: "0B6646B90D7247B9"
+			shape: "circle"
+			tasks: [{
+				id: "3451E2873BCEFF7D"
+				type: "checkmark"
+			}]
+			title: "What is Pipez?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The main reason to use Pipez over hoppers or other item transport is server performance. Hopper chains and some pipe mods tick constantly and add up fast once a base gets big."
+				"Pipez pipes are lightweight and built to scale - use them instead of hoppers anywhere you're moving items automatically, especially in a factory with a lot of machines."
+			]
+			icon: "pipez:universal_pipe"
+			id: "3B3210D13837B173"
+			shape: "circle"
+			tasks: [{
+				id: "67B09F6231A57B90"
+				type: "checkmark"
+			}]
+			title: "Why Pipez? (Server Performance)"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Each pipe type only moves its own kind of thing - Item Pipes move items, Fluid Pipes move fluids, Gas Pipes move Mekanism gases, Energy Pipes move FE."
+				"Right-click a pipe with the Pipe Wrench to open its per-side configuration."
+			]
+			icon: "pipez:item_pipe"
+			id: "3383827B2891B635"
+			shape: "circle"
+			tasks: [{
+				id: "56B98751534645B4"
+				type: "checkmark"
+			}]
+			title: "Item, Fluid, Gas \\& Energy Pipes"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B3210D13837B173"]
+			description: ["Upgrades (Basic through Infinity) slot into a pipe to increase its transfer rate. Filters and the Filter Destination Tool let you route specific items/fluids/gases to specific machines instead of round-robin."]
+			icon: "pipez:advanced_upgrade"
+			id: "0C90A64270BE710E"
+			shape: "circle"
+			tasks: [{
+				id: "5636764B77181B96"
+				type: "checkmark"
+			}]
+			title: "Pipe Upgrades \\& Filtering"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["With IE and Mekanism machines both online, Pipez is what ties them together - route ores, dusts, ingots, and gases between the two without a single hopper."]
+			icon: "pipez:wrench"
+			id: "634571E24225411D"
+			shape: "circle"
+			tasks: [{
+				id: "6054BDF0DDF1A510"
+				type: "checkmark"
+			}]
+			title: "Wiring Up Your Factory"
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "BETTER, FASTER, STRONGER.... Pipez"
+}

@@ -1,0 +1,563 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekamekanism"
+	group: "7FEB3727ECDE4482"
+	icon: "mekanism:enrichment_chamber"
+	id: "069D413EA897E402"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63765856C86FC902"]
+			description: [
+				"Mekanism is the automation and energy tech tree that sits above Immersive Engineering - ore doubling (and tripling, quadrupling, quintupling), tiered machines (Basic/Advanced/Elite/Ultimate), bulk power storage, and eventually mining robots, teleportation and powered armor."
+				"Almost the entire tree branches out from one block and one ore: the Enrichment Chamber, and Osmium."
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "08773F4B0C752A8E"
+			shape: "circle"
+			tasks: [{
+				id: "158D084873D1B894"
+				type: "checkmark"
+			}]
+			title: "What is Mekanism?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08773F4B0C752A8E"]
+			description: [
+				"Osmium is Mekanism's signature ore - it goes into nearly every machine casing, control circuit, and generator recipe you'll craft below. Mine a stack or two before going further."
+				"Like vanilla ores, Osmium can be smelted 1-for-1 in a furnace, but Mekanism's whole early game is about not doing that - see the next few quests."
+			]
+			icon: "mekanism:ingot_osmium"
+			id: "29A41BA5208817FF"
+			shape: "circle"
+			tasks: [{
+				id: "4C13EB00B08C4425"
+				type: "checkmark"
+			}]
+			title: "Osmium: Mekanism's Core Ore"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29A41BA5208817FF"]
+			description: [
+				"The Enrichment Chamber is Mekanism's first real machine: it turns 1 ore into 2 dust, doubling your ingot output compared to smelting ore directly. It also enriches many other materials (e.g. dust forms of glowstone, obsidian)."
+				"It's built from Steel Casing + a Basic Control Circuit + Iron + Redstone, and needs power to run - even a single Heat Generator (further down this chapter) is enough to start it."
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "305E025C21E6131B"
+			shape: "circle"
+			tasks: [{
+				id: "390F8E0BB29FDD32"
+				type: "checkmark"
+			}]
+			title: "The Enrichment Chamber (2x Ore Processing)"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Metallurgic Infuser is Mekanism's chemistry machine: it fuses a solid item with an infuse-type gas (Carbon, Redstone, Diamond, Refined Obsidian) to make something new. Unlike most machines, it doesn't need a Control Circuit to build - it's made from a plain Furnace, Iron and Osmium."
+				"This is the machine that actually makes your Basic Control Circuits (Osmium Ingot + Redstone infuse-type gas). You can feed it raw Redstone dust directly and it will convert it into gas internally - no separate gas-producing machine required yet."
+			]
+			icon: "mekanism:metallurgic_infuser"
+			id: "45C001A7E240B1CD"
+			shape: "circle"
+			tasks: [{
+				id: "6B24BDC32927BC26"
+				type: "checkmark"
+			}]
+			title: "The Metallurgic Infuser"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Every tier past Basic needs both a matching alloy and the previous circuit: Advanced Control Circuit = Infused Alloy + Basic Circuit. Elite = Reinforced Alloy + Advanced Circuit. Ultimate = Atomic Alloy + Elite Circuit. These upper circuits are ordinary crafting-table recipes once you have the alloy."
+				"The alloys themselves are Metallurgic Infuser outputs: Infused Alloy (Iron + Redstone gas), Reinforced Alloy (Infused Alloy + Diamond gas), Atomic Alloy (Reinforced Alloy + Refined Obsidian gas). Each tier is a harder infusion than the last - budget Diamonds and Refined Obsidian ingots accordingly."
+			]
+			icon: "mekanism:advanced_control_circuit"
+			id: "7023AAC837366C70"
+			shape: "circle"
+			tasks: [{
+				id: "7D03FD69E77A3E24"
+				type: "checkmark"
+			}]
+			title: "Control Circuits \\& Alloys: The Tier Ladder"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Basic tier (Basic Circuit + plain Redstone, no alloy needed) covers the Crusher and the Energized Smelter. The Crusher turns 'dirty dust' and clumps into clean dust for the ore-doubling chain below, and separately turns raw crops/plants into Bio Fuel for the Bio Generator."
+				"The Energized Smelter is just a powered furnace - convenient, but not a big upgrade on its own. The real gains come from the tiers above."
+			]
+			icon: "mekanism:crusher"
+			id: "04BAC5FAC806540A"
+			shape: "circle"
+			tasks: [{
+				id: "6923DDE4370469B6"
+				type: "checkmark"
+			}]
+			title: "Basic Tier Machines"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is a good example of a hidden gate: the Osmium Compressor sounds like an early machine, but it actually needs an Advanced Control Circuit and Infused Alloy to build - it's Advanced tier, not Basic."
+				"It compresses 4 Osmium Ingots + Redstone gas into Osmium Blocks used for high-tier casings, and (with the right gas) compresses ingots and pellets into their shard/block forms."
+			]
+			icon: "mekanism:osmium_compressor"
+			id: "2A572D005B92106D"
+			shape: "circle"
+			tasks: [{
+				id: "29290865108CB6C3"
+				type: "checkmark"
+			}]
+			title: "Advanced Tier: The Osmium Compressor"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Factories are multi-slot versions of your basic machines (Enriching, Crushing, Compressing, Combining, Infusing, Injecting, Purifying, Sawing) - one block that processes several items at once instead of chaining five single machines together."
+				"Factories come in the same Basic/Advanced/Elite/Ultimate tiers and can be upgraded in place with a Tier Installer instead of being rebuilt from scratch."
+			]
+			icon: "mekanism:advanced_enriching_factory"
+			id: "3F7321A8133CE447"
+			shape: "circle"
+			tasks: [{
+				id: "129960169A0C4030"
+				type: "checkmark"
+			}]
+			title: "Factories: Bulk Processing"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			description: ["Elite tier machines run noticeably faster but are noticeably more power-hungry. This is the point where a single Heat or Solar Generator stops being enough and you need real sustained generation - see the Power branch below."]
+			icon: "mekanism:elite_control_circuit"
+			id: "420E3D51BA055309"
+			shape: "circle"
+			tasks: [{
+				id: "785C22A110EC6158"
+				type: "checkmark"
+			}]
+			title: "Elite Tier Machines"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["420E3D51BA055309"]
+			description: ["Ultimate is the top of the standard machine ladder - the fastest version of every processing machine, and the tier that unlocks the Chemical Dissolution Chamber, Chemical Washer and Chemical Crystallizer (see the 5x Ore Chain), plus the Robit, Quantum Entangloporter and QIO network."]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "48EB8AD6B02AF155"
+			shape: "circle"
+			tasks: [{
+				id: "66D56530059E5E5B"
+				type: "checkmark"
+			}]
+			title: "Ultimate Tier Machines"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Electrolytic Separator splits Water into Hydrogen and Oxygen using power (and a little extra energy if you feed it EPIC/other efficiency upgrades). It only needs Basic tier parts to build, but it unlocks a lot: Oxygen feeds the Purification Chamber below, and Hydrogen fuels the Gas-Burning Generator."
+				"Building this early is worth it even before you need the ore chain, purely for the Hydrogen -> power loop."
+			]
+			icon: "mekanism:electrolytic_separator"
+			id: "615F0DC976B8C1CB"
+			shape: "circle"
+			tasks: [{
+				id: "6A8F2336213EE5CA"
+				type: "checkmark"
+			}]
+			title: "Electrolytic Separator: Splitting Water"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Purification Chamber needs an Advanced Control Circuit, Infused Alloy, AND an existing Enrichment Chamber as a crafting ingredient - you can't skip straight to it."
+				"It uses Oxygen (from the Electrolytic Separator) to turn raw ore into 3 Clumps. Run those through a Crusher (dirty dust) then an Enrichment Chamber (clean dust) before smelting - three machines, one ore, 3 ingots."
+			]
+			icon: "mekanism:purification_chamber"
+			id: "6C175F8ACBAF06F0"
+			shape: "circle"
+			tasks: [{
+				id: "2577D9331CF45B02"
+				type: "checkmark"
+			}]
+			title: "The 3x Chain: Purification Chamber"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"420E3D51BA055309"
+				"6C175F8ACBAF06F0"
+			]
+			description: [
+				"The Chemical Injection Chamber needs an Elite Circuit, Reinforced Alloy, and an existing Purification Chamber as an ingredient. It uses Hydrogen Chloride gas to turn ore into 4 Shards."
+				"Shards still need to pass through the Purification Chamber (Oxygen, shard to clump), then Crusher, then Enrichment Chamber before smelting - the chain gets longer as the multiplier goes up."
+			]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "19F1D0A9B6FF8608"
+			shape: "circle"
+			tasks: [{
+				id: "07B73977DFED2CFF"
+				type: "checkmark"
+			}]
+			title: "The 4x Chain: Chemical Injection Chamber"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"48EB8AD6B02AF155"
+				"19F1D0A9B6FF8608"
+			]
+			description: [
+				"The final tier needs Ultimate Circuits for three separate machines: the Chemical Dissolution Chamber (ore + Sulfuric Acid -> Dirty Slurry), the Chemical Washer (Dirty Slurry + Water -> Clean Slurry), and the Chemical Crystallizer (Clean Slurry -> Crystal, smelt for 5 ingots)."
+				"This is the full 5x loop and the reason Mekanism is considered top-of-the-tree for ore processing - but it's gated hard behind Ultimate tier, so don't expect to reach it early."
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "0AE388281D6284C6"
+			shape: "circle"
+			tasks: [{
+				id: "6CB7A931AE67FDB5"
+				type: "checkmark"
+			}]
+			title: "The 5x Chain: Dissolution, Washing & Crystallizing"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Chemical Oxidizer turns solid dusts into gases (e.g. Sulfur dust -> Sulfur Dioxide, used toward Sulfuric Acid for the 5x chain). The Chemical Infuser combines two gases into a new one (e.g. Hydrogen + Sulfur Dioxide -> Sulfur Trioxide -> Sulfuric Acid with water)."
+				"Together these two machines are the backbone of Mekanism's gas chemistry - almost every 'advanced gas' further down this chapter traces back to one of them."
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "5BCA78D5F95C315B"
+			shape: "circle"
+			tasks: [{
+				id: "06B4A2EC7336C95C"
+				type: "checkmark"
+			}]
+			title: "Chemical Infuser \\& Oxidizer: Solids to Gases"
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			description: ["Nothing above runs without power (Mekanism uses Forge Energy/FE, compatible with most other tech mods in this pack). Before you build more than one or two machines, get a real generator running - not just a single low-output source."]
+			icon: "mekanismgenerators:heat_generator"
+			id: "677AD16B2C96A641"
+			shape: "circle"
+			tasks: [{
+				id: "26C2AF54F940DB02"
+				type: "checkmark"
+			}]
+			title: "Powering Your Factory"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Heat Generator is the cheapest real power source in the mod - drop a Lava Bucket in (or pipe lava to it) and it makes a steady trickle of FE. It only needs Iron, Copper, Osmium and a Furnace to build, no Control Circuit required."
+				"It won't power an Elite/Ultimate factory floor, but it's more than enough to bootstrap your first Enrichment Chamber and Metallurgic Infuser."
+			]
+			icon: "mekanismgenerators:heat_generator"
+			id: "458A6FFA47552C53"
+			shape: "circle"
+			tasks: [{
+				id: "7CBB460B48268CB6"
+				type: "checkmark"
+			}]
+			title: "The Heat Generator"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Solar Generator makes power from direct sunlight (none at night, less when raining) and can be upgraded in-place into an Advanced Solar Generator for more output. The Wind Generator makes power from open sky access, scaling with how high up it's built - taller towers with a clear view of the sky produce more."
+				"Both need Infused Alloy and an Energy Tablet to craft, so they arrive slightly later than the Heat Generator, but neither needs fuel once placed."
+			]
+			icon: "mekanismgenerators:solar_generator"
+			id: "5C04838B5E3A15F5"
+			shape: "circle"
+			tasks: [{
+				id: "0CD4973672A400EE"
+				type: "checkmark"
+			}]
+			title: "Solar \\& Wind Generators"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Bio Generator burns Bio Fuel - crush crops, saplings or other plant matter in a Crusher to make it. It's a good renewable option if you're already farming."
+				"The Gas-Burning Generator burns combustible gases, most notably the Hydrogen your Electrolytic Separator is already producing - a direct, no-extra-farming use for that Hydrogen surplus."
+			]
+			icon: "mekanismgenerators:bio_generator"
+			id: "746EF1765FF051F8"
+			shape: "circle"
+			tasks: [{
+				id: "2AA15780BEE27EF4"
+				type: "checkmark"
+			}]
+			title: "Bio Generator \\& Gas-Burning Generator"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C04838B5E3A15F5"]
+			description: [
+				"Energy Cubes store FE and can be carried in your inventory to recharge tools, or placed down as a buffer between generators and machines. They come in Basic/Advanced/Elite/Ultimate tiers, same as everything else."
+				"Keep at least one around before you build an Induction Matrix - Induction Cells are literally crafted using an Energy Cube as an ingredient."
+			]
+			icon: "mekanism:basic_energy_cube"
+			id: "7EA6C457E6A7CA96"
+			shape: "circle"
+			tasks: [{
+				id: "19F765DE8546D7A9"
+				type: "checkmark"
+			}]
+			title: "Energy Cubes: Portable Power"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EA6C457E6A7CA96"]
+			description: [
+				"The Energized Induction Matrix is a multiblock battery bank built from Induction Casing (structure), Induction Ports (input/output), Induction Cells (capacity) and Induction Providers (transfer rate)."
+				"This is how you store and move the huge amounts of power that Elite/Ultimate machines and factories start to demand - a single Basic Induction Cell already needs an Energy Cube to craft, so build a few cubes first."
+			]
+			icon: "mekanism:basic_induction_cell"
+			id: "2FD0E1623DFEEA11"
+			shape: "circle"
+			tasks: [{
+				id: "2ECBCA519E3C7A93"
+				type: "checkmark"
+			}]
+			title: "The Induction Matrix"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD0E1623DFEEA11"]
+			description: [
+				"The Industrial Turbine is a multiblock that converts Steam into large amounts of FE using a Rotor built from Turbine Blades. Steam is supplied by an Industrial Boiler (Boiler Casing + Boiler Valve + Superheating Element), which burns any heat source to boil water."
+				"This pairing is Mekanism's mid-to-late-game power backbone, well before you'd need a Fission Reactor - build the Induction Matrix first so you have somewhere to put all that power."
+			]
+			icon: "mekanismgenerators:turbine_casing"
+			id: "1A3D0D77547CF050"
+			shape: "circle"
+			tasks: [{
+				id: "1D92A8C67F075E74"
+				type: "checkmark"
+			}]
+			title: "The Industrial Turbine \\& Boiler"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Configurator is Mekanism's universal multi-tool: right-click to rotate machine faces, shift-right-click to change I/O configuration, and it can also pick up/place machines without breaking them (preserving inventory)."
+				"The Atomic Disassembler is Mekanism's mining tool - a single item that scales from a basic pickaxe/axe/shovel replacement up to an end-game one-hit-break tool once upgraded, and it's a required ingredient in the later Meka-Tool."
+			]
+			icon: "mekanism:configurator"
+			id: "6A6610602A8FD76E"
+			shape: "circle"
+			tasks: [{
+				id: "6E890B9C76416AB2"
+				type: "checkmark"
+			}]
+			title: "The Configurator \\& Atomic Disassembler"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Bins are single-item storage blocks that hold huge stacks of one item type - useful for the piles of dust and ingots the ore-processing chain produces. Personal Chests and Personal Barrels are 54-slot storage you carry in your inventory and can open anywhere, even without placing them."
+				"Fluid Tanks and Chemical Tanks work the same way for liquids and gases - carry a tank instead of a stack of buckets."
+			]
+			icon: "mekanism:basic_bin"
+			id: "604E66C0E21E3466"
+			shape: "circle"
+			tasks: [{
+				id: "4CD6210C8529AAB1"
+				type: "checkmark"
+			}]
+			title: "Personal Storage: Bins, Barrels \\& Portable Tanks"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["420E3D51BA055309"]
+			description: [
+				"The Logistical Sorter attaches to the side of an inventory and filters what moves in/out by item, tag, or fuzzy match - Mekanism's answer to a hopper with rules. It's also a required crafting ingredient for the Digital Miner below."
+				"For moving items between machines at scale, most players reach for a dedicated logistics mod (see the Pipez chapter) rather than chaining Sorters everywhere, but it's worth knowing this exists before you assume you need one."
+			]
+			icon: "mekanism:logistical_sorter"
+			id: "4E81E0BF3843203B"
+			shape: "circle"
+			tasks: [{
+				id: "0B91E57DB3B28952"
+				type: "checkmark"
+			}]
+			title: "Logistical Sorters \\& Item Transport"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48EB8AD6B02AF155"]
+			description: [
+				"The Robit is a friendly mobile companion that can mine, farm, or fetch items for you, and it doubles as 27 slots of portable storage. It's crafted from an Atomic Alloy, Refined Obsidian, Steel and an Energy Tablet - Ultimate-tier materials, so it arrives late."
+				"It's also a required crafting ingredient for the Digital Miner - you need to make a Robit before you can make one, even though the miner doesn't use the Robit's AI directly."
+			]
+			icon: "mekanism:robit"
+			id: "21C25247C26AB7C3"
+			shape: "circle"
+			tasks: [{
+				id: "42CC126F9EAF1669"
+				type: "checkmark"
+			}]
+			title: "The Robit"
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"21C25247C26AB7C3"
+				"4E81E0BF3843203B"
+			]
+			description: [
+				"The Digital Miner strip-mines a chunk-sized radius automatically, with a built-in filter (via a Logistical Sorter) and a radar/GPS system (Teleportation Core) so you only pull what you actually want, silently, from far away."
+				"It's crafted from Atomic Alloy, a Basic Circuit, a Robit, two Logistical Sorters, and a Teleportation Core - by far the most ingredient-heavy recipe in this chapter. Build the Robit and Sorters first so this isn't a surprise."
+			]
+			icon: "mekanism:digital_miner"
+			id: "3957393C504857FE"
+			shape: "circle"
+			tasks: [{
+				id: "2B9A8A2C9529E663"
+				type: "checkmark"
+			}]
+			title: "The Digital Miner"
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48EB8AD6B02AF155"]
+			description: [
+				"QIO is Mekanism's end-game storage network - a single searchable item pool backed by high-capacity Drives in a QIO Drive Array, browsed from a QIO Dashboard, similar in spirit to Refined Storage or AE2."
+				"Every QIO block needs an Ultimate Circuit and a Teleportation Core, so treat it as a capstone project once you're deep into Ultimate tier, not an early storage solution."
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "6E1C14C75F3E12CC"
+			shape: "circle"
+			tasks: [{
+				id: "29526F780BDA44BF"
+				type: "checkmark"
+			}]
+			title: "QIO: Quantum Item Storage"
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48EB8AD6B02AF155"]
+			description: [
+				"The Teleporter instantly moves you between two linked Teleporters (frequency-based, costs FE per use and per block of distance). The Quantum Entangloporter does the same thing for power, items, fluids and gases instead of players - link two and pipe/cable straight through solid ground between them."
+				"Both need a Teleportation Core, the same Ultimate-tier item used in the Digital Miner and QIO network - worth batching a few at once."
+			]
+			icon: "mekanism:teleporter"
+			id: "22099345D4A4E184"
+			shape: "circle"
+			tasks: [{
+				id: "13B4D838E2CEF9D3"
+				type: "checkmark"
+			}]
+			title: "Teleporter \\& Quantum Entangloporter"
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E81E0BF3843203B"]
+			description: [
+				"The Security Desk lets you claim a frequency and lock down who can access your machines, storage, and (with Frequency cards) your Teleporters. Handy in an apocalypse pack where other players - or hostile mobs breaking in - are a real concern."
+				"It's Elite-circuit tier, so plan to secure your base once you're past the early game rather than from day one."
+			]
+			icon: "mekanism:security_desk"
+			id: "4CE407573685F614"
+			shape: "circle"
+			tasks: [{
+				id: "752A30009BCBC934"
+				type: "checkmark"
+			}]
+			title: "Security: The Security Desk"
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The Formulaic Assemblicator auto-crafts using a stored Crafting Formula - punch in a shaped recipe once, save it to a card, then insert ingredients and let the machine repeat it automatically. Good for bulk-crafting circuits, casings, or anything else you make constantly."
+				"It's only Basic-tier to build (a Steel Casing, Basic Circuit, and a wooden chest), so there's no reason not to grab one early once you're tired of crafting circuits by hand."
+			]
+			icon: "mekanism:formulaic_assemblicator"
+			id: "60E202F13C215F37"
+			shape: "circle"
+			tasks: [{
+				id: "79E67A7DEA0BA0E6"
+				type: "checkmark"
+			}]
+			title: "Formulaic Assemblicator"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE388281D6284C6"]
+			description: [
+				"The MekaSuit is Mekanism's end-game powered armor, built piece-by-piece from a Netherite Chestplate/Boots/Leggings/Helmet base plus Polonium Pellets, HDPE Sheets, Induction Cells and Ultimate Circuits - so you need to have beaten the Nether/Wither progression before you can even start it."
+				"The Modification Station lets you install and swap Modules (jetpack thrust, elytra, vision, farming, geiger counters, and more) into MekaSuit pieces and the Meka-Tool after that, tuning the suit to what you're doing."
+			]
+			icon: "mekanism:mekasuit_bodyarmor"
+			id: "0216C00206381598"
+			shape: "circle"
+			tasks: [{
+				id: "7794F30D56541504"
+				type: "checkmark"
+			}]
+			title: "MekaSuit \\& Modification Station"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0216C00206381598"
+				"3957393C504857FE"
+				"22099345D4A4E184"
+				"4CE407573685F614"
+			]
+			description: [
+				"That's the base mod: ore processing (1x through 5x), the Basic->Ultimate machine and alloy ladder, power generation and storage, and the late-game utility blocks (Digital Miner, QIO, Teleporter, MekaSuit)."
+				"A few small addons in this pack extend specific pieces of this tree (more factory recipes, more ore sources, Jade integration) - those get their own quests once this foundation is done."
+			]
+			icon: "mekanism:qio_dashboard"
+			id: "170B199D63139C84"
+			shape: "gear"
+			tasks: [{
+				id: "2B452F85FEB61F8A"
+				type: "checkmark"
+			}]
+			title: "Where To Go Next"
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "Mekamekanism"
+}

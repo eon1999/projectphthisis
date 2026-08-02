@@ -43,5 +43,5 @@
 ["Particle Variant"]
 	#WARNING: Gore particle is still work in progress, but you can check it out and judge for yourself!
 	#Allowed Values: SQUARE, GORE
-	Blood_Particle_Variant = "SQUARE"
+	Blood_Particle_Variant = "GORE"
 

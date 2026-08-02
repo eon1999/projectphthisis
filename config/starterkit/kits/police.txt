@@ -39,4 +39,4 @@
 33 : '',
 34 : '',
 35 : '',
-'effects' : 'legendarysurvivaloverhaul:cold_hunger;lvl:1;duration:-1|legendarysurvivaloverhaul:frostbite;lvl:1;duration:-1',
+'effects' : '',

@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "7FEB3727ECDE4482"
+	icon: "minecolonies:blockhuttownhall"
+	id: "7DAE0766AEF474C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Colonists are your automated workforce. Each one is assigned to a hut and performs a job - builder, miner, farmer, and so on."
+				"Right-click a colonist to see their stats, job, and happiness."
+			]
+			icon: "minecolonies:blockhutcitizen"
+			id: "39E4EA902C24FAE2"
+			shape: "circle"
+			tasks: [{
+				id: "4DBE364F7D39F39F"
+				type: "checkmark"
+			}]
+			title: "What Are Colonists?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Town Hall is the heart of your colony. It controls colony size, permissions, and overall management."
+				"Place a Supply Camp or Supply Ship first if you don't already have a colony started."
+			]
+			icon: "minecolonies:blockhuttownhall"
+			id: "4431619AEA3B5F6A"
+			shape: "circle"
+			tasks: [{
+				id: "76C0C288D1772CE1"
+				type: "checkmark"
+			}]
+			title: "The Town Hall"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4431619AEA3B5F6A"]
+			description: [
+				"Build a Builder's Hut and hire a Builder. Work orders (new builds and upgrades) are picked up automatically by any free Builder."
+				"Upgrading a hut is just another work order - place the next-level schematic and let your Builder handle it."
+			]
+			icon: "minecolonies:blockhutbuilder"
+			id: "74A963C08C6AB577"
+			shape: "circle"
+			tasks: [{
+				id: "273E4B6A47DCA575"
+				type: "checkmark"
+			}]
+			title: "Assigning Work Orders"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4431619AEA3B5F6A"]
+			description: [
+				"The Warehouse stores colony resources and lets Delivery Men move materials between huts automatically."
+				"Build one early - most other huts need it to function well."
+			]
+			icon: "minecolonies:blockhutwarehouse"
+			id: "7CA61503B0C0BFAC"
+			shape: "circle"
+			tasks: [{
+				id: "58CA925766E73A72"
+				type: "checkmark"
+			}]
+			title: "Warehouse & Logistics"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74A963C08C6AB577"]
+			description: [
+				"Build a University and get it to level 1."
+				"With food, shelter, and defense handled, your colonists finally have room to think about something other than survival - and that's where Immersive Engineering begins."
+			]
+			auto_claim: true
+			icon: "minecolonies:blockhutuniversity"
+			id: "0C11E69554139073"
+			rewards: [
+				{
+					command: "function phthisis:unlock_ie"
+					id: "1F0E69554139074"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			subtitle: "Unlocks Immersive Engineering"
+			tasks: [{
+				advancement: "phthisis:gates/ie_unlock"
+				criterion: ""
+				id: "73C726C60B6F2F75"
+				type: "advancement"
+			}]
+			title: "Free To Think"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C11E69554139073"]
+			description: [
+				"Upgrade the University to level 3."
+				"Deeper research is part of what it takes to reach Mekanism-tier technology - pair this with your Immersive Engineering progress."
+			]
+			auto_claim: true
+			icon: "minecolonies:blockhutuniversity"
+			id: "34AF7DD80B24B672"
+			rewards: [
+				{
+					command: "function phthisis:unlock_mek"
+					id: "3F0E69554139076"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			subtitle: "Unlocks Mekanism"
+			tasks: [{
+				advancement: "phthisis:gates/mek_unlock"
+				criterion: ""
+				id: "342A01D6113C829D"
+				type: "advancement"
+			}]
+			title: "Higher Learning"
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Craft a Supply Camp (needs a flat, solid 16x17 area) or a Supply Ship (needs open water) and place it by right-clicking it on the ground. You can only ever place one per world."
+				"Inside is a chest holding your Town Hall block and a Build Tool - grab both before you tear the camp/ship down."
+			]
+			icon: "minecolonies:supplycampdeployer"
+			id: "30877432D1026706"
+			shape: "circle"
+			tasks: [{
+				id: "0D98F115C8AF5421"
+				type: "checkmark"
+			}]
+			title: "Starting A Colony"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877432D1026706"]
+			description: [
+				"The Build Tool (added by Structurize) is how every MineColonies building gets placed. Right-click it on a solid block to open a ghost preview you can move, rotate, and check against the correct Y-level before committing."
+				"It isn't a one-time item from the supply camp - you can craft another if you lose it."
+			]
+			icon: "structurize:sceptergold"
+			id: "415E434AC03F3185"
+			shape: "circle"
+			tasks: [{
+				id: "6BD2AA399DAC946D"
+				type: "checkmark"
+			}]
+			title: "The Build Tool"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877432D1026706"]
+			description: [
+				"Every hut block you craft pulls its look (medieval, cavern, ancient Athens, and so on) from whichever style pack is currently selected in the Build Tool's menu - style isn't locked in when you create the colony."
+				"You can freely mix styles between buildings; only the visuals change, not how a building functions."
+			]
+			icon: "minecraft:painting"
+			id: "491D89C452030FA2"
+			shape: "circle"
+			tasks: [{
+				id: "05B8743910F59EFE"
+				type: "checkmark"
+			}]
+			title: "Choosing A Colony Style"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4431619AEA3B5F6A"]
+			description: [
+				"The Town Hall lets you set player ranks - Officer, Friend, Neutral, and Hostile - controlling who can open hut GUIs, break blocks, or even walk through your colony's protected borders."
+				"On a server, rank friends as Officer or Friend before they try to help build. By default, strangers can't touch anything inside your claimed area."
+			]
+			icon: {
+				Count: 1
+				id: "minecolonies:scepterpermission"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73C8EB5BB682575E"
+			shape: "circle"
+			tasks: [{
+				id: "29A279764017F2ED"
+				type: "checkmark"
+			}]
+			title: "Ranks & Permissions"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74A963C08C6AB577"]
+			description: [
+				"Your Builder can never build, upgrade, reposition, or repair a hut above their own hut's level - a level 1 Builder's Hut caps every other building in the colony at level 1, even with materials ready and waiting."
+				"This is the single most common progress bottleneck for new colonies. Upgrade the Builder's Hut first whenever everything else feels stuck."
+			]
+			icon: "minecolonies:blockhutbuilder"
+			id: "098D38184067EAD0"
+			shape: "circle"
+			tasks: [{
+				id: "6CFC7403D75E173E"
+				type: "checkmark"
+			}]
+			title: "One Hut Limits Them All"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74A963C08C6AB577"]
+			description: [
+				"The Tavern provides four temporary housing slots and lets travelling visitors show up to be recruited - right-click a visitor and hand over whatever item they're asking for. Only one Tavern is allowed per colony."
+				"Build it early: without any open housing, new citizens have nowhere to live and won't join the colony."
+			]
+			icon: "minecolonies:blockhuttavern"
+			id: "59FE55FD33737A3A"
+			shape: "circle"
+			tasks: [{
+				id: "4EAEDE5FE878F78E"
+				type: "checkmark"
+			}]
+			title: "A Roof Over Their Heads"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74A963C08C6AB577"]
+			description: [
+				"The Mine digs a shaft straight down and later branches out horizontally, feeding your colony stone and ore automatically."
+				"Keep your Miner stocked with a pickaxe and shovel, plus building supplies (blocks, ladders, torches) for shoring up the shaft itself."
+			]
+			icon: "minecolonies:blockhutminer"
+			id: "5D2CCE8038A39D5E"
+			shape: "circle"
+			tasks: [{
+				id: "2978AA2447C462DD"
+				type: "checkmark"
+			}]
+			title: "Digging The Mine"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74A963C08C6AB577"]
+			description: [
+				"A Residence houses citizens equal to its level - a level 3 Residence houses 3 people, up to 5 at level 5. Guards are the only workers who don't need one; they live in their towers instead."
+				"More housing is also what lets your colony grow past its starting 4 citizens, whether through Tavern recruits or newborn children."
+			]
+			icon: "minecolonies:blockhutcitizen"
+			id: "0853964B50AF03B9"
+			shape: "circle"
+			tasks: [{
+				id: "1DBF217416562258"
+				type: "checkmark"
+			}]
+			title: "Housing Your Citizens"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C11E69554139073"]
+			description: [
+				"The University's second tab holds the full research tree - Civilian, Combat, Technology, and more. Researchers assigned there unlock new huts, stat bonuses, and crafting recipes over time."
+				"Several buildings later in this chapter literally cannot be crafted until you've unlocked the right research here first. Higher University levels let you hire more Researchers, but each individual research still takes the same amount of time no matter how many are working."
+			]
+			icon: "minecolonies:blockhutuniversity"
+			id: "71722F244F58D669"
+			shape: "circle"
+			tasks: [{
+				id: "2C6556FD6D74B29B"
+				type: "checkmark"
+			}]
+			title: "The Research Tree"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The Forester chops nearby trees and replants saplings automatically once given an axe. Use their scepter (page 3 of the hut GUI) to restrict which trees they touch or fence off their working area."
+				"Plant a few different tree types near the hut if you want a mix of log types coming in."
+			]
+			icon: "minecolonies:blockhutlumberjack"
+			id: "664C680AEFB8B8F8"
+			shape: "circle"
+			tasks: [{
+				id: "2967F28AB7E7BB14"
+				type: "checkmark"
+			}]
+			title: "Gathering Wood"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0853964B50AF03B9"]
+			description: [
+				"The Cook automatically feeds hungry citizens once their Dining Hall is stocked with food and given a menu on page two of its GUI. Without it, you're chasing down and feeding every citizen by hand."
+				"Vanilla foods saturate citizens far less than they saturate players - the more varied and higher-tier the meal, the happier your colonists stay."
+			]
+			icon: "minecolonies:blockhutcook"
+			id: "21A278F64F7FD633"
+			shape: "circle"
+			tasks: [{
+				id: "2F01B7210760474F"
+				type: "checkmark"
+			}]
+			title: "Feed The Masses"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0853964B50AF03B9"
+				"0C11E69554139073"
+			]
+			description: [
+				"The Hospital cures sick and injured citizens, but the hut block can't even be crafted until you've unlocked the Stamina research at the University."
+				"That research has no building-level requirement attached, so even a level 1 University can unlock it - build the University first, then check its research tab."
+			]
+			icon: "minecolonies:blockhuthospital"
+			id: "7C08F147F169DC9E"
+			shape: "circle"
+			tasks: [{
+				id: "36E8B5359309CC62"
+				type: "checkmark"
+			}]
+			title: "Pill For The Ill"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"The Farm needs a separate Field block placed and assigned before your Farmer can plant anything - craft the Field, place it near the Farm, then right-click the Field to choose a crop."
+				"Farmers can plant and harvest any crop grown in farmland, even ones added by other mods."
+			]
+			icon: "minecolonies:blockhutfarmer"
+			id: "5C15B2E35F939CFE"
+			shape: "circle"
+			tasks: [{
+				id: "73931BDB2A0DF3DB"
+				type: "checkmark"
+			}]
+			title: "Mouths To Feed"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71722F244F58D669"]
+			description: [
+				"The Sawmill automates plank and wood-item crafting, but it's locked behind the Woodwork research at the University - which itself requires a level 3 Forester's Hut. Level up your Forester before chasing this one."
+				"Once built, its recipe page lets you choose what it crafts automatically; upgrading the hut unlocks more recipe slots."
+			]
+			icon: "minecolonies:blockhutsawmill"
+			id: "6C15C0C8E9DF4696"
+			shape: "circle"
+			tasks: [{
+				id: "0FD96A304464121D"
+				type: "checkmark"
+			}]
+			title: "Automating The Sawmill"
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5D2CCE8038A39D5E"
+				"71722F244F58D669"
+			]
+			description: [
+				"Most production crafters follow the same pattern as the Sawmill: the Stonemason needs the Stonecake research (plus a level 3 Mine), and the Blacksmith needs the Hitting Iron research (also a level 3 Mine)."
+				"If a hut block won't craft, check the University's research tab first - it's almost always waiting on a research unlock, not a missing recipe."
+			]
+			icon: "minecolonies:blockhutstonemason"
+			id: "11A11F5125227C37"
+			shape: "circle"
+			tasks: [{
+				id: "517C8E5AAF3E038D"
+				type: "checkmark"
+			}]
+			title: "Crafters Need Research Too"
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4431619AEA3B5F6A"]
+			description: [
+				"A Guard Tower houses and employs one Guard - a Knight or an Archer, depending on their equipment - who lives in the tower itself and doesn't need a Residence. It also claims extra colony land. No research is required to build one."
+				"Raiders start attacking once your colony reaches 7 citizens, so don't leave defense until the last minute - especially in this pack."
+			]
+			icon: "minecolonies:blockhutguardtower"
+			id: "12DA86A78C49EA20"
+			shape: "circle"
+			tasks: [{
+				id: "7DF7FFE0297C79BF"
+				type: "checkmark"
+			}]
+			title: "Guard Towers"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4431619AEA3B5F6A"]
+			description: [
+				"Unlit ground around your colony still spawns hostile mobs at night, even inside your borders. Torch (or otherwise light) your paths, fields, and open ground liberally."
+				"It's the cheapest defense upgrade available and keeps zombies from spawning right on top of your workers."
+			]
+			icon: "minecraft:torch"
+			id: "5F0E9A01E25AD410"
+			shape: "circle"
+			tasks: [{
+				id: "08ED972110BD0527"
+				type: "checkmark"
+			}]
+			title: "Light Up The Dark"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12DA86A78C49EA20"]
+			description: [
+				"A Gatehouse houses two Guards and, uniquely, can link your colony's paths to a neighboring colony's."
+				"Use it at entrances and borders rather than as a general-purpose Guard Tower replacement."
+			]
+			icon: "minecolonies:blockhutgatehouse"
+			id: "348334896A68F812"
+			shape: "circle"
+			tasks: [{
+				id: "1DD39BBA0C8555BB"
+				type: "checkmark"
+			}]
+			title: "Gatehouses"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71722F244F58D669"]
+			description: [
+				"Barracks require the Tactic Training research (which needs a level 3 Guard Tower) before you can even craft the hut block. Once built, it can hold up to four Barracks Towers - one per level - each housing Guards the same way a Guard Tower does, just at much greater scale."
+				"Barracks Towers house up to 5 Guards each at max level, and those Guards still don't need a Residence."
+			]
+			icon: "minecolonies:blockhutbarracks"
+			id: "0718755D81878D06"
+			shape: "circle"
+			tasks: [{
+				id: "4F309FFEA518F32C"
+				type: "checkmark"
+			}]
+			title: "Assembling An Army"
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The Combat Academy trains Knights (melee, swords) and the Archery trains Archers (ranged, bows). Both need their own research - Improved Swords and Improved Bows respectively - and both require a level 3 Barracks first."
+				"Equip your Guards with real armor and weapons no matter which school trained them; untrained, unequipped Guards die fast."
+			]
+			icon: "minecolonies:blockhutcombatacademy"
+			id: "4D419B1B673BD475"
+			shape: "circle"
+			tasks: [{
+				id: "12E694FDAA5D4C3D"
+				type: "checkmark"
+			}]
+			title: "Knights & Archers"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4431619AEA3B5F6A"
+				"71722F244F58D669"
+			]
+			description: [
+				"When a citizen dies, the Graveyard's Undertaker retrieves their grave for you. Skip it and you can still collect graves by hand, but your colony mourns - a happiness penalty - for much longer."
+				"It's gated behind the Remembrance research (needs Town Hall level 2). Given how often zombies come knocking in this pack, get this one early: a high-Mana Undertaker even has a small chance to resurrect a fallen citizen, better yet with a Mystical Site and further research."
+			]
+			icon: "minecolonies:blockhutgraveyard"
+			id: "5D05AD7853C1F76E"
+			shape: "circle"
+			tasks: [{
+				id: "0FA0B8498BE57171"
+				type: "checkmark"
+			}]
+			title: "The Graveyard"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21A278F64F7FD633"]
+			description: [
+				"Happiness affects how fast citizens work and level up. It's driven by housing tier, food variety and saturation, having a functioning Warehouse and Couriers, and not leaving anyone jobless or bedless."
+				"Right-click a citizen to check their individual happiness. Low happiness is almost always fixable with better housing or food, not luck."
+			]
+			icon: "minecraft:cake"
+			id: "7AA7690BC0A305A0"
+			shape: "circle"
+			tasks: [{
+				id: "271B3ED9888B0780"
+				type: "checkmark"
+			}]
+			title: "Keeping Citizens Happy"
+			x: 14.0d
+			y: 0.5d
+		}
+	]
+	title: "Mining and Colonizing"
+}

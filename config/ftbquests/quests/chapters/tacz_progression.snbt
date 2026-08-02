@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tacz_progression"
+	group: "3A774BBAB3EBE16D"
+	id: "47010B324F8AED28"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Gain access to the tier 0 gunsmith bench. These guns are old. Pretty old."]
+			id: "7EE75AEBC8991C4D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Gotta start somewhere..."
+			tasks: [{
+				id: "14B0CE88E77A85D2"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "bf1:telegraph"
+					}
+				}
+				type: "item"
+			}]
+			title: "'Ol Faithful"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EE75AEBC8991C4D"]
+			id: "5E123E88D68A724D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6E8F90DE367453D1"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "qkl:cr_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E123E88D68A724D"]
+			id: "5BE4F33AB291F2D0"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "42C2F7F321B88860"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "suffuse:workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BE4F33AB291F2D0"]
+			id: "103E5CE2204B50DB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "75AD038FD0913B10"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["103E5CE2204B50DB"]
+			id: "5F6BB8F2A33565CE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1DECA3C809749DC3"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "sfms:ms_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6BB8F2A33565CE"]
+			id: "1BD0583F80AA7473"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "69A1A22708292AB9"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "emxarms:sky_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6BB8F2A33565CE"]
+			id: "5F6F2C3E7D99C874"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1CA8262ED3A4C59A"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "emxarms:emx_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F6BB8F2A33565CE"]
+			id: "7985BF302564B5C2"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "103D0F0F4BA037BB"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "trisdyna:tris_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 5.0d
+		}
+	]
+	title: "Guns... Guns, Guns Galore!"
+}

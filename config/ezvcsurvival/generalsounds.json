@@ -2910,6 +2910,726 @@
       "speed": 1.0,
       "range": 50.0,
       "blocked_sounds": []
+    },
+    "dayzombierebooted:spawner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "blocked_sounds": []
+    },
+    "infectious:lootdrop": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:angry_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:infectious_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:fat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:old_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_girl": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:screamer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:chained_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:balloon_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:sleepy_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_spiter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:tower_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_on_stelts": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:big_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:giant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:brain_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:blind_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:crawling_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:armless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:bodyless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:headless_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:maggot_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:claw_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:bucket_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:pylon_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:pumpkin_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:beehive_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:barrel_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:door_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:iron_door_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:football_player_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:bouncer_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_climber": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_runner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_boxer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:muscular_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:pool_tube_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_diver": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "blocked_sounds": []
+    },
+    "infectious:deep_sea_diver_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_farmer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_fisherman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:beekeeper_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_lumberjack": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_miner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:construction_worker_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_painter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_clown": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:disco_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_dancer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:mc_donalds_worker_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_cook": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_doctor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_astronaut": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:robotic_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:mecha_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_scientist": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:fire_fighter_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_agent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:security_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_police": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:swat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_soldier": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_batman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_prisoner": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:psycho_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_bomber": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:doom_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:franklin_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:hazmat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:acid_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:baseball_bat_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_archer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:firework_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_warrior": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_hitler": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_horseman": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_chicken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_bird": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_spider": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_wolf": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_boar": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_rex": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:burning_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:burned_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:withered_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:frozen_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:muddy_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:fungal_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:golden_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:mummy": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:enchanted_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:glitched_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:spore_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:radioactive_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:mutant_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_breeder": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:ancient_zombie": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_bait": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:balloon_zombie_no_balloon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_horseman_no_horse": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_miner_spawn": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:atomic_mushroom": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_screamer": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:bike": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:turret": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombified_bird_flying": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:tower_zombie_1": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:tower_zombie_2": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:tower_zombie_3": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:tower_zombie_4": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:bees": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:ancient_zombie_boss": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:zombie_horde": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:nuke": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:nuke_explosion": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
+    },
+    "infectious:mutation_trigger": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "blocked_sounds": []
     }
   },
   "sounds": {
@@ -71116,6 +71836,420 @@
       "is_priority": false
     },
     "canned_goods:golem_hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music_disc.wanderer": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.overworld.origin_valley": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.nether.crystalline_chasm": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.nether.erupting_inferno": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.nether.undergrowth": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.nether.visceral_heap": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:music.nether.withered_abyss": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:block.flesh_tendon.drip": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:block.pus_bubble.pop": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "biomesoplenty:block.spider_egg.break": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:item.frying_pan.use": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:music_disc.zombified": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:silence": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.bucket_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.big_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.big_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.big_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.giant_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.giant_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.giant_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.balloon_zombie.balloon_pop": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.roar": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.spawn": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_rex.step": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:item.ancient_staff.use": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_clown.confetti": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.disco_zombie.summon": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_girl.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_girl.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_girl.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.bouncer_zombie.bounce": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.robotic_zombie.attack": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:item.mkg556.shoot": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:block.bear_trap.close": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.psycho_zombie.jack_in_the_box": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_warrior.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombie_warrior.attack": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.doom_zombie.explode": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.screamer.scream": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.frozen_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.frozen_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.frozen_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_bird.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_bird.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.zombified_bird.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.mutant_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.mutant_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.mutant_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.glitched_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.glitched_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.glitched_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.terreneitor": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:glitch": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.spawn": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.rex_stomp": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.rex_roar": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.ambient": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.hurt": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.ancient_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:block.nuke.primed": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:block.nuke.explode": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.mecha_zombie.step": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:effect.radiation": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.mecha_zombie.death": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:entity.spore_zombie.explode": {
+      "enabled": false,
+      "speed_multiplier": 1.0,
+      "range_multiplier": 1.0,
+      "is_priority": false
+    },
+    "infectious:event.mutation": {
       "enabled": false,
       "speed_multiplier": 1.0,
       "range_multiplier": 1.0,

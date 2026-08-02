@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/survivor.txt!
+Carries a backpack loaded with a stone pickaxe and axe. Built for scavenging and surviving from day one.

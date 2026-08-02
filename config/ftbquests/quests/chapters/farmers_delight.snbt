@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "6E6CDF19F571BEF3"
+	id: "4C276C4FCFB4E5A7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Farmer's Delight"
+}

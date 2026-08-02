@@ -1,0 +1,735 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "engineering_immersively"
+	group: "7FEB3727ECDE4482"
+	icon: {
+		Count: 1
+		id: "immersiveengineering:hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1FE80E9AEFC21C57"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C11E69554139073"]
+			description: [
+				"Immersive Engineering is a mid-tier tech mod built around multiblock machines, real high/medium/low voltage wiring, and hand-cranked early power."
+				"Almost everything starts with one tool: the Engineer's Hammer."
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CC20537E84231BF"
+			shape: "circle"
+			tasks: [{
+				id: "0625A67CB689BD33"
+				type: "checkmark"
+			}]
+			title: "What is Immersive Engineering?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CC20537E84231BF"]
+			description: [
+				"The Hammer is used to rotate/configure IE machine blocks and to craft crushed ore from raw ore (right-click ore blocks)."
+				"You cannot progress in IE without one - it's the mod's version of a first tool."
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22964594F8463AE0"
+			shape: "circle"
+			tasks: [{
+				id: "570F6F2F9C971A88"
+				type: "checkmark"
+			}]
+			title: "The Engineer's Hammer"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"IE power comes in three voltage tiers - Low, Medium, and High Voltage. Wires and machines are tier-locked; connecting mismatched tiers causes wire fires."
+				"Copper wire coils carry LV, Electrum carries MV, Steel carries HV."
+			]
+			icon: "immersiveengineering:wire_copper"
+			id: "79016328CF64C453"
+			shape: "circle"
+			tasks: [{
+				id: "747EAB46297FDEFE"
+				type: "checkmark"
+			}]
+			title: "Wiring: LV / MV / HV"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31ED43A60A10DDEC"]
+			description: [
+				"The Engineer's Workbench crafts IE's multi-slot recipes (components, molds, wire coils, tool upgrades) that don't fit a normal crafting grid."
+				"Most IE recipes past the basics happen here."
+			]
+			icon: "immersiveengineering:workbench"
+			id: "588645E75F3FF356"
+			shape: "circle"
+			tasks: [{
+				id: "20C32B320E13D9AD"
+				type: "checkmark"
+			}]
+			title: "The Engineer's Workbench"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["588645E75F3FF356"]
+			description: [
+				"The Arc Furnace is an HV multiblock that smelts ores in bulk and produces IE-exclusive materials like Steel and HOP Graphite."
+				"It needs a real HV power supply - this is where IE stops being a toy and starts being a factory."
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "391F87150052FD92"
+			shape: "circle"
+			tasks: [{
+				id: "3AB1B57F02BE1E63"
+				type: "checkmark"
+			}]
+			title: "The Arc Furnace"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["391F87150052FD92"]
+			description: ["Run your Arc Furnace and turn in what it makes. This proves you've actually built and powered one, not just unlocked the recipe."]
+			icon: "immersiveengineering:ingot_hop_graphite"
+			id: "63765856C86FC902"
+			shape: "gear"
+			subtitle: "Unlocks Mekanism (with Higher Learning)"
+			tasks: [
+				{
+					count: 8L
+					id: "542915CFC818BDE0"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6320EDE6E80BA224"
+					item: "immersiveengineering:ingot_hop_graphite"
+					type: "item"
+				}
+			]
+			title: "Prove Your Steel"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"The Screwdriver does precision configuration - inverting a machine's redstone behavior, rotating structural arms/connectors, and fine-tuning multiblock parts the Hammer can't touch."
+				"Keep one on hand alongside the Hammer; several machines need both tools during setup."
+			]
+			icon: "immersiveengineering:screwdriver"
+			id: "3620DE5D78D9DB9A"
+			shape: "circle"
+			tasks: [{
+				id: "5E745F6B586662F6"
+				type: "checkmark"
+			}]
+			title: "The Engineer's Screwdriver"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"Formed from 27 Coke Oven blocks arranged in a 3x3x3 cube and hammered on a side's center block, this is the mod's true first multiblock."
+				"It bakes coal into Coal Coke (a better fuel) and produces Creosote Oil as a byproduct - and Creosote Oil is required to make Treated Wood, which almost every other IE recipe needs."
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "5D3F68873A60E70C"
+			shape: "circle"
+			tasks: [{
+				id: "506482E24015BB41"
+				type: "checkmark"
+			}]
+			title: "The Coke Oven"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Wood planks soaked in Creosote Oil from the Coke Oven. This is not a side material - the Engineer's Workbench, Crafting Table, wire posts, and wallmounts all require it."
+				"This is why the Coke Oven has to come before the Workbench, even though it's easy to miss on a first playthrough."
+			]
+			icon: "immersiveengineering:treated_wood_horizontal"
+			id: "31ED43A60A10DDEC"
+			shape: "circle"
+			tasks: [{
+				id: "3B3CEDDC29BD5CC6"
+				type: "checkmark"
+			}]
+			title: "Treated Wood"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79016328CF64C453"]
+			description: [
+				"Connectors are the in/outputs of the power net and can attach to accumulators or machines. Relays only bridge wires together - they can't send or receive power."
+				"Transformers step between wire tiers (LV/MV/HV); an HV Transformer can step straight down to LV or MV, so you don't need to chain two."
+			]
+			icon: "immersiveengineering:connector_lv"
+			id: "163829BDFA6A772B"
+			shape: "circle"
+			tasks: [{
+				id: "174178AA3252C38D"
+				type: "checkmark"
+			}]
+			title: "Connectors, Relays & Transformers"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["163829BDFA6A772B"]
+			description: [
+				"The Engineer's Multimeter reads the stored energy of anything you point it at, and can average the power loss between two connectors if you sneak+right-click both."
+				"The Wire Cutters remove every wire attached to a block in one right-click - much faster than breaking and replacing connectors by hand."
+			]
+			icon: "immersiveengineering:voltmeter"
+			id: "12F09A659123B4B7"
+			shape: "circle"
+			tasks: [{
+				id: "2CD63C7E4BAEDA68"
+				type: "checkmark"
+			}]
+			title: "Diagnostic Tools: Multimeter & Wire Cutters"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"588645E75F3FF356"
+				"31ED43A60A10DDEC"
+			]
+			description: [
+				"Iron and Steel Mechanical Components are the screws-and-bolts of IE - the majority of machines and multiblocks consume them somewhere in their recipe tree."
+				"You'll craft a lot of these, so drafting a Blueprint for them (next) pays for itself almost immediately."
+			]
+			icon: "immersiveengineering:component_steel"
+			id: "3D9BE910588749EC"
+			shape: "circle"
+			tasks: [{
+				id: "037D8BF0D1686CEA"
+				type: "checkmark"
+			}]
+			title: "Crafting Components: Iron & Steel"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Blueprints unlock reduced-cost, multi-slot recipes inside the Workbench - components, wire coils, tool upgrades, and metal press molds among them."
+				"Most craftable Blueprints come from a normal crafting grid, but some (like certain molds or bullet types) only come from villagers or loot."
+			]
+			icon: "immersiveengineering:blueprint"
+			id: "57EADC3B5CE7FB75"
+			shape: "circle"
+			tasks: [{
+				id: "3B1031C4833C86E6"
+				type: "checkmark"
+			}]
+			title: "Engineer's Blueprints"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57EADC3B5CE7FB75"]
+			description: [
+				"Plates are made by hammering an ingot directly, or automating the job in a Metal Press with a mold on the piston."
+				"Molds (plate, rod, gear, wire, bullet casing, and packing/unpacking) are crafted at the Workbench from a Blueprint, and cost the Wire Cutters some durability each time."
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "189C9307427834D6"
+			shape: "circle"
+			tasks: [{
+				id: "62DD9273079EA681"
+				type: "checkmark"
+			}]
+			title: "Metal Plates & The Metal Press"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"Mixing metal dusts and smelting the result creates alloys. Electrum (gold + silver) is a far better conductor, used in MV wiring and architecture."
+				"Constantan (copper + nickel) is heat resistant and is the key ingredient of the Thermoelectric Generator."
+			]
+			icon: "immersiveengineering:ingot_electrum"
+			id: "54717CB6DCF9B0E6"
+			shape: "circle"
+			tasks: [{
+				id: "2C439960A91BB1F1"
+				type: "checkmark"
+			}]
+			title: "Alloys: Electrum \\& Constantan"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54717CB6DCF9B0E6"]
+			description: ["Turn in some Electrum and Constantan to show you can actually produce both of IE's core alloys, whichever method you used to make them."]
+			icon: "immersiveengineering:ingot_constantan"
+			id: "6E4179A67A610909"
+			shape: "gear"
+			tasks: [
+				{
+					count: 4L
+					id: "2ACC4FD9C0967BB9"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76C902BB101D0461"
+					item: "immersiveengineering:ingot_constantan"
+					type: "item"
+				}
+			]
+			title: "Prove Your Alloys"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54717CB6DCF9B0E6"]
+			description: [
+				"An 8-block (2x2x2) multiblock of Kiln Bricks that melts and mixes metals directly, skipping the dust-mixing step for Electrum and Constantan."
+				"It's also required to make Insulating Glass, a component used in high-voltage architecture."
+			]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "57B4852EAF691054"
+			shape: "circle"
+			tasks: [{
+				id: "2A4D5C8E9885D365"
+				type: "checkmark"
+			}]
+			title: "The Alloy Kiln"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"A single-block machine that crushes ores into two dusts each, roughly doubling your yield versus smelting raw ore. It also instantly kills and loots anything unlucky enough to fall in."
+				"Its processing speed scales directly with how much power you feed it."
+			]
+			icon: "immersiveengineering:crusher"
+			id: "5CC0D99ED0660232"
+			shape: "circle"
+			tasks: [{
+				id: "14DEB9EEFC4172BB"
+				type: "checkmark"
+			}]
+			title: "The Crusher"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5CC0D99ED0660232"]
+			description: [
+				"A 3x3x3 multiblock of Blast Furnace blocks that turns iron into Steel using only high-carbon fuels - Coal Coke or Charcoal from your Coke Oven."
+				"It also produces Slag as waste, and it is NOT automatable - everything has to go in and out through its GUI by hand."
+			]
+			icon: "immersiveengineering:blast_furnace"
+			id: "1FCE35910C54FBD7"
+			shape: "circle"
+			tasks: [{
+				id: "691BD96A1E25CD50"
+				type: "checkmark"
+			}]
+			title: "The Crude Blast Furnace: Simple Steel"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FCE35910C54FBD7"]
+			description: [
+				"The automatable upgrade to the Crude Blast Furnace, built from reinforced bricks. Iron and Coal Coke feed in the top; Steel and Slag output the front and back automatically to inventories or conveyor belts."
+				"Up to two Preheaters can be attached to speed it up further, at the cost of extra power."
+			]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "522BCABA136D03B7"
+			shape: "circle"
+			tasks: [{
+				id: "783A0E3E0287B5E3"
+				type: "checkmark"
+			}]
+			title: "The Improved Blast Furnace"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79016328CF64C453"]
+			description: [
+				"Windmills and Water Wheels generate power purely from kinetic motion when connected to a Dynamo - no fuel required."
+				"Water Wheel speed depends on how the water flows around it; Windmill speed depends on clear airflow in front of it, and improves in rain or thunderstorms."
+			]
+			icon: "immersiveengineering:watermill"
+			id: "518F1F428595CFFE"
+			shape: "circle"
+			tasks: [{
+				id: "4DCDC382E14C1E48"
+				type: "checkmark"
+			}]
+			title: "Power Generation: Windmill & Water Wheel"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["163829BDFA6A772B"]
+			description: [
+				"Accumulators (LV/MV/HV) are IE's battery blocks. Use the Hammer on any side to set it as input, output, or disabled - sneak+hammer configures the opposite side."
+				"You need real, sustained generation feeding these before power-hungry multiblocks like the Arc Furnace or Excavator become practical."
+			]
+			icon: "immersiveengineering:capacitor_lv"
+			id: "2CF220AFA32944E4"
+			shape: "circle"
+			tasks: [{
+				id: "3E35124E743E8DA7"
+				type: "checkmark"
+			}]
+			title: "Accumulators: Storing Power"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54717CB6DCF9B0E6"]
+			description: [
+				"Generates power from a temperature gradient instead of moving parts - place a hot fluid (like lava) on one side and a cold one (like water) on the other."
+				"Its coil is built with Constantan, which is why the alloy line matters even if you never touch the Alloy Kiln."
+			]
+			icon: "immersiveengineering:thermoelectric_generator"
+			id: "27F6262E98622915"
+			shape: "circle"
+			tasks: [{
+				id: "54828A5CBAA90E61"
+				type: "checkmark"
+			}]
+			title: "Thermoelectric Generator"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"A multiblock press that squeezes Plant Oil out of organic materials (like seeds). Items feed in through the back hatches; oil comes out the front."
+				"Plant Oil is one half of the recipe for Biodiesel."
+			]
+			icon: "immersiveengineering:squeezer"
+			id: "6E04BBAE1BC4902A"
+			shape: "circle"
+			tasks: [{
+				id: "548646D386833565"
+				type: "checkmark"
+			}]
+			title: "The Squeezer: Plant Oil"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: [
+				"A multiblock that ferments fruits, grains, and vegetables into Ethanol - the other half of the Biodiesel recipe."
+				"It's built and operated the same way as the Squeezer, just with different inputs."
+			]
+			icon: "immersiveengineering:fermenter"
+			id: "677032C4B0401940"
+			shape: "circle"
+			tasks: [{
+				id: "17634DD86FA160E3"
+				type: "checkmark"
+			}]
+			title: "The Fermenter: Ethanol"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6E04BBAE1BC4902A"
+				"677032C4B0401940"
+			]
+			description: [
+				"The Refinery combines fluids into new ones. Its signature recipe combines equal parts Plant Oil and Ethanol, using Nitrate Dust as a catalyst (not consumed), to make Biodiesel."
+				"Biodiesel is the fuel for the Diesel Generator and the Mining Drill - this line is what unlocks both."
+			]
+			icon: "immersiveengineering:refinery"
+			id: "231C05573C101728"
+			shape: "circle"
+			tasks: [{
+				id: "0BBF62D9DFF41FC5"
+				type: "checkmark"
+			}]
+			title: "The Refinery: Biodiesel"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Turn in a bucket of Biodiesel to prove your Squeezer/Fermenter/Refinery line is actually running."]
+			icon: "immersiveengineering:biodiesel_bucket"
+			id: "23EA47966B51E56B"
+			shape: "gear"
+			tasks: [{
+				id: "30D0B8EC9A9D12BF"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "Prove Your Fuel"
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23EA47966B51E56B"]
+			description: [
+				"A large multiblock built from Engineering, Generator, and Radiator blocks plus fluid pipes and scaffolding - one of the only ways to generate serious HV-scale power."
+				"It burns through Biodiesel fast, so make sure your fuel production can actually keep up before relying on it."
+			]
+			icon: "immersiveengineering:diesel_generator"
+			id: "1744A4CAF1CF815F"
+			shape: "circle"
+			tasks: [{
+				id: "4BE4C4C11818BD8D"
+				type: "checkmark"
+			}]
+			title: "The Diesel Generator"
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["588645E75F3FF356"]
+			description: [
+				"The Mixer dissolves solids into fluids. Its two big uses are Liquid Concrete (water + gravel + clay + sand) and brewing potions from water and vanilla potion ingredients."
+				"Liquid concrete spreads like water before hardening, and traps any creature standing in it when it sets."
+			]
+			icon: "immersiveengineering:mixer"
+			id: "2CF7C9716854360C"
+			shape: "circle"
+			tasks: [{
+				id: "76C09D24E89B995B"
+				type: "checkmark"
+			}]
+			title: "The Mixer: Concrete & Potions"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Fills any container that has a filled variant - buckets, glass bottles, the Mining Drill's tank, a Jerrycan - and will hold a partially-filled container until it's topped off."
+				"It's also how you bottle potions brewed in the Mixer."
+			]
+			icon: "immersiveengineering:bottling_machine"
+			id: "25825B37B3E1038D"
+			shape: "circle"
+			tasks: [{
+				id: "4B485F33D81FBE7F"
+				type: "checkmark"
+			}]
+			title: "The Bottling Machine"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["588645E75F3FF356"]
+			description: [
+				"Conveyor belts move items between machines and inventories. Special variants exist for extracting from inventories, dropping items off the end, splitting into multiple lines, or running vertically."
+				"Most of IE's automatable machines expect conveyors at their input/output side rather than a hopper."
+			]
+			icon: "immersiveengineering:conveyor_basic"
+			id: "2F88975408587738"
+			shape: "circle"
+			tasks: [{
+				id: "482D67C28EC995E9"
+				type: "checkmark"
+			}]
+			title: "Conveyor Belts"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F88975408587738"]
+			description: [
+				"Strips bark off logs, then cuts the stripped log into planks with a Sawblade - both steps produce Sawdust, which can later become paper."
+				"Running the machine without a Sawblade installed only strips logs; it won't cut them into planks."
+			]
+			icon: "immersiveengineering:sawmill"
+			id: "1BC8B1F8A6A27E19"
+			shape: "circle"
+			tasks: [{
+				id: "4F6122C20E2B0906"
+				type: "checkmark"
+			}]
+			title: "The Sawmill"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F88975408587738"]
+			description: [
+				"The Assembler crafts items automatically, like a player would. It can hold up to 3 recipes in sequence, and the output of one recipe can feed the next as an input."
+				"It also has an internal fluid tank on its input side, so recipes needing a bucket of something can be automated too."
+			]
+			icon: "immersiveengineering:assembler"
+			id: "2C1EB05C6A1E16EB"
+			shape: "circle"
+			tasks: [{
+				id: "612CE0A85FBE5FBE"
+				type: "checkmark"
+			}]
+			title: "The Assembler"
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F88975408587738"]
+			description: [
+				"A multiblock that stores up to 512 buckets of any single fluid. Pipe in through the top or bottom; fluid can only be extracted from the bottom-center block."
+				"A comparator on the bottom reads how full it is; one attached higher up on the structure reads relative to that layer instead."
+			]
+			icon: "immersiveengineering:tank"
+			id: "5889FFF422692058"
+			shape: "circle"
+			tasks: [{
+				id: "51DDFDA0A3FD0B5F"
+				type: "checkmark"
+			}]
+			title: "The Tank"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F88975408587738"]
+			description: [
+				"Mass storage for a single item type - 41,472 items, equal to 24 chests. Great for cobblestone, seeds, or slag."
+				"Items go in the top and come out the bottom; a redstone signal forces it to output automatically."
+			]
+			icon: "immersiveengineering:silo"
+			id: "1ED9F393D9B5AD05"
+			shape: "circle"
+			tasks: [{
+				id: "7F4495547F15B57B"
+				type: "checkmark"
+			}]
+			title: "The Silo"
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F88975408587738"]
+			description: ["Routers filter and direct what flows through your conveyor and pipe network, letting you sort outputs from machines like the Arc Furnace or Improved Blast Furnace without manual hopper chains."]
+			icon: "immersiveengineering:sorter"
+			id: "52A5FA7DE3357F29"
+			shape: "circle"
+			tasks: [{
+				id: "1BBFEB5453384A47"
+				type: "checkmark"
+			}]
+			title: "Item & Fluid Routers"
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["22964594F8463AE0"]
+			description: ["Mineral veins are wide, thin deposits invisible to normal mining. Survey Tools, used on natural soil blocks, narrow down a vein's type and rough position - more samples of the same vein sharpen the read."]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:survey_tools"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E8958CD48F1F7AC"
+			shape: "circle"
+			tasks: [{
+				id: "06098DC0550A315A"
+				type: "checkmark"
+			}]
+			title: "Mineral Prospecting: Survey Tools"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"A powered drill that takes a precise Core Sample at its exact location, revealing every mineral in the vein and its saturation - higher saturation means a better chance of the Excavator finding ore there."
+				"Sneak+right-click a Core Sample to place it in the world and read its data back later."
+			]
+			icon: "immersiveengineering:sample_drill"
+			id: "7590E1142FB34561"
+			shape: "circle"
+			tasks: [{
+				id: "6CA0FA9FF1B88090"
+				type: "checkmark"
+			}]
+			title: "The Core Sample Drill"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"A two-part multiblock (engine + bucket wheel) that digs up ore from mineral veins found via prospecting. It's power-hungry and a vein's yield drops the more it's excavated, but a full vein can produce hundreds of ore blocks."
+				"Don't build one until you have real sustained power - it will just stall out otherwise."
+			]
+			icon: "immersiveengineering:excavator"
+			id: "76ACCD5F34B801A4"
+			shape: "circle"
+			tasks: [{
+				id: "594E2AECE03F39FA"
+				type: "checkmark"
+			}]
+			title: "The Excavator"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"23EA47966B51E56B"
+				"588645E75F3FF356"
+			]
+			description: [
+				"A handheld, Biodiesel-powered drill with swappable heads and Workbench-installed upgrades (fortune, waterproofing, extra fuel capacity, more damage)."
+				"Since it runs on Biodiesel, you need the Squeezer/Fermenter/Refinery line working before this tool is worth building."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:drill"
+			}
+			id: "3BCAB8824557587F"
+			shape: "circle"
+			tasks: [{
+				id: "63C1E45447711685"
+				type: "checkmark"
+			}]
+			title: "The Mining Drill"
+			x: 13.5d
+			y: 3.0d
+		}
+	]
+	title: "Engineering Immersively"
+}

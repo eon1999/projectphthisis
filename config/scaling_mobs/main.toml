@@ -23,46 +23,46 @@
 [Health]
 	#The decimal amount that hostile mobs' health increase per day
 	#Range: 0.0 ~ Infinity
-	"Health Scale Rate" = 0.03
+	"Health Scale Rate" = 0.006667
 	#The decimal amount of the mobs' base health in the beginning
 	#Range: 0.0 ~ Infinity
 	"Mob Health Base" = 0.0
 	#The maximum amount that hostile mobs' damage can scale to
 	#Range: 0.0 ~ Infinity
-	"Max Scaled Health" = +inf
+	"Max Scaled Health" = 2.0
 
 [Damage]
 	#The decimal amount that hostile mobs' damage increase per day
 	#Range: 0.0 ~ Infinity
-	"Damage Scale Rate" = 0.03
+	"Damage Scale Rate" = 0.003333
 	#The decimal amount of the mobs' base damage in the beginning
 	#Range: 0.0 ~ Infinity
 	"Mob Damage Base" = 0.0
 	#The maximum amount that hostile mobs' damage can scale to
 	#Range: 0.0 ~ Infinity
-	"Max Scaled Damage" = +inf
+	"Max Scaled Damage" = 1.0
 
 [Speed]
 	#The decimal amount that hostile mobs' speed increase per day
 	#Range: 0.0 ~ Infinity
-	"Speed Scale Rate" = 0.005
+	"Speed Scale Rate" = 0.000833
 	#The decimal amount of the mobs' base speed in the beginning
 	#Range: 0.0 ~ Infinity
 	"Mob Speed Base" = 0.0
 	#The maximum amount that hostile mobs' speed can scale to
 	#Range: 0.0 ~ Infinity
-	"Max Scaled Speed" = 1.0
+	"Max Scaled Speed" = 0.25
 
 ["Armor Piercing"]
 	#The decimal amount of increase to mobs' damage that ignores armor per day
 	#Range: 0.0 ~ Infinity
-	"Armor Piercing Scale Rate" = 0.01
+	"Armor Piercing Scale Rate" = 0.0
 	#The decimal amount of mobs' damage that ignores armor in the beginning
 	#Range: 0.0 ~ Infinity
 	"Armor Piercing Base" = 0.0
 	#The maximum amount of increase to mobs' damage that ignores armor
 	#Range: 0.0 ~ Infinity
-	"Max Scaled Armor Piercing" = 1.0
+	"Max Scaled Armor Piercing" = 0.0
 
 [Drops]
 	#The decimal amount of increase to mobs' drops per day

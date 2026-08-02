@@ -1,5 +1,11 @@
 [
- 
+
+  {
+    "hostile": true,
+    "when": "onjoin",
+    "daycount": "lt(1)",
+    "result": "deny"
+  },
   {
     "mod": "spore",
     "when": "POSITION",
@@ -202,6 +208,31 @@
       "perplayer": true
     },
     "when": "onjoin",
+    "result": "deny"
+  },
+
+  {
+    "mob": "minecraft:zombie",
+    "mintime": 0,
+    "maxtime": 12000,
+    "random": 0.667,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": "tacz_bandits:bandit",
+    "mintime": 12000,
+    "maxtime": 24000,
+    "random": 0.5,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": "tacz_bandits:bandit",
+    "mintime": 0,
+    "maxtime": 12000,
+    "random": 0.75,
+    "when": "position",
     "result": "deny"
   }
 ]

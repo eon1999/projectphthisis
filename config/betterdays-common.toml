@@ -29,7 +29,7 @@
 	#MINUTES: Uses daySpeedMinutes and nightSpeedMinutes settings.
 	#REALTIME: Sets day and night to 12 real-world hours each.
 	#Allowed Values: RATIO, MINUTES, REALTIME
-	speedMethod = "RATIO"
+	speedMethod = "MINUTES"
 	#The time to start day. This is configurable within the time the sun appears and day starts.
 	#Default: 23500
 	#Range: 22300.0 ~ 24000.0

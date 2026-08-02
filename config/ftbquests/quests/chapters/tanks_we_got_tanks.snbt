@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tanks_we_got_tanks"
+	group: "3A774BBAB3EBE16D"
+	id: "1D1D75DC09783B3C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tanks? We got tanks."
+}

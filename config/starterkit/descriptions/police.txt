@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/police.txt!
+Suited up in cop armor and armed with an M9 Beretta. Serve and survive the outbreak in style.

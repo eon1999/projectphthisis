@@ -7,2334 +7,2090 @@
   ],
   "MAINHAND": {
     "alexsmobs:skelewag_sword": [
-      193953,
-      0.7804518
+      6500,
+      35.8681
     ],
     "alexsmobs:tendon_whip": [
-      194250,
-      0.0469
+      18763,
+      2.1554
     ],
     "aquaculture:diamond_fillet_knife": [
-      192721,
-      2.3810277
+      2093,
+      109.4276
     ],
     "aquaculture:gold_fillet_knife": [
-      194679,
-      0.0039999997
+      187721,
+      0.1838
     ],
     "aquaculture:iron_fillet_knife": [
-      194397,
-      0.0322
+      34930,
+      1.4799
     ],
     "aquaculture:neptunium_axe": [
-      191496,
-      5.9057183
+      752,
+      271.4157
     ],
     "aquaculture:neptunium_bow": [
-      187919,
-      13.389866
+      435,
+      311.536
     ],
     "aquaculture:neptunium_fillet_knife": [
       194710,
-      8.999999E-4
+      0.0414
     ],
     "aquaculture:neptunium_sword": [
-      191562,
-      5.767269
+      780,
+      265.0529
     ],
     "aquaculture:stone_fillet_knife": [
-      194551,
-      0.0168
+      58273,
+      0.7721
     ],
     "aquaculture:wooden_fillet_knife": [
-      194645,
-      0.0074
+      156362,
+      0.3401
     ],
     "aquaculturedelight:neptunium_knife": [
-      191622,
-      5.6411676
+      809,
+      259.2575
     ],
     "bakery:bread_knife": [
-      194267,
-      0.045199998
+      21718,
+      2.0773
     ],
     "bakery:rolling_pin": [
-      194614,
-      0.010499999
+      135091,
+      0.4826
     ],
     "butchery:bone_cleaver": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "butchery:bone_hacksaw": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "butchery:bone_skinning_knife": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "butchery:copper_cleaver": [
-      194472,
-      0.024699999
+      45117,
+      1.1352
     ],
     "butchery:copper_hacksaw": [
-      194493,
-      0.022599999
+      48539,
+      1.0387
     ],
     "butchery:copper_skinning_knife": [
-      194472,
-      0.024699999
+      45117,
+      1.1352
     ],
     "butchery:diamond_cleaver": [
-      192001,
-      4.8356147
+      1254,
+      222.2358
     ],
     "butchery:diamond_hacksaw": [
-      192052,
-      4.7252297
+      1350,
+      217.1627
     ],
     "butchery:diamond_skinning_knife": [
-      192001,
-      4.8356147
+      1254,
+      222.2358
     ],
     "butchery:gold_cleaver": [
-      194651,
-      0.0068
+      174486,
+      0.3125
     ],
     "butchery:gold_hacksaw": [
-      194651,
-      0.0068
+      174486,
+      0.3125
     ],
     "butchery:gold_skinning_knife": [
-      194651,
-      0.0068
+      174486,
+      0.3125
     ],
     "butchery:iron_cleaver": [
-      194250,
-      0.0469
+      18763,
+      2.1554
     ],
     "butchery:iron_hacksaw": [
-      194280,
-      0.043899998
+      25137,
+      2.0176
     ],
     "butchery:iron_skinning_knife": [
-      194250,
-      0.0469
+      18763,
+      2.1554
     ],
     "butchery:netherite_cleaver": [
-      191175,
-      6.576508
+      650,
+      302.244
     ],
     "butchery:netherite_hacksaw": [
-      192052,
-      4.7252297
+      1350,
+      217.1627
     ],
     "butchery:netherite_skinning_knife": [
-      191175,
-      6.576508
+      650,
+      302.244
     ],
     "create:cardboard_sword": [
-      194654,
-      0.0064999997
+      180982,
+      0.2987
     ],
     "esap:barbed_baseball_bat": [
-      194614,
-      0.010499999
+      135091,
+      0.4826
     ],
     "esap:baseball_bat": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:bone_knife": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:brass_knuckles": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "esap:chainsaw": [
-      191078,
-      6.778693
+      561,
+      311.536
     ],
     "esap:chef_knife": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "esap:combat_axe": [
-      191037,
-      6.8641124
+      522,
+      311.536
     ],
     "esap:combat_knife": [
-      191976,
-      4.889481
+      1124,
+      224.7114
     ],
     "esap:compound_bow": [
-      189797,
-      9.447597
+      485,
+      311.536
     ],
     "esap:compound_crossbow": [
-      191875,
-      5.105765
+      839,
+      234.6514
     ],
     "esap:felling_axe": [
-      194142,
-      0.51635593
+      10079,
+      23.7307
     ],
     "esap:fire_axe": [
-      191914,
-      5.022479
+      971,
+      230.8237
     ],
     "esap:hatchet": [
-      194345,
-      0.0374
+      31302,
+      1.7188
     ],
     "esap:hunting_knife": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:ice_pick": [
-      194142,
-      0.51635593
+      10079,
+      23.7307
     ],
     "esap:kukri": [
-      194614,
-      0.010499999
+      135091,
+      0.4826
     ],
     "esap:lead_pipe": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:machete": [
-      191148,
-      6.632802
+      604,
+      304.8311
     ],
     "esap:makeshift_axe": [
-      194529,
-      0.019
+      52221,
+      0.8732
     ],
     "esap:meat_cleaver": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:nailed_baseball_bat": [
-      194453,
-      0.026599998
+      41936,
+      1.2225
     ],
     "esap:pipe_wrench": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "esap:pitchfork": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:police_baton": [
-      191976,
-      4.889481
+      1124,
+      224.7114
     ],
     "esap:recurve_bow": [
-      192419,
-      3.8912299
+      1681,
+      178.8336
     ],
     "esap:rolling_pin": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "esap:screwdriver": [
-      194453,
-      0.026599998
+      41936,
+      1.2225
     ],
     "esap:sickle": [
-      194614,
-      0.010499999
+      135091,
+      0.4826
     ],
     "esap:slingshot": [
-      192801,
-      2.2751648
+      2252,
+      104.5623
     ],
     "esap:steak_knife": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:stone_knife": [
-      194453,
-      0.026599998
+      41936,
+      1.2225
     ],
     "esap:switchblade": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "esap:tactical_crossbow": [
-      189313,
-      10.4594755
+      468,
+      311.536
     ],
     "esap:wrench": [
-      194605,
-      0.011399999
+      116713,
+      0.5239
     ],
     "immersive_weathering:ice_sickle": [
-      194624,
-      0.0095
-    ],
-    "immersiveengineering:axe_steel": [
-      193460,
-      1.41476
-    ],
-    "immersiveengineering:sword_steel": [
-      193540,
-      1.3117309
+      140120,
+      0.4366
     ],
     "marbledsmelees:barbed_baseball_bat": [
-      193804,
-      0.9729605
+      5414,
+      44.7154
     ],
     "marbledsmelees:baseball_bat": [
-      193842,
-      0.92413133
+      6041,
+      42.4713
     ],
     "marbledsmelees:bone_saw": [
-      194204,
-      0.37663084
+      12100,
+      17.3092
     ],
     "marbledsmelees:crowbar": [
-      193804,
-      0.9729605
+      5414,
+      44.7154
     ],
     "marbledsmelees:fire_axe": [
-      193750,
-      1.0422343
+      4852,
+      47.8991
     ],
     "marbledsmelees:katana": [
-      193325,
-      1.589282
+      3896,
+      73.0404
     ],
     "marbledsmelees:machete": [
-      193750,
-      1.0422343
+      4852,
+      47.8991
     ],
     "marbledsmelees:modern_axe": [
-      193292,
-      1.6320775
+      3621,
+      75.0072
     ],
     "marbledsmelees:pipe_wrench": [
-      193825,
-      0.94598794
+      5825,
+      43.4758
     ],
     "marbledsmelees:police_baton": [
-      193825,
-      0.94598794
+      5825,
+      43.4758
     ],
     "marbledsmelees:sledgehammer": [
-      192783,
-      2.2989588
+      2171,
+      105.6558
     ],
     "marbledsmelees:steel_baseball_bat": [
-      193325,
-      1.589282
+      3896,
+      73.0404
     ],
     "marbledsmelees:stop_sign": [
-      192830,
-      2.236861
+      2335,
+      102.8019
     ],
     "marbledsmelees:tanto": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "marbledsmelees:tomahawk": [
-      194204,
-      0.37663084
+      12100,
+      17.3092
     ],
     "mca:scythe": [
-      194435,
-      0.028399998
+      36231,
+      1.3052
     ],
     "mcore:steel_axe": [
-      191914,
-      5.022479
+      971,
+      230.8237
     ],
     "mcore:steel_sword": [
-      192001,
-      4.8356147
+      1254,
+      222.2358
     ],
     "mcore:titanium_axe": [
-      194142,
-      0.51635593
+      10079,
+      23.7307
     ],
     "mcore:titanium_sword": [
-      194204,
-      0.37663084
-    ],
-    "mekanism:electric_bow": [
-      192919,
-      2.1195521
+      12100,
+      17.3092
     ],
     "minecolonies:chiefsword": [
-      191976,
-      4.889481
+      1124,
+      224.7114
     ],
     "minecolonies:iron_scimitar": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "minecolonies:pharaoscepter": [
-      192151,
-      4.508568
+      1506,
+      207.2053
     ],
     "minecraft:bow": [
-      192151,
-      4.508568
+      1506,
+      207.2053
     ],
     "minecraft:crossbow": [
-      192445,
-      3.826627
+      1743,
+      175.8646
     ],
     "minecraft:diamond_axe": [
-      191914,
-      5.022479
+      971,
+      230.8237
     ],
     "minecraft:diamond_sword": [
-      191976,
-      4.889481
+      1124,
+      224.7114
     ],
     "minecraft:enchanted_book": [
-      193119,
-      1.8573177
+      2804,
+      85.3588
     ],
     "minecraft:golden_axe": [
-      194575,
-      0.014399999
+      65028,
+      0.6618
     ],
     "minecraft:golden_sword": [
-      194638,
-      0.0081
+      150749,
+      0.3723
     ],
     "minecraft:iron_axe": [
-      194142,
-      0.51635593
+      10079,
+      23.7307
     ],
     "minecraft:iron_sword": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
-      193219,
-      1.7269388
+      3366,
+      79.3669
     ],
     "minecraft:netherite_axe": [
-      191078,
-      6.778693
+      561,
+      311.536
     ],
     "minecraft:netherite_sword": [
-      191148,
-      6.632802
+      604,
+      304.8311
     ],
     "minecraft:snowball": [
-      194169,
-      0.46844563
+      10843,
+      21.5289
     ],
     "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
-      193219,
-      1.7269388
+      3366,
+      79.3669
     ],
     "minecraft:stone_axe": [
-      194345,
-      0.0374
+      31302,
+      1.7188
     ],
     "minecraft:stone_sword": [
-      194453,
-      0.026599998
-    ],
-    "minecraft:tnt": [
-      193019,
-      1.9881918
+      41936,
+      1.2225
     ],
     "minecraft:trident": [
-      192219,
-      4.357304
+      1620,
+      200.2535
     ],
     "minecraft:wooden_axe": [
-      194529,
-      0.019
+      52221,
+      0.8732
     ],
     "minecraft:wooden_sword": [
-      194592,
-      0.0127
+      93726,
+      0.5837
     ],
     "refurbished_furniture:knife": [
-      194219,
-      0.049999997
+      13018,
+      2.2979
     ],
     "refurbished_furniture:spatula": [
-      194257,
-      0.046199996
-    ],
-    "spore:infected_bow": [
-      192219,
-      4.357304
-    ],
-    "spore:infected_crossbow": [
-      192675,
-      3.0657542
-    ],
-    "spore:reaver": [
-      194144,
-      0.5130528
+      19462,
+      2.1233
     ],
     "superbwarfare:beast": [
-      2,
-      455.31818
+      389,
+      311.536
     ],
     "superbwarfare:cemented_carbide_hammer": [
-      191005,
-      6.930767
+      503,
+      311.536
     ],
     "superbwarfare:crowbar": [
-      193995,
-      0.72521746
+      6742,
+      33.3296
     ],
     "superbwarfare:diamond_hammer": [
-      191877,
-      5.1015
+      870,
+      234.4554
     ],
     "superbwarfare:electric_baton": [
-      192707,
-      2.756342
+      2018,
+      126.6763
     ],
     "superbwarfare:golden_hammer": [
-      194228,
-      0.049099997
+      13503,
+      2.2565
     ],
     "superbwarfare:hammer": [
-      193781,
-      1.0024772
+      5032,
+      46.072
     ],
     "superbwarfare:knife": [
-      192614,
-      3.3403335
+      1808,
+      153.5155
     ],
     "superbwarfare:military_shovel": [
-      193112,
-      1.8664628
+      2703,
+      85.7791
     ],
     "superbwarfare:netherite_hammer": [
-      188441,
-      12.289717
+      451,
+      311.536
     ],
     "superbwarfare:steel_hammer": [
-      193425,
-      1.4599235
+      4041,
+      67.0953
     ],
     "superbwarfare:steel_pipe": [
-      193153,
-      1.812933
+      2908,
+      83.319
     ],
     "superbwarfare:t_baton": [
-      192672,
-      3.0837553
+      1875,
+      141.7236
     ],
     "survival_instinct:aluminium_axe": [
-      194271,
-      0.0448
+      22526,
+      2.0589
     ],
     "survival_instinct:aluminium_sword": [
-      194325,
-      0.039399996
+      27044,
+      1.8107
     ],
     "survival_instinct:american_fist": [
-      194138,
-      0.5228779
+      8708,
+      24.0305
     ],
     "survival_instinct:b_aseball_bat_with_nails_sword": [
-      194544,
-      0.0175
+      56182,
+      0.8043
     ],
     "survival_instinct:baseball_bat_sword": [
-      194539,
-      0.018
+      54165,
+      0.8272
     ],
     "survival_instinct:broken_bottle_sword": [
-      194630,
-      0.0089
+      145338,
+      0.409
     ],
     "survival_instinct:electric_baton_sword": [
-      194100,
-      0.5808878
+      8094,
+      26.6965
     ],
     "survival_instinct:electric_fist": [
-      193929,
-      0.811729
+      6266,
+      37.3055
     ],
     "survival_instinct:electric_guitar_greataxe": [
-      194484,
-      0.0235
+      46796,
+      1.08
     ],
     "survival_instinct:fire_axe": [
-      193170,
-      1.7907621
+      3016,
+      82.3001
     ],
     "survival_instinct:glaive_chainsaw": [
-      194070,
-      0.62363166
+      7253,
+      28.6609
     ],
     "survival_instinct:glaive_circular_saw": [
-      194207,
-      0.36301193
+      12551,
+      16.6833
     ],
     "survival_instinct:glaive_with_machete": [
-      194275,
-      0.0444
+      24235,
+      2.0405
     ],
     "survival_instinct:greataxe_stop_sign": [
-      194272,
-      0.044699997
+      23365,
+      2.0543
     ],
     "survival_instinct:greataxe_stop_sing_broken": [
-      194396,
-      0.0323
+      33676,
+      1.4844
     ],
     "survival_instinct:hand_axe": [
-      194260,
-      0.045899995
+      20186,
+      2.1095
     ],
     "survival_instinct:hunt_knife": [
-      192929,
-      2.1063945
+      2606,
+      96.8059
     ],
     "survival_instinct:katana": [
-      194090,
-      0.5953474
+      7803,
+      27.361
     ],
     "survival_instinct:kitchen_knife": [
-      194335,
-      0.038399998
+      29095,
+      1.7648
     ],
     "survival_instinct:lance_wit_screwdriver": [
-      194332,
-      0.0387
+      28051,
+      1.7786
     ],
     "survival_instinct:lance_with_broken_bottle": [
-      194583,
-      0.0136
+      67449,
+      0.625
     ],
     "survival_instinct:lance_with_knife": [
-      194370,
-      0.0349
+      32468,
+      1.6039
     ],
     "survival_instinct:lever_mace": [
-      193503,
-      1.3593482
+      4348,
+      62.4731
     ],
     "survival_instinct:machete": [
-      194229,
-      0.049
+      16814,
+      2.2519
     ],
     "survival_instinct:metal_baseballbat_hammer": [
-      194063,
-      0.63336974
+      6993,
+      29.1085
     ],
     "survival_instinct:plank_sword": [
-      194565,
-      0.015399999
+      62694,
+      0.7078
     ],
     "survival_instinct:plank_with_nails_sword": [
-      194554,
-      0.0165
+      60443,
+      0.7583
     ],
     "survival_instinct:police_baton_mace": [
-      194073,
-      0.61943495
+      7523,
+      28.4681
     ],
     "survival_instinct:saw_axe": [
-      194261,
-      0.045799997
+      20938,
+      2.1049
     ],
     "survival_instinct:screwdriver_rapier": [
-      194317,
-      0.0402
+      26073,
+      1.8475
     ],
     "survival_instinct:steellium_pipe_mace": [
-      194106,
-      0.57208574
+      8395,
+      26.292
     ],
     "survival_instinct:steellium_sword": [
-      193247,
-      1.6905221
+      3491,
+      77.6932
     ],
     "survival_instinct:stellium_axe": [
-      193172,
-      1.7881546
+      3129,
+      82.1802
     ],
     "survival_instinct:tactical_knife": [
-      192929,
-      2.1063945
+      2606,
+      96.8059
     ],
     "undead_revamp2:bonedagger": [
-      191292,
-      6.3323894
+      699,
+      291.0247
     ],
     "undead_revamp2:bostroxsword": [
-      192142,
-      4.5284204
+      1400,
+      208.1177
     ],
     "undead_revamp2:chainsword": [
-      183642,
-      22.517443
+      419,
+      311.536
     ],
     "undead_revamp2:lazydagger": [
-      191292,
-      6.3323894
+      699,
+      291.0247
     ],
     "undead_revamp2:peakofsmite": [
-      177719,
-      35.411705
+      404,
+      311.536
     ],
     "undead_revamp2:toothmace": [
-      191367,
-      6.1757073
+      725,
+      283.8239
     ]
   },
   "OFFHAND": {
-    "minecraft:ender_pearl": [
-      1207,
-      1.2102311
-    ],
     "minecraft:flint_and_steel": [
       1179,
-      1.2461817
-    ],
-    "minecraft:lava_bucket": [
-      807,
-      1.7269388
+      1.293
     ],
     "minecraft:shield": [
-      885,
-      1.6255897
+      149,
+      1.6866
     ],
     "survival_instinct:stop_sing_shield": [
-      737,
-      1.8181517
+      19,
+      1.8864
     ],
     "survival_instinct:swat_shield": [
-      275,
-      2.9830458
+      2,
+      1.8864
     ]
   },
   "FEET": {
-    "ad_astra:jet_suit_boots": [
-      1901,
-      5.086568
-    ],
-    "ad_astra:netherite_space_boots": [
-      2734,
-      2.3839326
-    ],
-    "ad_astra:space_boots": [
-      3547,
-      1.3245949
-    ],
     "alexsmobs:flying_fish_boots": [
-      4595,
-      0.014099999
+      4308,
+      0.0201
     ],
     "alexsmobs:roadrunner_boots": [
-      4033,
-      0.6972618
+      431,
+      0.9917
     ],
     "aquaculture:neptunium_boots": [
-      2817,
-      2.2764862
+      32,
+      3.2377
     ],
     "burnt:nether_weave_armor_boots": [
-      4460,
-      0.0276
+      1853,
+      0.0393
     ],
     "butchery:dragon_scale_armor_boots": [
-      21,
-      9.015624
+      9,
+      7.4432
     ],
     "butchery:evoker_robes_boots": [
-      4474,
-      0.026199998
+      2000,
+      0.0373
     ],
     "butchery:fur_suit_boots": [
-      3686,
-      1.1460843
+      185,
+      1.63
     ],
     "butchery:pillager_armor_boots": [
-      4355,
-      0.038099997
+      738,
+      0.0542
     ],
     "butchery:turtle_shell_armor_boots": [
-      4029,
-      0.7026087
+      399,
+      0.9993
     ],
     "butchery:vindicatorarmor_boots": [
-      3786,
-      1.0178697
+      272,
+      1.4477
     ],
     "create:cardboard_boots": [
-      4519,
-      0.021699999
+      2936,
+      0.0309
     ],
     "create:copper_diving_boots": [
-      4162,
-      0.5113901
+      633,
+      0.7273
     ],
     "create:netherite_diving_boots": [
-      3101,
-      1.9030677
+      74,
+      2.7066
     ],
     "dustrial_decor:cardboard_boots": [
       4652,
-      0.0084
+      0.0119
     ],
     "esap:rider_boots": [
-      3764,
-      1.0460808
-    ],
-    "immersiveengineering:armor_faraday_boots": [
-      4533,
-      0.020299999
-    ],
-    "immersiveengineering:armor_steel_boots": [
-      3383,
-      1.5361866
+      252,
+      1.4878
     ],
     "legendarysurvivaloverhaul:desert_boots": [
-      4502,
-      0.0234
+      2518,
+      0.0333
     ],
     "legendarysurvivaloverhaul:snow_boots": [
-      4512,
-      0.0224
+      2719,
+      0.0319
     ],
     "marbledsarsenal:acacia_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:azalea_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:birch_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:black_juggernaut_armor_boots": [
-      1832,
-      5.2334256
+      14,
+      7.4432
     ],
     "marbledsarsenal:cherry_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:dark_oak_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:desert_military_armor_boots": [
-      2750,
-      2.36513
+      29,
+      3.3638
     ],
     "marbledsarsenal:hazmat_armor_boots": [
-      4383,
-      0.035299998
+      797,
+      0.0502
     ],
     "marbledsarsenal:jungle_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:mangrove_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:oak_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:olive_juggernaut_armor_boots": [
-      1832,
-      5.2334256
+      14,
+      7.4432
     ],
     "marbledsarsenal:riot_armor_boots": [
-      3107,
-      1.8952204
+      86,
+      2.6955
     ],
     "marbledsarsenal:spruce_ghillie_boots": [
-      4394,
-      0.034199998
+      1589,
+      0.0486
     ],
     "marbledsarsenal:swat_armor_boots": [
-      3107,
-      1.8952204
+      86,
+      2.6955
     ],
     "marbledsarsenal:winter_military_armor_boots": [
-      2750,
-      2.36513
+      29,
+      3.3638
     ],
     "mcore:steel_boots": [
-      3566,
-      1.3001564
+      126,
+      1.8491
     ],
     "mcore:titanium_boots": [
-      2898,
-      2.1695936
+      37,
+      3.0857
     ],
     "meadow:fur_boots": [
-      3958,
-      0.7961111
-    ],
-    "mekanism:free_runners": [
-      4106,
-      0.59678036
-    ],
-    "mekanism:free_runners_armored": [
-      4070,
-      0.64716274
-    ],
-    "mekanism:hazmat_boots": [
-      4106,
-      0.59678036
-    ],
-    "mekanism:mekasuit_boots": [
-      2551,
-      3.5910394
+      370,
+      1.1323
     ],
     "minecolonies:pirate_boots": [
-      3580,
-      1.2821578
+      136,
+      1.8235
     ],
     "minecolonies:pirate_shoes": [
-      3002,
-      2.0328007
+      54,
+      2.8911
     ],
     "minecolonies:plate_armor_boots": [
-      2832,
-      2.2566686
+      34,
+      3.2095
     ],
     "minecraft:chainmail_boots": [
-      4144,
-      0.540316
+      586,
+      0.7685
     ],
     "minecraft:diamond_boots": [
-      3228,
-      1.7373508
+      100,
+      2.4709
     ],
     "minecraft:golden_boots": [
-      4210,
-      0.4136078
+      683,
+      0.5883
     ],
     "minecraft:iron_boots": [
-      3896,
-      0.8764657
+      317,
+      1.2465
     ],
     "minecraft:leather_boots": [
-      4492,
-      0.0244
+      2160,
+      0.0347
     ],
     "minecraft:netherite_boots": [
-      3101,
-      1.9030677
-    ],
-    "spore:inf_boots": [
-      4548,
-      0.0188
-    ],
-    "spore:inf_up_boots": [
-      4521,
-      0.021499999
-    ],
-    "spore:living_boots": [
-      4548,
-      0.0188
-    ],
-    "spore:plated_boots": [
-      4494,
-      0.024199998
+      74,
+      2.7066
     ],
     "survival_instinct:artic_guillie_boots": [
-      2930,
-      2.1274488
+      50,
+      3.0257
     ],
     "survival_instinct:black_juggernaut_boots": [
-      2219,
-      4.395349
+      19,
+      6.2513
     ],
     "survival_instinct:black_recluit_armor_boots": [
-      3707,
-      1.1191567
+      233,
+      1.5917
     ],
     "survival_instinct:black_rockie_armor_boots": [
-      3682,
-      1.151214
+      172,
+      1.6373
     ],
     "survival_instinct:desert_juggernaut_boots": [
-      2219,
-      4.395349
+      19,
+      6.2513
     ],
     "survival_instinct:desert_recluit_armor_boots": [
-      3707,
-      1.1191567
+      233,
+      1.5917
     ],
     "survival_instinct:desert_rockie_armor_boots": [
-      3682,
-      1.151214
+      172,
+      1.6373
     ],
     "survival_instinct:exo_boots": [
-      2926,
-      2.1327145
+      40,
+      3.0332
     ],
     "survival_instinct:exo_heavy_black_boots": [
-      1591,
-      5.7420673
+      12,
+      7.4432
     ],
     "survival_instinct:exo_heavy_desert_boots": [
-      1591,
-      5.7420673
+      12,
+      7.4432
     ],
     "survival_instinct:exo_heavy_green_boots": [
-      1591,
-      5.7420673
+      12,
+      7.4432
     ],
     "survival_instinct:fire_fighter_boots": [
-      3050,
-      1.9698399
+      63,
+      2.8016
     ],
     "survival_instinct:green_juggernaut_boots": [
-      2219,
-      4.395349
+      19,
+      6.2513
     ],
     "survival_instinct:green_recluit_armor_boots": [
-      3707,
-      1.1191567
+      233,
+      1.5917
     ],
     "survival_instinct:green_rockie_armor_boots": [
-      3682,
-      1.151214
+      172,
+      1.6373
     ],
     "survival_instinct:guillie_boots": [
-      2930,
-      2.1274488
+      50,
+      3.0257
     ],
     "survival_instinct:hazmat_boots": [
-      3043,
-      1.979015
+      59,
+      2.8146
     ],
     "survival_instinct:military_boots": [
-      3219,
-      1.749068
+      93,
+      2.4876
     ],
     "survival_instinct:police_boots": [
-      3896,
-      0.8764657
+      317,
+      1.2465
     ],
     "survival_instinct:spruce_guillie_boots": [
-      2930,
-      2.1274488
+      50,
+      3.0257
     ],
     "undead_revamp2:bostroxset_boots": [
-      2398,
-      3.9834037
+      20,
+      5.6654
     ],
     "undead_revamp2:cloggerarmor_boots": [
-      2739,
-      2.3797028
+      25,
+      3.3845
     ],
     "undead_revamp2:primodialarmour_boots": [
-      3939,
-      0.82082254
+      343,
+      1.1674
     ],
     "vinery:winemaker_boots": [
-      4430,
-      0.030599998
+      1716,
+      0.0435
     ]
   },
   "LEGS": {
-    "ad_astra:jet_suit_pants": [
-      1851,
-      5.199434
-    ],
-    "ad_astra:netherite_space_pants": [
-      2677,
-      3.1634672
-    ],
-    "ad_astra:space_pants": [
-      3493,
-      1.397999
-    ],
     "alexsmobs:centipede_leggings": [
-      2433,
-      3.9059477
+      21,
+      5.4309
     ],
     "alexsmobs:emu_leggings": [
-      3668,
-      1.173019
+      162,
+      1.631
     ],
     "aquaculture:neptunium_leggings": [
-      2820,
-      2.2764862
+      34,
+      3.1652
     ],
     "burnt:nether_weave_armor_leggings": [
-      4463,
-      0.0276
+      1887,
+      0.0384
     ],
     "butchery:dragon_scale_armor_leggings": [
-      24,
-      9.015624
+      9,
+      7.424
     ],
     "butchery:evoker_robes_leggings": [
-      4477,
-      0.026199998
+      2048,
+      0.0364
     ],
     "butchery:fur_suit_leggings": [
-      3689,
-      1.1460843
+      225,
+      1.5935
     ],
     "butchery:pillager_armor_leggings": [
-      4358,
-      0.038099997
+      652,
+      0.053
     ],
     "butchery:turtle_shell_armor_leggings": [
-      4032,
-      0.7026087
+      470,
+      0.9769
     ],
     "butchery:vindicatorarmor_leggings": [
-      3789,
-      1.0178697
+      339,
+      1.4153
     ],
     "create:cardboard_leggings": [
-      4522,
-      0.021699999
+      3346,
+      0.0302
     ],
     "dustrial_decor:cardboard_leggings": [
       4640,
-      0.009899999
+      0.0138
     ],
     "esap:rider_pants": [
-      3767,
-      1.0460808
+      312,
+      1.4545
     ],
     "farm_and_charm:dungarees": [
-      4495,
-      0.0244
-    ],
-    "immersiveengineering:armor_faraday_leggings": [
-      4536,
-      0.020299999
-    ],
-    "immersiveengineering:armor_steel_leggings": [
-      3386,
-      1.5361866
+      2412,
+      0.0339
     ],
     "legendarysurvivaloverhaul:desert_leggings": [
-      4504,
-      0.0235
+      2618,
+      0.0327
     ],
     "legendarysurvivaloverhaul:snow_leggings": [
-      4514,
-      0.022499999
+      3083,
+      0.0313
     ],
     "marbledsarsenal:acacia_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:azalea_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:birch_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:black_juggernaut_armor_leggings": [
-      1785,
-      5.3394346
+      14,
+      7.424
     ],
     "marbledsarsenal:cherry_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:dark_oak_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:desert_military_armor_leggings": [
-      2712,
-      2.9412673
+      29,
+      4.0896
     ],
     "marbledsarsenal:hazmat_armor_leggings": [
-      4370,
-      0.0369
+      707,
+      0.0513
     ],
     "marbledsarsenal:jungle_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:mangrove_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:oak_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:olive_juggernaut_armor_leggings": [
-      1785,
-      5.3394346
+      14,
+      7.424
     ],
     "marbledsarsenal:riot_armor_leggings": [
-      3075,
-      1.9410207
+      84,
+      2.6988
     ],
     "marbledsarsenal:spruce_ghillie_leggings": [
-      4384,
-      0.035499997
+      1477,
+      0.0494
     ],
     "marbledsarsenal:swat_armor_leggings": [
-      3075,
-      1.9410207
+      84,
+      2.6988
     ],
     "marbledsarsenal:winter_military_armor_leggings": [
-      2712,
-      2.9412673
+      29,
+      4.0896
     ],
     "mcore:steel_leggings": [
-      3518,
-      1.3657873
+      138,
+      1.899
     ],
     "mcore:titanium_leggings": [
-      2876,
-      2.2025528
+      40,
+      3.0625
     ],
     "meadow:fur_leggings": [
-      3961,
-      0.7961111
-    ],
-    "mekanism:hazmat_pants": [
-      4109,
-      0.59678036
-    ],
-    "mekanism:mekasuit_pants": [
-      2554,
-      3.5910394
+      433,
+      1.1069
     ],
     "minecolonies:pirate_leggins": [
-      3583,
-      1.2821578
+      150,
+      1.7827
     ],
     "minecolonies:pirate_legs": [
-      3005,
-      2.0328007
+      61,
+      2.8264
     ],
     "minecolonies:plate_armor_legs": [
-      2835,
-      2.2566686
+      37,
+      3.1377
     ],
     "minecraft:chainmail_leggings": [
-      4147,
-      0.540316
+      554,
+      0.7513
     ],
     "minecraft:diamond_leggings": [
-      3231,
-      1.7373508
+      108,
+      2.4156
     ],
     "minecraft:golden_leggings": [
-      4213,
-      0.4136078
+      601,
+      0.5751
     ],
     "minecraft:iron_leggings": [
-      3899,
-      0.8764657
+      399,
+      1.2186
     ],
     "minecraft:leather_leggings": [
-      4495,
-      0.0244
+      2412,
+      0.0339
     ],
     "minecraft:netherite_leggings": [
-      3104,
-      1.9030677
-    ],
-    "spore:inf_pants": [
-      4553,
-      0.0186
-    ],
-    "spore:inf_up_pants": [
-      4436,
-      0.030299999
-    ],
-    "spore:living_pants": [
-      4553,
-      0.0186
-    ],
-    "spore:plated_pants": [
-      4506,
-      0.0233
+      92,
+      2.646
     ],
     "survival_instinct:artic_guillie_leggings": [
-      2933,
-      2.1274488
+      56,
+      2.958
     ],
     "survival_instinct:black_juggernaut_leggings": [
-      2222,
-      4.395349
+      19,
+      6.1113
     ],
     "survival_instinct:black_recluit_armor_leggings": [
-      3710,
-      1.1191567
+      288,
+      1.5561
     ],
     "survival_instinct:black_rockie_armor_leggings": [
-      3685,
-      1.151214
+      208,
+      1.6007
     ],
     "survival_instinct:desert_juggernaut_leggings": [
-      2222,
-      4.395349
+      19,
+      6.1113
     ],
     "survival_instinct:desert_recluit_armor_leggings": [
-      3710,
-      1.1191567
+      288,
+      1.5561
     ],
     "survival_instinct:desert_rockie_armor_leggings": [
-      3685,
-      1.151214
+      208,
+      1.6007
     ],
     "survival_instinct:exo_heavy_black_leggings": [
-      1594,
-      5.7420673
+      12,
+      7.424
     ],
     "survival_instinct:exo_heavy_desert_leggings": [
-      1594,
-      5.7420673
+      12,
+      7.424
     ],
     "survival_instinct:exo_heavy_green_leggings": [
-      1594,
-      5.7420673
+      12,
+      7.424
     ],
     "survival_instinct:exo_leggings": [
-      2929,
-      2.1327145
+      44,
+      2.9653
     ],
     "survival_instinct:fire_fighter_leggings": [
-      3053,
-      1.9698399
+      72,
+      2.7389
     ],
     "survival_instinct:green_juggernaut_leggings": [
-      2222,
-      4.395349
+      19,
+      6.1113
     ],
     "survival_instinct:green_recluit_armor_leggings": [
-      3710,
-      1.1191567
+      288,
+      1.5561
     ],
     "survival_instinct:green_rockie_armor_leggings": [
-      3685,
-      1.151214
+      208,
+      1.6007
     ],
     "survival_instinct:guillie_leggings": [
-      2933,
-      2.1274488
+      56,
+      2.958
     ],
     "survival_instinct:hazmat_leggings": [
-      3046,
-      1.979015
+      66,
+      2.7516
     ],
     "survival_instinct:military_leggings": [
-      3222,
-      1.749068
+      99,
+      2.4319
     ],
     "survival_instinct:police_leggings": [
-      3899,
-      0.8764657
+      399,
+      1.2186
     ],
     "survival_instinct:spruce_guillie_leggings": [
-      2933,
-      2.1274488
+      56,
+      2.958
     ],
     "undead_revamp2:cloggerarmor_leggings": [
-      2742,
-      2.3797028
+      32,
+      3.3088
     ],
     "vinery:winemaker_leggings": [
-      4433,
-      0.030599998
+      1603,
+      0.0425
     ]
   },
   "CHEST": {
-    "ad_astra:jet_suit": [
-      1886,
-      5.120687
-    ],
-    "ad_astra:netherite_space_suit": [
-      2711,
-      2.9321702
-    ],
-    "ad_astra:space_suit": [
-      3525,
-      1.3541976
-    ],
     "alexsmobs:crocodile_chestplate": [
-      3455,
-      1.4444326
+      102,
+      2.0114
     ],
     "alexsmobs:rocky_chestplate": [
-      3534,
-      1.3426114
+      116,
+      1.8696
     ],
     "alexsmobs:tarantula_hawk_elytra": [
-      3882,
-      0.89580816
+      349,
+      1.2474
     ],
     "alexsmobs:unsettling_kimono": [
-      4105,
-      0.59963983
+      549,
+      0.835
     ],
     "aquaculture:neptunium_chestplate": [
-      2818,
-      2.2764862
+      30,
+      3.17
     ],
     "burnt:nether_weave_armor_chestplate": [
-      4461,
-      0.0276
+      2137,
+      0.0384
     ],
     "butchery:bloody_butchers_apron_chestplate": [
-      3775,
-      1.0332587
+      269,
+      1.4388
     ],
     "butchery:butchers_apron_chestplate": [
-      4386,
-      0.035099998
+      1760,
+      0.0489
     ],
     "butchery:dragon_scale_armor_chestplate": [
-      22,
-      9.015624
+      9,
+      7.4352
     ],
     "butchery:evoker_robes_chestplate": [
-      4475,
-      0.026199998
+      2595,
+      0.0365
     ],
     "butchery:fur_suit_chestplate": [
-      3687,
-      1.1460843
+      195,
+      1.5959
     ],
     "butchery:piglin_brute_armor_chestplate": [
-      3792,
-      1.0114565
+      306,
+      1.4085
     ],
     "butchery:pillager_armor_chestplate": [
-      4356,
-      0.038099997
+      863,
+      0.0531
     ],
     "butchery:stray_necklace_chestplate": [
-      4067,
-      0.6526449
+      514,
+      0.9088
     ],
     "butchery:turtle_shell_armor_chestplate": [
-      4030,
-      0.7026087
+      482,
+      0.9784
     ],
     "butchery:vindicatorarmor_chestplate": [
-      3787,
-      1.0178697
+      287,
+      1.4174
     ],
     "butchery:witches_clothes_chestplate": [
-      4475,
-      0.026199998
+      2595,
+      0.0365
     ],
     "create:cardboard_chestplate": [
-      4520,
-      0.021699999
+      4083,
+      0.0302
     ],
     "create:copper_backtank": [
-      4163,
-      0.5113901
+      759,
+      0.7121
     ],
     "create:netherite_backtank": [
-      3102,
-      1.9030677
+      69,
+      2.65
     ],
     "dustrial_decor:cardboard_chestplate": [
       4647,
-      0.009
+      0.0125
     ],
     "esap:rider_jacket": [
-      3765,
-      1.0460808
-    ],
-    "immersiveengineering:armor_faraday_chestplate": [
-      4534,
-      0.020299999
-    ],
-    "immersiveengineering:armor_steel_chestplate": [
-      3384,
-      1.5361866
+      252,
+      1.4567
     ],
     "legendarysurvivaloverhaul:desert_chestplate": [
-      4502,
-      0.0235
+      2954,
+      0.0327
     ],
     "legendarysurvivaloverhaul:snow_chestplate": [
-      4512,
-      0.022499999
+      3362,
+      0.0313
     ],
     "marbledsarsenal:acacia_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:azalea_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:birch_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:black_juggernaut_armor_chestplate": [
-      1783,
-      5.3394346
+      13,
+      7.4352
     ],
     "marbledsarsenal:black_plate_carrier_heavy": [
-      3267,
-      1.6879226
+      90,
+      2.3504
     ],
     "marbledsarsenal:black_plate_carrier_light": [
-      3594,
-      1.2654512
+      150,
+      1.7621
     ],
     "marbledsarsenal:cherry_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:dark_oak_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:desert_military_armor_chestplate": [
-      2710,
-      2.9412673
+      25,
+      4.0957
     ],
     "marbledsarsenal:hazmat_armor_chestplate": [
-      4368,
-      0.0369
+      921,
+      0.0514
     ],
     "marbledsarsenal:jungle_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:mangrove_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:oak_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:olive_juggernaut_armor_chestplate": [
-      1783,
-      5.3394346
+      13,
+      7.4352
     ],
     "marbledsarsenal:olive_plate_carrier_heavy": [
-      3267,
-      1.6879226
+      90,
+      2.3504
     ],
     "marbledsarsenal:olive_plate_carrier_light": [
-      3594,
-      1.2654512
+      150,
+      1.7621
     ],
     "marbledsarsenal:riot_armor_chestplate": [
-      3073,
-      1.9410207
+      61,
+      2.7029
     ],
     "marbledsarsenal:spruce_ghillie_chestplate": [
-      4382,
-      0.035499997
+      1649,
+      0.0494
     ],
     "marbledsarsenal:swat_armor_chestplate": [
-      3073,
-      1.9410207
+      61,
+      2.7029
     ],
     "marbledsarsenal:winter_military_armor_chestplate": [
-      2710,
-      2.9412673
+      25,
+      4.0957
     ],
     "mcore:steel_chestplate": [
-      3546,
-      1.3271681
+      124,
+      1.8481
     ],
     "mcore:titanium_chestplate": [
-      2888,
-      2.1840923
+      34,
+      3.0414
     ],
     "meadow:fur_chestplate": [
-      3959,
-      0.7961111
-    ],
-    "mekanism:hazmat_gown": [
-      4107,
-      0.59678036
-    ],
-    "mekanism:jetpack": [
-      4107,
-      0.59678036
-    ],
-    "mekanism:jetpack_armored": [
-      3873,
-      0.9074007
-    ],
-    "mekanism:mekasuit_bodyarmor": [
-      2552,
-      3.5910394
-    ],
-    "mekanism:scuba_tank": [
-      4107,
-      0.59678036
+      452,
+      1.1086
     ],
     "minecolonies:pirate_chest": [
-      3003,
-      2.0328007
+      47,
+      2.8307
     ],
     "minecolonies:pirate_top": [
-      3581,
-      1.2821578
+      132,
+      1.7854
     ],
     "minecolonies:plate_armor_chest": [
-      2833,
-      2.2566686
+      32,
+      3.1424
     ],
     "minecraft:chainmail_chestplate": [
-      4145,
-      0.540316
+      711,
+      0.7524
     ],
     "minecraft:diamond_chestplate": [
-      3229,
-      1.7373508
+      79,
+      2.4193
     ],
     "minecraft:golden_chestplate": [
-      4211,
-      0.4136078
+      809,
+      0.576
     ],
     "minecraft:iron_chestplate": [
-      3897,
-      0.8764657
+      397,
+      1.2205
     ],
     "minecraft:leather_chestplate": [
-      4493,
-      0.0244
+      2769,
+      0.034
     ],
     "minecraft:netherite_chestplate": [
-      3102,
-      1.9030677
-    ],
-    "spore:inf_chest": [
-      4519,
-      0.0218
-    ],
-    "spore:inf_up_chest": [
-      4421,
-      0.0316
-    ],
-    "spore:living_chest": [
-      4519,
-      0.0218
-    ],
-    "spore:plated_chest": [
-      4475,
-      0.026199998
-    ],
-    "spore:r_elytron": [
-      4509,
-      0.022799999
+      69,
+      2.65
     ],
     "superbwarfare:ru_chest_6b43": [
-      2655,
-      3.25236
+      22,
+      4.5289
     ],
     "superbwarfare:us_chest_iotv": [
-      2655,
-      3.25236
+      22,
+      4.5289
     ],
     "survival_instinct:artic_guillie_chestplate": [
-      2931,
-      2.1274488
+      44,
+      2.9625
     ],
     "survival_instinct:black_juggernaut_chestplate": [
-      2220,
-      4.395349
+      17,
+      6.1206
     ],
     "survival_instinct:black_recluit_armor_chestplate": [
-      3708,
-      1.1191567
+      237,
+      1.5584
     ],
     "survival_instinct:black_rockie_armor_chestplate": [
-      3683,
-      1.151214
+      183,
+      1.6031
     ],
     "survival_instinct:desert_juggernaut_chestplate": [
-      2220,
-      4.395349
+      17,
+      6.1206
     ],
     "survival_instinct:desert_recluit_armor_chestplate": [
-      3708,
-      1.1191567
+      237,
+      1.5584
     ],
     "survival_instinct:desert_rockie_armor_chestplate": [
-      3683,
-      1.151214
+      183,
+      1.6031
     ],
     "survival_instinct:exo_chestplate": [
-      2927,
-      2.1327145
+      36,
+      2.9698
     ],
     "survival_instinct:exo_heavy_black_chestplate": [
-      1592,
-      5.7420673
+      11,
+      7.4352
     ],
     "survival_instinct:exo_heavy_desert_chestplate": [
-      1592,
-      5.7420673
+      11,
+      7.4352
     ],
     "survival_instinct:exo_heavy_green_chestplate": [
-      1592,
-      5.7420673
+      11,
+      7.4352
     ],
     "survival_instinct:fire_fighter_chestplate": [
-      3051,
-      1.9698399
+      53,
+      2.743
     ],
     "survival_instinct:green_juggernaut_chestplate": [
-      2220,
-      4.395349
+      17,
+      6.1206
     ],
     "survival_instinct:green_recluit_armor_chestplate": [
-      3708,
-      1.1191567
+      237,
+      1.5584
     ],
     "survival_instinct:green_rockie_armor_chestplate": [
-      3683,
-      1.151214
+      183,
+      1.6031
     ],
     "survival_instinct:guillie_chestplate": [
-      2931,
-      2.1274488
+      44,
+      2.9625
     ],
     "survival_instinct:hazmat_chestplate": [
-      3044,
-      1.979015
+      50,
+      2.7558
     ],
     "survival_instinct:military_chestplate": [
-      3220,
-      1.749068
+      74,
+      2.4356
     ],
     "survival_instinct:police_chestplate": [
-      3897,
-      0.8764657
+      397,
+      1.2205
     ],
     "survival_instinct:spruce_guillie_chestplate": [
-      2931,
-      2.1274488
+      44,
+      2.9625
     ],
     "undead_revamp2:bostroxset_chestplate": [
-      2399,
-      3.9834037
+      18,
+      5.5469
     ],
     "undead_revamp2:cloggerarmor_chestplate": [
-      2740,
-      2.3797028
+      28,
+      3.3138
     ],
     "undead_revamp2:primodialarmour_chestplate": [
-      3940,
-      0.82082254
+      424,
+      1.143
     ],
     "vinery:winemaker_apron": [
-      4431,
-      0.030599998
+      2003,
+      0.0426
     ]
   },
   "HEAD": {
-    "ad_astra:jet_suit_helmet": [
-      1807,
-      5.2949486
-    ],
-    "ad_astra:netherite_space_helmet": [
-      2647,
-      3.2958906
-    ],
-    "ad_astra:space_helmet": [
-      3464,
-      1.4366896
-    ],
     "alexsmobs:fedora": [
-      4301,
-      0.043899998
+      1127,
+      0.0737
     ],
     "alexsmobs:frontier_cap": [
-      3995,
-      0.75292885
+      354,
+      1.2635
     ],
     "alexsmobs:froststalker_helmet": [
-      4088,
-      0.62781405
+      370,
+      1.0535
     ],
     "alexsmobs:moose_headgear": [
-      3986,
-      0.7647448
+      340,
+      1.2833
     ],
     "alexsmobs:novelty_hat": [
-      4301,
-      0.043899998
+      1127,
+      0.0737
     ],
     "alexsmobs:sombrero": [
-      4272,
-      0.0468
+      1035,
+      0.0785
     ],
     "alexsmobs:spiked_turtle_shell": [
-      3736,
-      1.0871058
+      150,
+      1.8243
     ],
     "aquaculture:neptunium_helmet": [
-      2821,
-      2.2764862
+      22,
+      3.8202
     ],
     "burnt:gas_mask_armor_helmet": [
-      4590,
-      0.015
+      4078,
+      0.0252
     ],
     "burnt:nether_weave_armor_helmet": [
-      4464,
-      0.0276
+      2238,
+      0.0463
     ],
     "butchery:dragon_scale_armor_helmet": [
-      25,
-      9.015624
+      9,
+      7.4208
     ],
     "butchery:evoker_robes_helmet": [
-      4478,
-      0.026199998
+      2439,
+      0.044
     ],
     "butchery:fur_suit_helmet": [
-      3690,
-      1.1460843
+      116,
+      1.9233
     ],
     "butchery:pillager_armor_helmet": [
-      4359,
-      0.038099997
+      1282,
+      0.0639
     ],
     "butchery:vindicatorarmor_helmet": [
-      3790,
-      1.0178697
+      241,
+      1.7081
     ],
     "butchery:witches_clothes_helmet": [
-      4478,
-      0.026199998
+      2439,
+      0.044
     ],
     "create:cardboard_helmet": [
-      4523,
-      0.021699999
+      3436,
+      0.0364
     ],
     "create:copper_diving_helmet": [
-      4166,
-      0.5113901
+      950,
+      0.8582
     ],
     "create:netherite_diving_helmet": [
-      3105,
-      1.9030677
+      38,
+      3.1936
     ],
     "dustrial_decor:cardboard_helmet": [
-      4633,
-      0.0106999995
+      4443,
+      0.018
     ],
     "esap:motorcycle_helmet": [
-      3768,
-      1.0460808
+      195,
+      1.7554
     ],
     "herbalbrews:top_hat": [
-      4496,
-      0.0244
+      2773,
+      0.0409
     ],
     "herbalbrews:witch_hat": [
-      4496,
-      0.0244
+      2773,
+      0.0409
     ],
     "immersive_weathering:flower_crown": [
-      4380,
-      0.036
-    ],
-    "immersiveengineering:armor_faraday_helmet": [
-      4537,
-      0.020299999
-    ],
-    "immersiveengineering:armor_steel_helmet": [
-      3387,
-      1.5361866
+      1968,
+      0.0604
     ],
     "legendarysurvivaloverhaul:desert_helmet": [
-      4505,
-      0.0235
+      2895,
+      0.0394
     ],
     "legendarysurvivaloverhaul:snow_helmet": [
-      4515,
-      0.022499999
+      3021,
+      0.0378
     ],
     "marbledsarsenal:acacia_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:azalea_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:birch_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:black_gp5_gas_mask": [
-      3749,
-      1.07044
+      186,
+      1.7963
     ],
     "marbledsarsenal:black_juggernaut_armor_helmet": [
-      1728,
-      5.462049
+      12,
+      7.4208
     ],
     "marbledsarsenal:black_military_beret": [
-      3782,
-      1.0281295
+      221,
+      1.7253
     ],
     "marbledsarsenal:cherry_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:cm6m_gas_mask": [
-      3749,
-      1.07044
+      186,
+      1.7963
     ],
     "marbledsarsenal:cm7m_gas_mask": [
-      3749,
-      1.07044
+      186,
+      1.7963
     ],
     "marbledsarsenal:cm8m_gas_mask": [
-      3749,
-      1.07044
+      186,
+      1.7963
     ],
     "marbledsarsenal:combat_helmet": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:dark_oak_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:desert_military_armor_helmet": [
-      2666,
-      3.2185726
+      20,
+      5.4011
     ],
     "marbledsarsenal:hazmat_armor_helmet": [
-      4354,
-      0.038599998
+      1177,
+      0.0648
     ],
     "marbledsarsenal:helmet_cm6m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:helmet_cm7m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:helmet_cm8m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:jungle_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:mangrove_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:oak_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:olive_combat_helmet": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:olive_helmet_cm6m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:olive_helmet_cm7m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:olive_helmet_cm8m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:olive_juggernaut_armor_helmet": [
-      1728,
-      5.462049
+      12,
+      7.4208
     ],
     "marbledsarsenal:red_military_beret": [
-      3782,
-      1.0281295
+      221,
+      1.7253
     ],
     "marbledsarsenal:riot_armor_helmet": [
-      3036,
-      1.9934372
+      32,
+      3.3452
     ],
     "marbledsarsenal:spruce_ghillie_helmet": [
-      4370,
-      0.036999997
+      1886,
+      0.0621
     ],
     "marbledsarsenal:swat_armor_helmet": [
-      3036,
-      1.9934372
+      32,
+      3.3452
     ],
     "marbledsarsenal:un_combat_helmet": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:un_helmet_cm6m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:un_helmet_cm7m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:un_helmet_cm8m_gas_mask": [
-      3600,
-      1.2615967
+      98,
+      2.1171
     ],
     "marbledsarsenal:un_military_beret": [
-      3782,
-      1.0281295
+      221,
+      1.7253
     ],
     "marbledsarsenal:white_gp5_gas_mask": [
-      3749,
-      1.07044
+      186,
+      1.7963
     ],
     "marbledsarsenal:winter_military_armor_helmet": [
-      2666,
-      3.2185726
+      20,
+      5.4011
     ],
     "mcore:steel_helmet": [
-      3492,
-      1.4005771
+      49,
+      2.3503
     ],
     "mcore:titanium_helmet": [
-      2864,
-      2.2197032
+      24,
+      3.7249
     ],
     "meadow:fur_helmet": [
-      3962,
-      0.7961111
-    ],
-    "mekanism:hazmat_mask": [
-      4110,
-      0.59678036
-    ],
-    "mekanism:mekasuit_helmet": [
-      2555,
-      3.5910394
-    ],
-    "mekanism:scuba_mask": [
-      4110,
-      0.59678036
+      325,
+      1.336
     ],
     "minecolonies:build_goggles": [
       4638,
-      0.010199999
+      0.0171
     ],
     "minecolonies:pirate_cap": [
-      3006,
-      2.0328007
+      30,
+      3.4113
     ],
     "minecolonies:pirate_hat": [
-      3584,
-      1.2821578
+      59,
+      2.1516
     ],
     "minecolonies:plate_armor_helmet": [
-      2836,
-      2.2566686
+      23,
+      3.7869
     ],
     "minecolonies:santa_hat": [
-      1568,
-      5.7987566
+      10,
+      7.4208
     ],
     "minecraft:chainmail_helmet": [
-      4148,
-      0.540316
+      872,
+      0.9067
     ],
     "minecraft:diamond_helmet": [
-      3232,
-      1.7373508
+      42,
+      2.9155
     ],
     "minecraft:golden_helmet": [
-      4214,
-      0.4136078
+      991,
+      0.6941
     ],
     "minecraft:iron_helmet": [
-      3900,
-      0.8764657
+      299,
+      1.4708
     ],
     "minecraft:leather_helmet": [
-      4496,
-      0.0244
+      2773,
+      0.0409
     ],
     "minecraft:netherite_helmet": [
-      3105,
-      1.9030677
+      38,
+      3.1936
     ],
     "minecraft:turtle_helmet": [
-      3844,
-      0.948558
+      274,
+      1.5918
     ],
     "railways:black_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:blue_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:brown_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:cyan_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:gray_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:green_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:light_blue_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:light_gray_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:lime_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:magenta_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:orange_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:pink_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:purple_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:red_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:white_conductor_cap": [
-      4110,
-      0.59678036
+      835,
+      1.0015
     ],
     "railways:yellow_conductor_cap": [
-      4110,
-      0.59678036
-    ],
-    "spore:gas_mask": [
-      4110,
-      0.59678036
-    ],
-    "spore:inf_helmet": [
-      4518,
-      0.0222
-    ],
-    "spore:inf_up_helmet": [
-      4359,
-      0.038099997
-    ],
-    "spore:living_helmet": [
-      4518,
-      0.0222
-    ],
-    "spore:plated_helmet": [
-      4454,
-      0.028599998
+      835,
+      1.0015
     ],
     "superbwarfare:ge_helmet_m_35": [
-      3426,
-      1.4857569
+      45,
+      2.4933
     ],
     "superbwarfare:ru_helmet_6b47": [
-      2658,
-      3.25236
+      18,
+      5.4578
     ],
     "superbwarfare:us_helmet_pasgt": [
-      2658,
-      3.25236
+      18,
+      5.4578
     ],
     "survival_instinct:artic_guillie_helmet": [
-      2934,
-      2.1274488
+      28,
+      3.5701
     ],
     "survival_instinct:black_hunter_helmet": [
-      3562,
-      1.3104446
+      56,
+      2.1991
     ],
     "survival_instinct:black_juggernaut_helmet": [
-      2223,
-      4.395349
+      15,
+      7.3759
     ],
     "survival_instinct:black_recluit_armor_helmet": [
-      3711,
-      1.1191567
+      144,
+      1.8781
     ],
     "survival_instinct:black_rockie_armor_helmet": [
-      3686,
-      1.151214
+      111,
+      1.9319
     ],
     "survival_instinct:chicken_head_helmet": [
-      4609,
-      0.013099999
+      4257,
+      0.022
     ],
     "survival_instinct:cloth_balaclava_helmet": [
-      3826,
-      0.97167665
+      263,
+      1.6306
     ],
     "survival_instinct:desert_hunter_helmet": [
-      3562,
-      1.3104446
+      56,
+      2.1991
     ],
     "survival_instinct:desert_juggernaut_helmet": [
-      2223,
-      4.395349
+      15,
+      7.3759
     ],
     "survival_instinct:desert_recluit_armor_helmet": [
-      3711,
-      1.1191567
+      144,
+      1.8781
     ],
     "survival_instinct:desert_rockie_armor_helmet": [
-      3686,
-      1.151214
+      111,
+      1.9319
     ],
     "survival_instinct:exo_heavy_black_helmet": [
-      1595,
-      5.7420673
+      11,
+      7.4208
     ],
     "survival_instinct:exo_heavy_desert_helmet": [
-      1595,
-      5.7420673
+      11,
+      7.4208
     ],
     "survival_instinct:exo_heavy_green_helmet": [
-      1595,
-      5.7420673
+      11,
+      7.4208
     ],
     "survival_instinct:exo_helmet": [
-      2930,
-      2.1327145
+      25,
+      3.5789
     ],
     "survival_instinct:fire_fighter_helmet": [
-      3054,
-      1.9698399
+      35,
+      3.3056
     ],
     "survival_instinct:gas_mask_helmet": [
-      4525,
-      0.021499999
+      3586,
+      0.0361
     ],
     "survival_instinct:green_hunter_helmet": [
-      3562,
-      1.3104446
+      56,
+      2.1991
     ],
     "survival_instinct:green_juggernaut_helmet": [
-      2223,
-      4.395349
+      15,
+      7.3759
     ],
     "survival_instinct:green_recluit_armor_helmet": [
-      3711,
-      1.1191567
+      144,
+      1.8781
     ],
     "survival_instinct:green_rockie_armor_helmet": [
-      3686,
-      1.151214
+      111,
+      1.9319
     ],
     "survival_instinct:guillie_helmet": [
-      2934,
-      2.1274488
+      28,
+      3.5701
     ],
     "survival_instinct:hazmat_helmet": [
-      3047,
-      1.979015
+      34,
+      3.321
     ],
     "survival_instinct:military_helmet": [
-      3223,
-      1.749068
+      40,
+      2.9351
     ],
     "survival_instinct:motorcycle_helmet": [
-      4575,
-      0.0165
+      3907,
+      0.0277
     ],
     "survival_instinct:night_vision_goggles_helmet": [
-      3786,
-      1.0229998
+      231,
+      1.7167
     ],
     "survival_instinct:police_helmet": [
-      3900,
-      0.8764657
+      299,
+      1.4708
     ],
     "survival_instinct:spruce_guillie_helmet": [
-      2934,
-      2.1274488
+      28,
+      3.5701
     ],
     "survival_instinct:wool_balaclava_helmet": [
-      3826,
-      0.97167665
+      263,
+      1.6306
     ],
     "undead_revamp2:bostroxset_helmet": [
-      2402,
-      3.9834037
+      16,
+      6.6846
     ],
     "undead_revamp2:cloggerarmor_helmet": [
-      2743,
-      2.3797028
+      21,
+      3.9934
     ],
     "undead_revamp2:imbuemask_helmet": [
-      3701,
-      1.1319785
+      127,
+      1.8996
     ],
     "undead_revamp2:nullifymask_helmet": [
-      3701,
-      1.1319785
+      127,
+      1.8996
     ],
     "undead_revamp2:primodialarmour_helmet": [
-      3943,
-      0.82082254
+      312,
+      1.3774
     ],
     "undead_revamp2:shieldmask_helmet": [
-      2211,
-      4.422107
+      13,
+      7.4208
     ],
     "undead_revamp2:witherchargemask_helmet": [
-      4151,
-      0.53562516
+      910,
+      0.8988
     ],
     "vinery:straw_hat": [
-      4434,
-      0.030599998
+      2054,
+      0.0514
     ]
   }
 }

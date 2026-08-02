@@ -1,7 +1,7 @@
 #Turn off all structures?
 DisableStructures = false
 #Disables the spawn of the spawners.
-DisableSpawners = true
+DisableSpawners = false
 #Whether the structure will appear.
 BunkersSpawning = true
 #Average distance between two neighboring generation attempts.

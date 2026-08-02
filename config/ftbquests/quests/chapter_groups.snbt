@@ -1,11 +1,10 @@
 {
-	default_quest_shape: ""
-	groups: [
-		{
-			id: "c7bd0b906583ae5"
-			order_index: 0
-			title: "Gun Progression"
-			icon: "tacz:gun_smith_table"
-		}
+	chapter_groups: [
+		{ id: "3144CC9EC5DDBA97", title: "Welcome to Project Phthisis!" }
+		{ id: "3A774BBAB3EBE16D", title: "The Armory" }
+		{ id: "7FEB3727ECDE4482", title: "Tech Tech Tech" }
+		{ id: "2579273681C1836F", title: "Storage Solutions" }
+		{ id: "715B30E1CBDD9028", title: "Path To A Cure" }
+		{ id: "6E6CDF19F571BEF3", title: "Dude... I'm hungry..." }
 	]
 }

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zombie_mechanics"
+	group: "3144CC9EC5DDBA97"
+	icon: "minecraft:zombie_head"
+	id: "35D4CD703A517EC7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Zombie Mechanics"
+}

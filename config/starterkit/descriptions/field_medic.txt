@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/field_medic.txt!
+Carries a luger alongside bandages, antibiotics, and cures. Ready to patch up allies and put down threats.

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "incoming_artillery"
+	group: "3A774BBAB3EBE16D"
+	id: "167CE1458B6AB6C4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "INCOMING ARTILLERY!!!"
+}

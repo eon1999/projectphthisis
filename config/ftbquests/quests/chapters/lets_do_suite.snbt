@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_suite"
+	group: "6E6CDF19F571BEF3"
+	id: "17F15FF2B95E514D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Let's Do Suite"
+}
